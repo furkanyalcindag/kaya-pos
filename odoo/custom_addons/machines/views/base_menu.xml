@@ -1,0 +1,11 @@
+<odoo>
+    <menuitem
+            id="machines_root_menu"
+            name="Machines"
+    />
+    <menuitem
+            id="machines_menu"
+            name="Machines"
+            parent="machines_root_menu"
+    />
+</odoo>
