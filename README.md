@@ -65,9 +65,9 @@ Projeyi başarılı bir şekilde klonladıktan sonra projenin dizinine gidip aş
 
 `sudo su - postgres`
 
-`create user --createdb --username postgres --no-createrole -no-superuser --pwprompt kolaysis_user`
+`create user --createdb --username postgres --no-createrole -no-superuser --pwprompt odoo17_user`
 
-`ALTER USER kolaysis_user WITH SUPERUSER`
+`ALTER USER odoo17_user WITH SUPERUSER`
 
 `ALTER USER`
 
