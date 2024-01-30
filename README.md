@@ -7,7 +7,7 @@ Kolaysis, web tabanlı iş uygulamalarından oluşan bir pakettir. Ana Kolaysis 
 
 Standart bir Ubuntu kurulumu için aşağıdaki adımları izleyebilirsiniz.
 
-Terminalize açın ve kuruluma başlayın
+Terminal'i açın ve kurulumu başlatın.
 
 ### Python Yükleyerek İşe Başlayalım:
 
