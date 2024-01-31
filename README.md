@@ -118,7 +118,8 @@ Standart bir Windows kurulumu için aşağıdaki adımları izleyebilirsiniz.
 
 <a href="https://www.python.org/downloads/release/python-3100/">Buradan</a> Python'un 3.10 versiyonunu indirip installer ile kuruluma başlayın.
 
-![image](https://github.com/lrixtera/spa/assets/20794065/f3865156-aad3-4831-a97b-d85df55bf4be)
+![image](https://github.com/furkanyalcindag/comitfy-kolaysis/assets/20794065/293a9e6e-8156-4eb5-b503-20e8ff661872)
+
 
 Burada bütün seçenekleri seçin, ardından kuruluma devam edin.Kurulum tamamlandıktan sonra ```python --version``` ve ```pip --version``` yazarak kurulumun tamamlandığından emin olun.
 
@@ -155,6 +156,6 @@ db_password = kolaysis
 ```
 ### Konfigürasyonları Ayarlayalım:
 
-![image](https://github.com/lrixtera/spa/assets/20794065/43ea7c8c-d532-4bef-b964-0e101f737dde)
+![image](https://github.com/furkanyalcindag/comitfy-kolaysis/assets/20794065/c22211f1-0309-45f0-88b7-fdb5aa3b79e9)
 
 Projemizi localhost:8069 Adresinden Başlatarak Geliştirmeye Başlayalım.
