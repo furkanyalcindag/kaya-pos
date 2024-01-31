@@ -142,7 +142,8 @@ C++ build tools kurulduktan sonra yönetici olarak çalıştırılan konsoldan p
 
 ### wkhtmltopdf
 > [!IMPORTANT]
->`wkhtmltopdf` pip ile yüklenmiyor, bundan dolayı <a href="https://wkhtmltopdf.org/downloads.html">buradan</a> wkhtmltopdf'i indirin urulum tamamlandıktan sonra denetim masasından Gelişmiş sistem ayarlarını açın ve ortam değişkenlerinden, sistem değişkenlerinde bulunan `PATH`'i seçip düzenle diyin. Düzenleme ekranı açıldığında yeni diyip wkhtmltopdf klasörünün içindeki bin'in yolunu path'e ekleyin.(Varsayılan olarak bu yol şu şekildedir:`C:\Program Files\wkhtmltopdf\bin`) 
+>`wkhtmltopdf` pip ile yüklenmiyor, bundan dolayı <a href="https://wkhtmltopdf.org/downloads.html">buradan</a> wkhtmltopdf'i indirin.
+wkhtmltopdf'in Kurulum tamamlandıktan sonra denetim masasından Gelişmiş sistem ayarlarını açın ve ortam değişkenlerinden, sistem değişkenlerinde bulunan `PATH`'i seçip düzenle diyin. Düzenleme ekranı açıldığında yeni diyip wkhtmltopdf klasörünün içindeki bin'in yolunu path'e ekleyin.(Varsayılan olarak bu yol şu şekildedir:`C:\Program Files\wkhtmltopdf\bin`) 
 
 ### Config dosyasını hazırlama
 Projenin klasörünün içinde yer alan `odoo.conf` dosyasını açın, içerisinde yer alan `addons_path`'i projenin mevcut yoluna göre düzenleyin örneğin;
