@@ -82,8 +82,15 @@ git clone https://github.com/furkanyalcindag/comitfy-kolaysis.git --depth 1 --br
 Projeyi başarılı bir şekilde klonladıktan sonra projenin dizinine gidip aşağıdaki komutu çalıştıralım:
 
 ```
+sudo apt install python3.10-dev libpq-dev
+```
+
+```
 pip3 install -r requirements.txt
 ```
+
+
+
 
 ### Projemizdeki Gereksinimleri Yükledikten Sonra Veritabanında Kullanıcı ve Veritabanı Oluşturalım:
 
@@ -105,7 +112,7 @@ ALTER USER
 
 ### Konfigürasyonları Ayarlayalım:
 
-![image](https://github.com/furkanyalcindag/comitfy-kolaysis/assets/106275189/37aae1cf-db76-472e-8c3b-db4fd3b27101)
+<img alt="image" src="https://github.com/furkanyalcindag/comitfy-kolaysis/assets/106275189/37aae1cf-db76-472e-8c3b-db4fd3b27101"/>
 
 Projemizi localhost:8069 Adresinden Başlatarak Geliştirmeye Başlayalım.
 
