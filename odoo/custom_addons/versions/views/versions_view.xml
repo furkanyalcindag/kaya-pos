@@ -1,14 +1,15 @@
 <odoo>
+    <data>
     <record id="version_view_kanban" model="ir.ui.view">
         <field name="name">versions.kanban.view</field>
         <field name="model">versions</field>
         <field name="arch" type="xml">
-            <kanban sample="1"  multi_edit="1" create="1" edit="1" delete="1">
+            <kanban js_class="survey_view_kanban">
                 <field name="version" />
                 <field name="description" />
                 <templates>
                     <t t-name="kanban-box">
-                        <div class="oe_kanban_card">
+                        <div class="oe_kanban_card" style="text-align:center;">
                             <h1 t-esc="record.version.raw_value" />
                             <hr />
                             <span t-esc="record.description.raw_value" />
@@ -32,7 +33,9 @@
                         </h1>
                     </div>
                     <group>
-                        <field name="description" />
+                        <label for="description" string="Açıklama"/>
+                        <br/>
+                        <field nolabel="1" colspan="2" placeholder="Geliştirmeleri giriniz..." name="description" />
                     </group>
                 </sheet>
             </form>
@@ -51,4 +54,5 @@
           parent="versions_menu"
           action="version_action"
     />
+    </data>
 </odoo>
