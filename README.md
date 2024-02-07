@@ -82,8 +82,15 @@ git clone https://github.com/furkanyalcindag/comitfy-kolaysis.git --depth 1 --br
 Projeyi başarılı bir şekilde klonladıktan sonra projenin dizinine gidip aşağıdaki komutu çalıştıralım:
 
 ```
+sudo apt install python3.10-dev libpq-dev
+```
+
+```
 pip3 install -r requirements.txt
 ```
+
+
+
 
 ### Projemizdeki Gereksinimleri Yükledikten Sonra Veritabanında Kullanıcı ve Veritabanı Oluşturalım:
 
@@ -105,7 +112,7 @@ ALTER USER
 
 ### Konfigürasyonları Ayarlayalım:
 
-![image](https://github.com/furkanyalcindag/comitfy-kolaysis/assets/106275189/37aae1cf-db76-472e-8c3b-db4fd3b27101)
+<img alt="image" src="https://github.com/furkanyalcindag/comitfy-kolaysis/assets/106275189/37aae1cf-db76-472e-8c3b-db4fd3b27101"/>
 
 Projemizi localhost:8069 Adresinden Başlatarak Geliştirmeye Başlayalım.
 
@@ -121,7 +128,7 @@ Standart bir Windows kurulumu için aşağıdaki adımları izleyebilirsiniz.
 ![image](https://github.com/furkanyalcindag/comitfy-kolaysis/assets/20794065/293a9e6e-8156-4eb5-b503-20e8ff661872)
 
 
-Burada bütün seçenekleri seçin, ardından kuruluma devam edin.Kurulum tamamlandıktan sonra ```python --version``` ve ```pip --version``` yazarak kurulumun tamamlandığından emin olun.
+Burada bütün seçenekleri seçin, ardından kuruluma devam edin.Kurulum tamamlandıktan sonra ```python --version``` ve ```pip --version``` yazarak kurulumun başarılı bir şekilde tamamlandığından emin olun.
 
 ### PostgreSQL'i bilgisayarınıza kurun.
 
@@ -133,7 +140,7 @@ Varsayılan olarak PostgreSQL'de gelen kullanıcı postgres'dir. Yeni bir kullan
 - Burada Create'e basıp Login/Group Role'e tıklayın.
 - Açılan General sekmesinde bulunan name kısmına yeni kullanıcı adınızı girin. (örnek;`kolaysis`)
 - Definition sekmesini açın ve kullanmak istediğiniz şifrenizi girin. (örnek;`kolaysis`)
-- Privileges sekmesini açın, Can Login? ve Superuser? bunlarnı aktifleştirin. Ardından sağ alttan kaydedin.
+- Privileges sekmesini açın, Can Login? ve Superuser? butonlarını aktifleştirin. Ardından sağ alttan kaydedin.
 
 ### Dependency'leri yükleme
 Dependencies yani projenin bağımlılıklarını yüklemeden önce <a href="https://visualstudio.microsoft.com/visual-cpp-build-tools/">buradan</a> C++ build tools'u indirin ve kurun.
@@ -142,7 +149,9 @@ C++ build tools kurulduktan sonra yönetici olarak çalıştırılan konsoldan p
 
 ### wkhtmltopdf
 > [!IMPORTANT]
->`wkhtmltopdf` pip ile yüklenmiyor, bundan dolayı <a href="https://wkhtmltopdf.org/downloads.html">buradan</a> wkhtmltopdf'i indirin urulum tamamlandıktan sonra denetim masasından Gelişmiş sistem ayarlarını açın ve ortam değişkenlerinden, sistem değişkenlerinde bulunan `PATH`'i seçip düzenle diyin. Düzenleme ekranı açıldığında yeni diyip wkhtmltopdf klasörünün içindeki bin'in yolunu path'e ekleyin.(Varsayılan olarak bu yol şu şekildedir:`C:\Program Files\wkhtmltopdf\bin`) 
+>`wkhtmltopdf` pip ile yüklenmiyor, bundan dolayı <a href="https://wkhtmltopdf.org/downloads.html">buradan</a> wkhtmltopdf'i indirin.
+
+wkhtmltopdf'in Kurulum tamamlandıktan sonra denetim masasından Gelişmiş sistem ayarlarını açın ve ortam değişkenlerinden, sistem değişkenlerinde bulunan `PATH`'i seçip düzenle diyin. Düzenleme ekranı açıldığında yeni diyip wkhtmltopdf klasörünün içindeki bin'in yolunu path'e ekleyin.(Varsayılan olarak bu yol şu şekildedir:`C:\Program Files\wkhtmltopdf\bin`) 
 
 ### Config dosyasını hazırlama
 Projenin klasörünün içinde yer alan `odoo.conf` dosyasını açın, içerisinde yer alan `addons_path`'i projenin mevcut yoluna göre düzenleyin örneğin;
