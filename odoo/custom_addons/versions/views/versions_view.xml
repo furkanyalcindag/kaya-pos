@@ -1,0 +1,58 @@
+<odoo>
+    <data>
+    <record id="version_view_kanban" model="ir.ui.view">
+        <field name="name">versions.kanban.view</field>
+        <field name="model">versions</field>
+        <field name="arch" type="xml">
+            <kanban js_class="survey_view_kanban">
+                <field name="version" />
+                <field name="description" />
+                <templates>
+                    <t t-name="kanban-box">
+                        <div class="oe_kanban_card" style="text-align:center;">
+                            <h1 t-esc="record.version.raw_value" />
+                            <hr />
+                            <span t-esc="record.description.raw_value" />
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+       <record id="version_view_form" model="ir.ui.view">
+        <field name="name">versions.form.view</field>
+        <field name="model">versions</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <div class="oe_title">
+                        <label for="version" />
+                        <h1>
+                            <field name="version" />
+                        </h1>
+                    </div>
+                    <group>
+                        <label for="description" string="Açıklama"/>
+                        <br/>
+                        <field nolabel="1" colspan="2" placeholder="Geliştirmeleri giriniz..." name="description" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="version_action" model="ir.actions.act_window">
+        <field name="name">Version Action</field>
+        <field name="res_model">versions</field>
+        <field name="view_mode">kanban,form</field>
+    </record>
+
+    <menuitem
+          id="versions_ment_item"
+          name="Versions"
+          parent="versions_menu"
+          action="version_action"
+    />
+    </data>
+</odoo>
