@@ -9,10 +9,10 @@
                 <field name="description" />
                 <templates>
                     <t t-name="kanban-box">
-                        <div class="oe_kanban_card" style="text-align:center;">
+                        <div class="oe_kanban_card" style="text-align:center; margin-top: 50px margin: auto; max-width: 800px;">
                             <h1 t-esc="record.version.raw_value" />
                             <hr />
-                            <span t-esc="record.description.raw_value" />
+                            <html t-esc="record.description.raw_value" />
                         </div>
                     </t>
                 </templates>
@@ -35,7 +35,7 @@
                     <group>
                         <label for="description" string="Açıklama"/>
                         <br/>
-                        <field nolabel="1" colspan="2" placeholder="Geliştirmeleri giriniz..." name="description" />
+                        <field nolabel="1" colspan="2" placeholder="Geliştirmeleri giriniz..." name="description" widget="html" options="{'multiline': True}" />
                     </group>
                 </sheet>
             </form>
