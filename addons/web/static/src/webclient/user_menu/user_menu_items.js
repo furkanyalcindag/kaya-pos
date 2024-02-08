@@ -89,7 +89,7 @@ function odooAccountItem(env) {
     return {
         type: "item",
         id: "account",
-        description: _t("My Kolaysis.com account"),
+        description: _t("My Kolaysis.com help"),
         callback: () => {
             env.services
                 .rpc("/web/session/account")
@@ -97,7 +97,7 @@ function odooAccountItem(env) {
                     browser.open(url, "_blank");
                 })
                 .catch(() => {
-                    browser.open("https://accounts.odoo.com/account", "_blank");
+                    browser.open("https://www.kolaysis.com/", "_blank");
                 });
         },
         sequence: 60,
@@ -120,8 +120,6 @@ function logOutItem(env) {
 
 registry
     .category("user_menuitems")
-    .add("documentation", documentationItem)
-    .add("support", supportItem)
     .add("shortcuts", shortCutsItem)
     .add("separator", separator)
     .add("profile", preferencesItem)
