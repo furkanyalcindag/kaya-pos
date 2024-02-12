@@ -5049,7 +5049,7 @@ msgstr "Özelleştirme"
 #. module: account
 #: model:onboarding.onboarding.step,description:account.onboarding_onboarding_step_base_document_layout
 msgid "Customize the look of your documents."
-msgstr ""
+msgstr "Belgelerinizin görünümünü özelleştirin."
 
 #. module: account
 #. odoo-javascript
@@ -5791,7 +5791,7 @@ msgstr "Belge Dijitalleştirme"
 #. module: account
 #: model:onboarding.onboarding.step,title:account.onboarding_onboarding_step_base_document_layout
 msgid "Documents Layout"
-msgstr ""
+msgstr "Belge Düzeni"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_analytic_applicability__business_domain
