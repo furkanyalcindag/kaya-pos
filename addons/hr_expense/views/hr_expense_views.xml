@@ -482,17 +482,8 @@
             <field name="context">{'search_default_my_expenses': 1}</field>
             <field name="help" type="html">
                 <p class="o_view_nocontent_expense_receipt">
-                    <h2 class="d-none d-md-block">
-                        Drag and drop files to create expenses
-                    </h2>
-                    <p>
-                        Or
-                    </p>
-                    <h2 class="d-none d-md-block">
-                        Did you try the mobile app?
-                    </h2>
+
                 </p>
-                <p>Snap pictures of your receipts and let Odoo<br/> automatically create expenses for you.</p>
                 <p class="d-none d-md-block">
                     <a href="https://apps.apple.com/be/app/odoo/id1272543640" target="_blank" class="o_expense_mobile_app">
                         <img alt="Apple App Store" class="img img-fluid h-100 o_expense_apple_store"

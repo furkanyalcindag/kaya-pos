@@ -804,18 +804,18 @@ SampleServer.FLOAT_PRECISION = 2;
 
 SampleServer.SAMPLE_COUNTRIES = ["Belgium", "France", "Portugal", "Singapore", "Australia"];
 SampleServer.SAMPLE_PEOPLE = [
-    "John Miller",
-    "Henry Campbell",
-    "Carrie Helle",
-    "Wendi Baltz",
-    "Thomas Passot",
+    "Furkan Yalçındağ",
+    "Kerem Can Turgut",
+    "Ahmet Turhan",
+    "Osman Can Durdu",
+    "İbrahim Görçün",
 ];
 SampleServer.SAMPLE_TEXTS = [
-    "Laoreet id",
-    "Volutpat blandit",
-    "Integer vitae",
-    "Viverra nam",
-    "In massa",
+    "Toplantı",
+    "Yemek",
+    "Görüşme",
+    "Telefonla görüşme",
+    "Yakıt",
 ];
 SampleServer.PEOPLE_MODELS = [
     "res.users",
