@@ -158,16 +158,18 @@ msgid ""
 "Odoo's chat helps employees collaborate efficiently. I'm here to help you "
 "discover its features."
 msgstr ""
+"Kolaysis'in sohbeti, çalışanların verimli bir şekilde işbirliği yapmasına yardımcı olur. Özelliklerini keşfetmenize yardımcı olmak için buradayım."
+
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_state
 msgid "OdooBot Status"
-msgstr "OdooBot Durumu"
+msgstr "KolayBot Durumu"
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__odoobot_failed
 msgid "Odoobot Failed"
-msgstr "Odoobot Başarısız"
+msgstr "KolayBot Başarısız"
 
 #. module: mail_bot
 #: model:ir.model.fields.selection,name:mail_bot.selection__res_users__odoobot_state__onboarding_attachement
@@ -243,7 +245,7 @@ msgstr "Başlamak için bana bir emoji göndermeyi deneyin :)"
 #: code:addons/mail_bot/models/res_users.py:0
 #, python-format
 msgid "Try to send me an emoji"
-msgstr ""
+msgstr "Başlamak için bana bir emoji göndermeyi deneyin"
 
 #. module: mail_bot
 #. odoo-python
@@ -258,9 +260,9 @@ msgid ""
 msgstr ""
 "Maalesef ben sadece bir botum 😞 Anlamıyorum! Ürünümüzü keşfetmek için "
 "yardıma ihtiyacınız varsa, lütfen <a "
-"href=\"https://www.odoo.com/documentation\" "
+"href=\"https://www.kolayis.com/documentation\" "
 "target=\"_blank\">belgelerimizi</a> veya <a "
-"href=\"https://www.odoo.com/slides\" target=\"_blank\">videolarımızı</a> "
+"href=\"https://www.kolaysis.com/slides\" target=\"_blank\">videolarımızı</a> "
 "kontrol edin."
 
 #. module: mail_bot
@@ -279,7 +281,7 @@ msgid ""
 msgstr ""
 "Vay canına, doğal birisin! <br/>Dikkatini çekmek için birine @ kullanıcı adı"
 " ile ping atın.<b> Cümle içinde</b> <span "
-"class=\"o_odoobot_command\">@OdooBot</span> kullanarak bana ping atmayı "
+"class=\"o_odoobot_command\">@KolayBot</span> kullanarak bana ping atmayı "
 "dene."
 
 #. module: mail_bot

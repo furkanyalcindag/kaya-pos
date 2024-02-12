@@ -2074,7 +2074,7 @@ msgstr "Belirli bir e-posta adresindeki yanıtları toplama"
 #: code:addons/mail/static/src/core/web/messaging_menu.js:0
 #, python-format
 msgid "Come here often? Install Odoo on your device!"
-msgstr ""
+msgstr "Buraya sık sık uğruyor musun? Kolaysis'i cihazına yükle!"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
