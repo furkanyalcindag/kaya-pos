@@ -427,7 +427,7 @@ msgstr ""
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.project_task_view_todo_quick_create_form
 msgid "To-do Title"
-msgstr ""
+msgstr "Yapılacak İşler"
 
 #. module: project_todo
 #: model:ir.actions.act_window,name:project_todo.project_task_action_todo

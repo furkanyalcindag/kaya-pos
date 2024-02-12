@@ -3,8 +3,8 @@
     <data noupdate="1">
 
         <record model="discuss.channel" id="mail.channel_all_employees">
-            <field name="name">general</field>
-            <field name="description">General announcements for all employees.</field>
+            <field name="name">Genel</field>
+            <field name="description">Tüm çalışanlar için genel duyurular.</field>
         </record>
 
         <!-- notify all employees of module installation -->
@@ -13,9 +13,9 @@
             <field name="res_id" ref="mail.channel_all_employees"/>
             <field name="message_type">email</field>
             <field name="subtype_id" ref="mail.mt_comment"/>
-            <field name="subject">Welcome to Odoo!</field>
-            <field name="body"><![CDATA[<p>Welcome to the #general channel.</p>
-            <p>This channel is accessible to all users to <b>easily share company information</b>.</p>]]></field>
+            <field name="subject">Kolaysis'e hoş geldiniz!</field>
+            <field name="body"><![CDATA[<p>#genel kanalına hoş geldiniz.</p>
+            <p>Bu kanal tüm kullanıcıların erişimine açıktır <b>şirket bilgilerini kolayca paylaşın</b>.</p>]]></field>
         </record>
 
         <record model="discuss.channel.member" id="channel_member_general_channel_for_admin">

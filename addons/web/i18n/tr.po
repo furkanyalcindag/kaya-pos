@@ -6326,7 +6326,7 @@ msgstr "Bir menü arayın..."
 #: code:addons/web/static/src/core/emoji_picker/emoji_picker.xml:0
 #, python-format
 msgid "Search for an emoji"
-msgstr ""
+msgstr "Bir Emoji arayın"
 
 #. module: web
 #. odoo-javascript
@@ -6340,7 +6340,7 @@ msgstr "Arama kullanıcısı..."
 #: code:addons/web/static/src/views/fields/many2many_tags_avatar/many2many_tags_avatar_field.js:0
 #, python-format
 msgid "Search users..."
-msgstr ""
+msgstr "Kullanıcı arayın"
 
 #. module: web
 #. odoo-javascript
@@ -6472,7 +6472,7 @@ msgstr "Alan seç"
 #: code:addons/web/static/src/core/datetime/datetime_picker.js:0
 #, python-format
 msgid "Select month"
-msgstr ""
+msgstr "Ay seç"
 
 #. module: web
 #. odoo-javascript
@@ -6486,7 +6486,7 @@ msgstr "Seçili kayıtlar"
 #: code:addons/web/static/src/core/datetime/datetime_picker.js:0
 #, python-format
 msgid "Select year"
-msgstr ""
+msgstr "Yıl seç"
 
 #. module: web
 #. odoo-javascript
@@ -6545,14 +6545,14 @@ msgstr "Kullanıcınıza bir zaman dilimini ayarlayın"
 #: code:addons/web/static/src/views/fields/many2many_tags/many2many_tags_field.js:0
 #, python-format
 msgid "Set an integer field to use colors with the tags."
-msgstr ""
+msgstr "Etiketlerle birlikte renkleri kullanmak için bir tamsayı alanı ayarlayın."
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/state_selection/state_selection_field.js:0
 #, python-format
 msgid "Set kanban state as %s"
-msgstr ""
+msgstr "Kanban durumunu şu şekilde ayarlayın %s"
 
 #. module: web
 #. odoo-javascript
@@ -6569,7 +6569,8 @@ msgid ""
 "Set to true the full range input has to be display by default, even if "
 "empty."
 msgstr ""
-
+"Doğru olarak ayarlandığında, tam aralık girişi varsayılan olarak görüntülenmelidir"
+"Boş."
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/views/kanban/kanban_header.xml:0
@@ -6620,7 +6621,7 @@ msgstr "Kısayollar"
 #: code:addons/web/static/src/search/control_panel/control_panel.js:0
 #, python-format
 msgid "Show %s view"
-msgstr ""
+msgstr "%s Görünümünü göster"
 
 #. module: web
 #. odoo-javascript
@@ -6635,7 +6636,7 @@ msgstr "Alt alanları göster"
 #: code:addons/web/static/src/views/view_components/view_scale_selector.xml:0
 #, python-format
 msgid "Show weekends"
-msgstr ""
+msgstr "Hafta sonlarını göster"
 
 #. module: web
 #. odoo-javascript
@@ -6667,7 +6668,7 @@ msgstr "Gülen Yüzler ve Duygular"
 #: code:addons/web/static/src/model/relational_model/dynamic_list.js:0
 #, python-format
 msgid "Some records could not be duplicated"
-msgstr ""
+msgstr "Bazı kayıtlar çoğaltılamadı"
 
 #. module: web
 #. odoo-python
@@ -6710,7 +6711,7 @@ msgstr "Davut'un Yıldızı"
 #: code:addons/web/static/src/views/fields/datetime/datetime_field.js:0
 #, python-format
 msgid "Start date field"
-msgstr ""
+msgstr "Başlangıç tarihi alanı"
 
 #. module: web
 #. odoo-javascript

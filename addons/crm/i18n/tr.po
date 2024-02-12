@@ -307,7 +307,7 @@ msgid ""
 "                        <div>\n"
 "                            Hi <t t-out=\"object.partner_id and object.partner_id.name or ''\">Deco Addict</t>,<br><br>\n"
 "                            Welcome to <t t-out=\"object.company_id.name or ''\">My Company (San Francisco)</t>.\n"
-"                            It's great to meet you! Now that you're on board, you'll discover what <t t-out=\"object.company_id.name or ''\">My Company (San Francisco)</t> has to offer. My name is <t t-out=\"object.user_id.name or ''\">Marc Demo</t> and I'll help you get the most out of Odoo. Could we plan a quick demo soon?<br>\n"
+"                            It's great to meet you! Now that you're on board, you'll discover what <t t-out=\"object.company_id.name or ''\">My Company (San Francisco)</t> has to offer. My name is <t t-out=\"object.user_id.name or ''\">Marc Demo</t> and I'll help you get the most out of Kolaysis. Could we plan a quick demo soon?<br>\n"
 "                            Feel free to reach out at any time!<br><br>\n"
 "                            Best,<br>\n"
 "                            <t t-if=\"object.user_id\">\n"
@@ -379,12 +379,12 @@ msgstr ""
 "oldum! Artık aramızda olduğunuza göre, size <t "
 "t-out=\"object.company_id.name or ''\">My Company (San Francisco)</t> ne "
 "gibi imkanlar sağlayacak onu keşfedeceksiniz. Benim adım <t "
-"t-out=\"object.user_id.name or ''\">Marc Demo</t> ve size  Odoo'dan neler "
+"t-out=\"object.user_id.name or ''\">Marc Demo</t> ve size  Kolaysis'ten neler "
 "alacağınız konusunda yardımcı olacağım. Sizinle hızlı bir demo için plan "
 "yapabilirmiyiz?<br> Bana istediğiniz zaman ulaşabilirsiniz!<br><br> En iyi "
 "dileklerimle,<br> <t t-if=\"object.user_id\"> <b><t "
 "t-out=\"object.user_id.name or ''\">Marc Demo</t></b> <br>Eposta\\: <t "
-"t-out=\"object.user_id.email or ''\">mark.brown23@odoobay.com</t> Telefon\\:"
+"t-out=\"object.user_id.email or ''\">mark.brown23@kolaysis.com</t> Telefon\\:"
 " <t t-out=\"object.user_id.phone or ''\">+1 650-123-4567</t> </t> <t "
 "t-else=\"\"> <t t-out=\"object.company_id.name or ''\">My Company (San "
 "Francisco)</t> </t> </div> </td> </tr> </table> </td> </tr> <!-- ALT BAŞLIK "
@@ -404,8 +404,8 @@ msgstr ""
 "''\">http\\://www.example.com</a> </t> </div> </td> </tr> </tbody> </table> "
 "</td></tr> <!-- POWERED BY --> <tr><td align=\"center\" style=\"min-width\\:"
 " 590px;\"> Destekleyici <a target=\"_blank\" "
-"href=\"https\\://www.odoo.com?utm_source=db&amp;utm_medium=email\" "
-"style=\"color\\: #875A7B;\">Odoo</a> </td></tr> </table>"
+"href=\"https\\://www.kolaysis.com?utm_source=db&amp;utm_medium=email\" "
+"style=\"color\\: #875A7B;\">Kolaysis</a> </td></tr> </table>"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_defaults
@@ -886,7 +886,7 @@ msgid ""
 "modifications as you navigate."
 msgstr ""
 "Fırsat Havuzuna geri dönmek için içerik haritasına tıklayın. Siz gezinirken "
-"Odoo tüm değişiklikleri kaydedecektir."
+"Kolaysis tüm değişiklikleri kaydedecektir."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__date_closed
@@ -1304,7 +1304,7 @@ msgid ""
 "company size, business information, social media accounts, etc."
 msgstr ""
 "Şirketleri isim veya vergi numarasıyla aratarak tüm verisini anında "
-"doldurabileceğinizi biliyor muydunuz? Odoo sizin için tüm alanları doldurur:"
+"doldurabileceğinizi biliyor muydunuz? Kolaysis sizin için tüm alanları doldurur:"
 " logo, adres, şirket büyüklüğü, iş bilgisi, sosyal medya hesapları vs."
 
 #. module: crm
@@ -1315,7 +1315,7 @@ msgid ""
 "tasks, contacts, delivery orders, etc."
 msgstr ""
 "Üst sağdaki harita ikonunu kullanarak fırsat listesini harita görüntüsüne "
-"dönüştürebileceğinizi biliyor muydunuz? Odoo'daki birçok ekran haritaya "
+"dönüştürebileceğinizi biliyor muydunuz? Kolaysis'deki birçok ekran haritaya "
 "dönüştürülebilir: görevler, kontaklar, teslimat siparişleri, vs"
 
 #. module: crm
@@ -2784,8 +2784,8 @@ msgid ""
 "manually, but if you let Odoo do the job the score is updated while the "
 "opportunity moves forward in your sales cycle."
 msgstr ""
-"Odoo'nun yapay zeka motoru geçmişinize bakarak her fırsatın başarı oranını "
-"tahminler. Her zaman başarı oranını elle güncelleyebilirsiniz, ama Odoo'ya "
+"Kolaysis'in yapay zeka motoru geçmişinize bakarak her fırsatın başarı oranını "
+"tahminler. Her zaman başarı oranını elle güncelleyebilirsiniz, ama Kolaysis'e "
 "bırakırsanız, satış döngünüzde fırsat ilerledikçe puan güncellenir."
 
 #. module: crm
@@ -3551,7 +3551,7 @@ msgstr "Fırsatlarınızda aktiviteleri planlamaya başlayın"
 #: model:ir.model.fields,field_description:crm.field_crm_lead__state_id
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "State"
-msgstr "Durum"
+msgstr "Bölge"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__activity_state
@@ -3569,7 +3569,7 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__duration_tracking
 msgid "Status time"
-msgstr ""
+msgstr "Aktivite zamanı"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__street
@@ -3661,7 +3661,7 @@ msgid ""
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Bu rumuzun karşılık geldiği model (Odoo Belge Türü). Mevcut bir kayda yanıt "
+"Bu rumuzun karşılık geldiği model (Kolaysis Belge Türü). Mevcut bir kayda yanıt "
 "vermeyen herhangi bir gelen e-posta, bu modelin yeni bir kaydının "
 "oluşturulmasına neden olacaktır (örneğin, bir Proje Görevi)"
 
@@ -3671,7 +3671,7 @@ msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
 "<jobs@example.odoo.com>"
 msgstr ""
-"Eposta rumuzunun adı, ör. <kariyer@example.odoo.com> adresine gelen "
+"Eposta rumuzunun adı, ör. <kariyer@example.kolaysis.com> adresine gelen "
 "epostaları yakalamak için 'kariyer'"
 
 #. module: crm
@@ -3809,7 +3809,7 @@ msgstr "İpucu: Gelen e-postaları fırsatlara dönüştür"
 #: model:digest.tip,name:crm.digest_tip_crm_1
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_1
 msgid "Tip: Did you know Odoo has built-in lead mining?"
-msgstr "İpucu: Odoo'da hazır aday madenciliği olduğunu biliyor muydunuz?"
+msgstr "İpucu: Kolaysis'da hazır aday madenciliği olduğunu biliyor muydunuz?"
 
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_4
@@ -4236,12 +4236,12 @@ msgstr "örn. Çok pahalı"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "e.g. domain.com"
-msgstr ""
+msgstr "örn. https://www.kolaysis.com"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "e.g. https://www.odoo.com"
-msgstr "örn. https://www.odoo.com"
+msgstr "örn. https://www.kolaysis.com"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
