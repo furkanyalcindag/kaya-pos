@@ -6,7 +6,14 @@
       <nav
         class="o_main_navbar"
         data-command-category="disabled"
+        style="height: 75px;
+               display: flex;
+               justify-content: center;
+               align-items: center;"
       >
+        <a href="/web">
+          <img src="/web/static/img/whiteKolaysisLogo.png" alt="Logo" style="width: auto; height: 70px;"/>
+        </a>
         <!-- Apps Menu -->
         <t t-call="web.NavBar.AppsMenu">
           <t t-set="apps" t-value="menuService.getApps()" />
