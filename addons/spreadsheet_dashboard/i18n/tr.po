@@ -228,12 +228,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__spreadsheet_binary_data
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard_share__spreadsheet_binary_data
 msgid "Spreadsheet file"
-msgstr ""
+msgstr "Hesap tablosu dosyası"
 
 #. module: spreadsheet_dashboard
 #: model_terms:ir.ui.view,arch_db:spreadsheet_dashboard.spreadsheet_dashboard_container_view_form
 msgid "Spreadsheets"
-msgstr ""
+msgstr "Hesap Tabloları"
 
 #. module: spreadsheet_dashboard
 #: model:ir.model.fields,field_description:spreadsheet_dashboard.field_spreadsheet_dashboard__thumbnail
@@ -261,11 +261,11 @@ msgstr "Websitesi"
 #: code:addons/spreadsheet_dashboard/models/spreadsheet_dashboard_group.py:0
 #, python-format
 msgid "You cannot delete %s as it is used in another module."
-msgstr ""
+msgstr "Başka bir modülde kullanıldığı için %s'yi silemezsiniz."
 
 #. module: spreadsheet_dashboard
 #. odoo-python
 #: code:addons/spreadsheet_dashboard/models/spreadsheet_dashboard_share.py:0
 #, python-format
 msgid "You don't have access to this dashboard. "
-msgstr ""
+msgstr "Bu gösterge tablosuna erişiminiz yok."

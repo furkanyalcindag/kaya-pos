@@ -818,7 +818,7 @@ msgstr "Yapılandır"
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 #: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "Configure tags"
-msgstr ""
+msgstr "Etiketleri yapılandırma"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_label_layout_form
