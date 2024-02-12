@@ -29371,7 +29371,7 @@ msgstr "Yapılandırmaya başla"
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 #: model_terms:ir.ui.view,arch_db:base.view_res_bank_form
 msgid "State"
-msgstr "Durum"
+msgstr "Bölge"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country_state__code
@@ -29386,7 +29386,7 @@ msgstr "İl/Eyalet Adı"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country__state_required
 msgid "State Required"
-msgstr "State Required"
+msgstr "Bölge Gerekli!"
 
 #. module: base
 #: model:res.country,name:base.ps
@@ -34345,7 +34345,7 @@ msgstr "örn. TR1234567890"
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 #: model_terms:ir.ui.view,arch_db:base.view_partner_simple_form
 msgid "e.g. Brandom Freeman"
-msgstr "örn. Brandom Freeman"
+msgstr "örn. Hakan Demir"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_base_import_language
@@ -34371,13 +34371,13 @@ msgstr "örn. Fransızca"
 #: model_terms:ir.ui.view,arch_db:base.view_users_form
 #: model_terms:ir.ui.view,arch_db:base.view_users_simple_form
 msgid "e.g. John Doe"
-msgstr "örn. John Doe"
+msgstr "örn. Hakan Demir"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 #: model_terms:ir.ui.view,arch_db:base.view_partner_simple_form
 msgid "e.g. Lumber Inc"
-msgstr "örn. Lumber Şti"
+msgstr "örn. Örnek Şti"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_form
@@ -34413,7 +34413,7 @@ msgstr "örn. Satış Yöneticisi"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.ir_mail_server_form
 msgid "e.g. email@domain.com, domain.com"
-msgstr ""
+msgstr "örn. email@kolaysis.com, kolaysis.com"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_users_form
@@ -34436,7 +34436,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.view_partner_address_form
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 msgid "e.g. https://www.odoo.com"
-msgstr "örn. https://www.odoo.com"
+msgstr "örn. https://www.kolaysis.com"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_ebay
