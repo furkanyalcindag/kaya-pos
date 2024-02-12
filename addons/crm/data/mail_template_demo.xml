@@ -18,7 +18,7 @@
                     <span style="font-size: 10px;">Your Lead/Opportunity</span><br/>
                     <span style="font-size: 20px; font-weight: bold;" t-out="object.name or ''">Interest in your products</span>
                 </td><td valign="middle" align="right">
-                    <img t-attf-src="/logo.png?company={{ object.company_id.id }}" style="padding: 0px; margin: 0px; height: 48px;" t-att-alt="object.company_id.name"/>
+                    <img t-attf-src="/web/static/img/kolaysisLogo.png?company={{ object.company_id.id }}" style="padding: 0px; margin: 0px; height: 48px;" t-att-alt="object.company_id.name"/>
                 </td></tr>
                 <tr><td colspan="2" style="text-align:center;">
                     <hr width="100%" style="background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:4px 0px 32px 0px;"/>
