@@ -20228,7 +20228,7 @@ msgstr "Kanban"
 #. module: base
 #: model:res.country,name:base.kz
 msgid "Kazakhstan"
-msgstr "Kazkistan"
+msgstr "Kazakistan"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_kz
@@ -34936,3 +34936,14 @@ msgstr "evet"
 #: model:res.country,name:base.ax
 msgid "Åland Islands"
 msgstr "Åland Adaları"
+
+
+msgid "List"
+msgstr "Liste"
+
+msgid "Calendar"
+msgstr "Takvim"
+
+
+msgid "Activity"
+msgstr "Aktivite"

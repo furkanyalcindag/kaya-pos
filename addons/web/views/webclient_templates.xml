@@ -278,7 +278,7 @@
     <template id="webclient_offline">
         <t t-call="web.layout">
             <t t-set="html_data" t-value="{'style': 'height: 100%;'}"/>
-            <t t-set="title">Offline</t>
+            <t t-set="title">"Offline"</t>
             <t t-set="head">
                 <script type="text/javascript">
                     window.addEventListener('online', () => location.reload());

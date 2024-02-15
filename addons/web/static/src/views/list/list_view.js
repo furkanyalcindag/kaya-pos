@@ -1,5 +1,5 @@
 /** @odoo-module */
-
+import { _t } from "@web/core/l10n/translation";
 import { registry } from "@web/core/registry";
 import { RelationalModel } from "@web/model/relational_model/relational_model";
 import { ListArchParser } from "./list_arch_parser";
@@ -8,7 +8,7 @@ import { ListRenderer } from "./list_renderer";
 
 export const listView = {
     type: "list",
-    display_name: "List",
+    display_name: _t("List"),
     icon: "oi oi-view-list",
     multiRecord: true,
     Controller: ListController,
