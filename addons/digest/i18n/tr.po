@@ -480,7 +480,7 @@ msgid ""
 "Try to notify @OdooBot to test the feature."
 msgstr ""
 "Bir mesajda birisini bilgilendirmek için \"@\" veya bir kanala bağlantı "
-"vermek için \"#\" yazın. Özelliği test etmek için @OdooBot'u deneyin "
+"vermek için \"#\" yazın. Özelliği test etmek için @KolayBot'u deneyin "
 "deneyin."
 
 #. module: digest
