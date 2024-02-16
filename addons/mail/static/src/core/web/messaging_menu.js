@@ -95,7 +95,7 @@ export class MessagingMenu extends Component {
         );
     }
 
-    get installationRequest() {
+  /*  get installationRequest() {
         return {
             body: _t("Come here often? Install Odoo on your device!"),
             displayName: _t("%s has a suggestion", this.store.odoobot.name),
@@ -106,7 +106,7 @@ export class MessagingMenu extends Component {
             partner: this.store.odoobot,
             isShown: this.store.discuss.activeTab === "main" && this.canPromptToInstall,
         };
-    }
+    }*/
 
     get notificationRequest() {
         return {
