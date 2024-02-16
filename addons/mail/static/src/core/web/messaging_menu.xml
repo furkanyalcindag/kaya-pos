@@ -27,7 +27,7 @@
             <div class="d-flex justify-content-center py-4 px-2 text-muted" t-if="!hasPreviews">
                 No conversation yet...
             </div>
-            <t t-if="store.odoobot and installationRequest.isShown">
+           <!-- <t t-if="store.odoobot and installationRequest.isShown">
                 <NotificationItem
                     body="installationRequest.body"
                     displayName="installationRequest.displayName"
@@ -56,7 +56,7 @@
                         <ImStatus persona="notificationRequest.partner" className="'position-absolute top-100 start-100 translate-middle mt-n1 ms-n1'"/>
                     </t>
                 </NotificationItem>
-            </t>
+            </t> -->
             <t t-if="store.discuss.activeTab === 'main' and !env.inDiscussApp">
                 <t t-foreach="store.failures" t-as="failure" t-key="failure.id">
                     <NotificationItem
