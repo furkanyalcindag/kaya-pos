@@ -186,6 +186,8 @@ msgid ""
 "Default values will be overwritten by values provided by the quotation "
 "template."
 msgstr ""
+"Varsayılan değerlerin üzerine teklif şablonu tarafından sağlanan değerler "
+"yazılacaktır."
 
 #. module: sale_management
 #: model:ir.model.fields,field_description:sale_management.field_sale_order_option__name

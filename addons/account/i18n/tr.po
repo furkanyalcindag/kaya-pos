@@ -2216,6 +2216,7 @@ msgstr "Bilgilendirilecek kişi ekle..."
 msgid ""
 "Add your terms & conditions at the bottom of invoices/orders/quotations"
 msgstr ""
+"Şartlar ve koşullarınızı faturaların/siparişlerin/tekliflerin altına ekleyin"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_automatic_entry_wizard_form
@@ -2353,7 +2354,7 @@ msgstr "Çek yazdırmaya ve para yatırmaya izin ver"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Allow sending and receiving invoices through the PEPPOL network"
-msgstr ""
+msgstr "PEPPOL ağı üzerinden fatura gönderilmesine ve alınmasına izin verin"
 
 #. module: account
 #: model:res.groups,name:account.group_cash_rounding
@@ -5312,7 +5313,7 @@ msgstr "Varsayılan Satış Vergisi"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Default Sending Options"
-msgstr ""
+msgstr "Varsayılan Gönderme Seçenekleri"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account__tax_ids
@@ -5738,12 +5739,12 @@ msgstr "Önizleme düğmesini görüntüle"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Display the total amount of an invoice in letters"
-msgstr ""
+msgstr "Bir faturanın toplam tutarını harflerle görüntüleme"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax__repartition_line_ids
 msgid "Distribution"
-msgstr ""
+msgstr "Dağıtım"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_tax__invoice_repartition_line_ids
@@ -6113,7 +6114,7 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Enable PEPPOL"
-msgstr ""
+msgstr "PEPPOL'ü Etkinleştir"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move_send__enable_send_mail
@@ -10457,7 +10458,7 @@ msgstr ""
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "PEPPOL Electronic Document Invoicing"
-msgstr ""
+msgstr "PEPPOL Elektronik Belge Faturalama"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__module_account_peppol
