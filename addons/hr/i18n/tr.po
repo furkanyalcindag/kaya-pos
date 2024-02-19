@@ -1123,6 +1123,8 @@ msgid ""
 "Display remote work settings for each employee and dedicated reports. "
 "Presence icons will be updated with remote work location."
 msgstr ""
+"Her çalışan ve özel raporlar için uzaktan çalışma ayarlarını görüntüleyin."
+"Varlık simgeleri uzak çalışma konumu ile güncellenecektir."
 
 #. module: hr
 #: model:ir.model.fields.selection,name:hr.selection__hr_employee__marital__divorced
@@ -2672,7 +2674,7 @@ msgstr "Kaynağın erişimini yönetmek için ilişkilendirilmiş kullanıcı."
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_config_settings__module_hr_homeworking
 msgid "Remote Work"
-msgstr ""
+msgstr "Uzaktan Çalışma"
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.hr_menu_hr_reports

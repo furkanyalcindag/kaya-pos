@@ -110,6 +110,8 @@ msgid ""
 "API Keys allow your users to access Odoo with external tools when multi-"
 "factor authentication is enabled."
 msgstr ""
+"API Anahtarları, çok faktörlü kimlik doğrulama etkinleştirildiğinde kullanıcılarınızın Kolaysis'e harici araçlarla "
+"erişmesini sağlar."
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -486,7 +488,7 @@ msgstr "Formlarınızı spam ve kötüye kullanımdan koruyun."
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Protect your forms with CF Turnstile."
-msgstr ""
+msgstr "Formlarınızı CF Turnike ile koruyun."
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -527,7 +529,8 @@ msgstr ""
 msgid ""
 "This name will be used for the application when Odoo is installed through "
 "the browser."
-msgstr ""
+msgstr "Bu ad, Kolaysis tarayıcı üzerinden yüklendiğinde uygulama için "
+"kullanılacaktır."
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_web_unsplash
