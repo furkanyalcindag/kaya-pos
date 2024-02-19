@@ -1,0 +1,23 @@
+<odoo>
+    <record id="birfatura_view_tree" model="ir.ui.view">
+        <field name="name">BirFatura tree</field>
+        <field name="model">birfatura</field>
+        <field name="arch" type="xml">
+            <tree multi_edit="1" create="1" edit="1" delete="1">
+                <field name="name" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="birfatura_action" model="ir.actions.act_window">
+        <field name="name">Bir Fatura Action</field>
+        <field name="res_model">birfatura</field>
+    </record>
+
+    <menuitem
+          id="birfatura_ment_item"
+          name="Bir Fatura E-Fatura"
+          parent="birfatura_menu"
+          action="birfatura_action"
+    />
+</odoo>
