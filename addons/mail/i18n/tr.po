@@ -2193,7 +2193,7 @@ msgstr "Aktivite türlerini yapılandırın"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "Configure your own email servers"
-msgstr "Configure your own email servers"
+msgstr "Kendi e-posta sunucularınızı yapılandırın"
 
 #. module: mail
 #. odoo-javascript
@@ -3702,7 +3702,7 @@ msgstr "Şimdi Getir"
 #: model:ir.model.fields,help:mail.field_res_config_settings__tenor_gif_limit
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "Fetch up to the specified number of GIF."
-msgstr ""
+msgstr "Belirtilen GIF sayısına kadar getirin."
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value__field_id
@@ -5847,12 +5847,12 @@ msgstr "Mesaj Kayıt Adı"
 #: model:ir.model,name:mail.model_mail_message_translation
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "Message Translation"
-msgstr ""
+msgstr "Mesaj Çevirisi"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_res_config_settings__google_translate_api_key
 msgid "Message Translation API Key"
-msgstr ""
+msgstr "Mesaj Çeviri API Anahtarı"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_message_subtype__name
@@ -7070,7 +7070,7 @@ msgstr "Parola"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "Paste your API key"
-msgstr ""
+msgstr "API anahtarınızı yapıştırın"
 
 #. module: mail
 #. odoo-javascript
@@ -8274,7 +8274,7 @@ msgstr "Bir kullanıcı seçin..."
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "Select the content filter used for filtering GIFs"
-msgstr ""
+msgstr "GIF'leri filtrelemek için kullanılan içerik filtresini seçin"
 
 #. module: mail
 #. odoo-javascript
@@ -9031,27 +9031,27 @@ msgstr ""
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "Tenor GIF API key"
-msgstr ""
+msgstr "Tenor GIF API anahtarı"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "Tenor GIF content filter"
-msgstr ""
+msgstr "Tenor GIF içerik filtresi"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "Tenor GIF limits"
-msgstr ""
+msgstr "Tenor GIF sınırları"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_res_config_settings__tenor_gif_limit
 msgid "Tenor Gif Limit"
-msgstr ""
+msgstr "Tenor Gif Sınırı"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_res_config_settings__tenor_content_filter
 msgid "Tenor content filter"
-msgstr ""
+msgstr "Tenor içerik filtresi"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_email_server_form
@@ -9971,7 +9971,7 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_res_config_settings__external_email_server_default
 msgid "Use Custom Email Servers"
-msgstr ""
+msgstr "Özel E-posta Sunucuları Kullanın"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_res_config_settings__use_twilio_rtc_servers
@@ -9995,24 +9995,24 @@ msgstr ""
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "Use an Outlook Server"
-msgstr ""
+msgstr "Bir Outlook Sunucusu Kullanın"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
 msgid "Use different domains for your mail aliases"
-msgstr ""
+msgstr "Posta takma adlarınız için farklı alan adları kullanın"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_schedule__is_batch_mode
 msgid "Use in batch"
-msgstr ""
+msgstr "Toplu olarak kullanın"
 
 #. module: mail
 #. odoo-python
 #: code:addons/mail/models/mail_thread.py:0
 #, python-format
 msgid "Use message_notify to send a notification to an user."
-msgstr ""
+msgstr "Bir kullanıcıya bildirim göndermek için message_notify kullanın."
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message__template_id
@@ -10027,7 +10027,7 @@ msgstr "Bas-konuş özelliğini kullan"
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_compose_message__res_domain_user_id
 msgid "Used as context used to evaluate composer domain"
-msgstr ""
+msgstr "Besteci alanını değerlendirmek için kullanılan bağlam olarak kullanılır"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_mail__message_type
@@ -10175,7 +10175,7 @@ msgid ""
 "and Enterprise versions. Online users already benefit from a ready-to-use "
 "email server (@mycompany.odoo.com)."
 msgstr ""
-"Odoo'da bir E-Posta sunucusu ayarlarsanız müşteri ve tedarikçilerinizle olan"
+"Kolaysis'te bir E-Posta sunucusu ayarlarsanız müşteri ve tedarikçilerinizle olan"
 " iletişiminizi de sistem içinden yönetebilirsiniz. Otomatik "
 "bilgilendirmeler, otomatik hatırlatmalar ve konu bazında yazışmalar için de "
 "E-Posta sunucusu tanımlamanız gerekir."
