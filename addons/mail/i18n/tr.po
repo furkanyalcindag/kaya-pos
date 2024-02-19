@@ -180,7 +180,7 @@ msgstr "%(user_name)s Sizi, yeni belgeyi takip etmeye davet ediyor."
 #: code:addons/mail/models/discuss/discuss_channel.py:0
 #, python-format
 msgid "%(user_name)s pinned a message to this channel."
-msgstr ""
+msgstr "%(user_name)s bu kanala bir mesaj sabitledi."
 
 #. module: mail
 #. odoo-python
@@ -278,7 +278,7 @@ msgstr "% mesajlar bulundu"
 #: code:addons/mail/static/src/discuss/call/common/rtc_service.js:0
 #, python-format
 msgid "%s raised their hand"
-msgstr ""
+msgstr "%s el kaldırdı."
 
 #. module: mail
 #. odoo-python
@@ -292,14 +292,14 @@ msgstr "%s canlı bir konferans başlattı"
 #: code:addons/mail/static/src/discuss/call/common/rtc_service.js:0
 #, python-format
 msgid "%s\" requires \"camera\" access"
-msgstr ""
+msgstr "%s\" \"camera\" için erişim gerekli."
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/call/common/rtc_service.js:0
 #, python-format
 msgid "%s\" requires \"screen recording\" access"
-msgstr ""
+msgstr "%s\" \"screen recording\" için erişim gerekli."
 
 #. module: mail
 #. odoo-javascript
@@ -339,14 +339,14 @@ msgstr "&amp;nbsp;&amp;nbsp;"
 #: code:addons/mail/static/src/core/common/message.js:0
 #, python-format
 msgid "(Translated from: %(language)s)"
-msgstr ""
+msgstr "(Dilden çevirildi: %(language)s"
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/core/common/message.js:0
 #, python-format
 msgid "(Translation Failure: %(error)s)"
-msgstr ""
+msgstr "(Çeviri hatası: %(language)s"
 
 #. module: mail
 #. odoo-javascript
@@ -382,6 +382,8 @@ msgid ""
 "<b invisible=\"not no_record\" class=\"text-warning\">No record for this "
 "model</b>"
 msgstr ""
+"<b invisible=\"not no_record\" class=\"text-warning\">Bu model için kayıt "
+"yok.</b>"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_document_file_kanban
@@ -397,13 +399,16 @@ msgid ""
 "type='%(cancel_type)s'>cancel</a></i>, <samp>%(save_keybind)s</samp><i> to "
 "<a href='#' data-type='%(save_type)s'>save</a></i>"
 msgstr ""
+"<samp>%(cancel_keybind)s</samp><i> to <a href='#' data-"
+"type='%(cancel_type)s'>İptal</a></i>, <samp>%(save_keybind)s</samp><i> to "
+"<a href='#' data-type='%(save_type)s'>Kaydet</a></i>"
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/core/common/composer.js:0
 #, python-format
 msgid "<samp>%(send_keybind)s</samp><i> to send</i>"
-msgstr ""
+msgstr "<samp>%(send_keybind)s</samp><i> gönderilecek.</i>"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_config_settings_view_form
@@ -425,7 +430,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mail.mail_message_view_form
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_form
 msgid "<span class=\"o_stat_text\">Open Document</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Dökümanı aç</span>"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_alias_view_form
@@ -3780,14 +3785,14 @@ msgstr ""
 #: code:addons/mail/static/src/discuss/core/common/attachment_panel.xml:0
 #, python-format
 msgid "File upload is disabled for external users"
-msgstr ""
+msgstr "Harici kullanıcılar için dosya yükleme devre dışı bırakıldı"
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/core/common/attachment_panel.xml:0
 #, python-format
 msgid "File upload is enabled for external users"
-msgstr ""
+msgstr "Harici kullanıcılar için dosya yükleme etkinleştirildi"
 
 #. module: mail
 #. odoo-javascript
@@ -4133,7 +4138,7 @@ msgstr "E-Posta ile"
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__res_users__notification_type__inbox
 msgid "Handle in Odoo"
-msgstr "Odoo İçinden"
+msgstr "Kolaysis İçinden"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_schedule__has_error
@@ -4243,7 +4248,7 @@ msgstr "Üye Listesini Gizle"
 #: code:addons/mail/static/src/discuss/message_pin/common/thread_actions.js:0
 #, python-format
 msgid "Hide Pinned Messages"
-msgstr ""
+msgstr "Sabitlenmiş Mesajları Gizle"
 
 #. module: mail
 #. odoo-javascript
@@ -4541,7 +4546,7 @@ msgid ""
 "If you have setup a catch-all email domain redirected to the Odoo server, "
 "enter the domain name here."
 msgstr ""
-"Eğer alan adınıza gelen tüm emailleri catch-all tekniği ile Odoo'ya "
+"Eğer alan adınıza gelen tüm emailleri catch-all tekniği ile Kolaysis'e "
 "yönlendirmek istiyorsanız buraya bir alan adı girin."
 
 #. module: mail
@@ -6595,19 +6600,19 @@ msgstr "Odoo"
 #: code:addons/mail/static/src/core/common/notification_permission_service.js:0
 #, python-format
 msgid "Odoo will not send notifications on this device."
-msgstr ""
+msgstr "Kolaysis bu cihaza bildirim göndermeyecek."
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/core/common/notification_permission_service.js:0
 #, python-format
 msgid "Odoo will send notifications on this device!"
-msgstr ""
+msgstr "Kolaysis bu cihaza bildirim gönderecek."
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__res_config_settings__tenor_content_filter__off
 msgid "Off"
-msgstr ""
+msgstr "Kapalı"
 
 #. module: mail
 #. odoo-javascript
@@ -6623,7 +6628,7 @@ msgstr "Çevrimdışı"
 #: code:addons/mail/static/src/discuss/core/common/channel_member_list.xml:0
 #, python-format
 msgid "Offline -"
-msgstr ""
+msgstr "Çevrimdışı -"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value__old_value_char
@@ -7122,7 +7127,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:mail.field_discuss_channel__pinned_message_ids
 #, python-format
 msgid "Pinned Messages"
-msgstr ""
+msgstr "Sabitlenmiş Mesajlar"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_plan_template__plan_id
@@ -7134,12 +7139,12 @@ msgstr "Planla"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_schedule__plan_available_ids
 msgid "Plan Available"
-msgstr ""
+msgstr "Mevcut Plan"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_schedule__plan_date_deadline
 msgid "Plan Date"
-msgstr ""
+msgstr "Plan Tarihi"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_plan_view_form
@@ -7150,12 +7155,12 @@ msgstr "Plan Adı"
 #: model:ir.model.fields,field_description:mail.field_mail_activity_plan__assignation_summary
 #: model:ir.model.fields,field_description:mail.field_mail_activity_schedule__plan_assignation_summary
 msgid "Plan Summary"
-msgstr ""
+msgstr "Plan Özeti"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_schedule_view_form
 msgid "Plan summary"
-msgstr ""
+msgstr "Plan Özeti"
 
 #. module: mail
 #. odoo-javascript
@@ -7216,7 +7221,7 @@ msgstr "Planlanan"
 #: code:addons/mail/static/src/core/web/chatter.xml:0
 #, python-format
 msgid "Planned Activities"
-msgstr ""
+msgstr "Planlanan Faaliyetler"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_activity_type_view_tree
@@ -7264,7 +7269,7 @@ msgid ""
 msgstr ""
 "Chatter bildirimlerinin nasıl ele alınacağına ilişkin politika:\n"
 "- E-postalarla Ele Alın: bildirimler e-posta adresinize gönderilir\n"
-"- Handle in Odoo: notifications appear in your Odoo Inbox"
+"- Kolaysis'te işleyin: bildirimler Kolaysis Gelen Kutunuzda görünür"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_contact
@@ -7322,6 +7327,8 @@ msgid ""
 "Posting a message should receive attachments as a list of list or tuples "
 "(received %(aids)s)"
 msgstr ""
+"Bir mesaj gönderirken ekler liste veya tuple olarak alınmalıdır"
+"(alınan %(aids)s)"
 
 #. module: mail
 #. odoo-python
@@ -7331,7 +7338,8 @@ msgid ""
 "Posting a message should receive attachments records as a list of IDs "
 "(received %(aids)s)"
 msgstr ""
-
+"Bir mesaj gönderildiğinde ek kayıtları kimlik listesi olarak alınmalıdır"
+"(alınan %(aids)s)"
 #. module: mail
 #. odoo-python
 #: code:addons/mail/models/mail_thread.py:0
@@ -7340,6 +7348,8 @@ msgid ""
 "Posting a message should receive partners as a list of IDs (received "
 "%(pids)s)"
 msgstr ""
+"Bir mesaj göndermek, ortakları bir kimlik listesi olarak almalıdır (alınan"
+"%(pids)s)"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_layout
@@ -7362,14 +7372,14 @@ msgstr "Preferred response address"
 #: code:addons/mail/static/src/discuss/core/web/channel_selector.js:0
 #, python-format
 msgid "Press Enter to start"
-msgstr ""
+msgstr "Başlamak için Enter'a basın"
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/call/common/call_settings.xml:0
 #, python-format
 msgid "Press a key to register it as the push-to-talk shortcut."
-msgstr ""
+msgstr "Bas-konuş kısayolu olarak kaydetmek için bir tuşa basın."
 
 #. module: mail
 #. odoo-javascript
@@ -7477,7 +7487,7 @@ msgstr "RTC Oturumu"
 #: code:addons/mail/static/src/discuss/call/common/call_context_menu.xml:0
 #, python-format
 msgid "RTC Session ID:"
-msgstr ""
+msgstr "RTC Oturum Kimliği:"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_discuss_channel_member__rtc_session_ids
@@ -7669,7 +7679,7 @@ msgstr "İlgili Döküman ID"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message__res_ids
 msgid "Related Document IDs"
-msgstr ""
+msgstr "İlgili Belge Kimlikleri"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity__res_model
@@ -7721,12 +7731,12 @@ msgstr "Kaldır"
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
 msgid "Remove Context Action"
-msgstr ""
+msgstr "Bağlam Eylemini Kaldır"
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__ir_actions_server__state__remove_followers
 msgid "Remove Followers"
-msgstr ""
+msgstr "Takipçileri Kaldır"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_blacklist_remove
@@ -9212,7 +9222,7 @@ msgid ""
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Bu rumuzun karşılık geldiği model (Odoo Belge Türü). Mevcut bir kayda yanıt "
+"Bu rumuzun karşılık geldiği model (Kolaysis Belge Türü). Mevcut bir kayda yanıt "
 "vermeyen herhangi bir gelen e-posta, bu modelin yeni bir kaydının "
 "oluşturulmasına neden olacaktır (örneğin, bir Proje Görevi)"
 
@@ -9342,14 +9352,14 @@ msgstr ""
 #: code:addons/mail/static/src/discuss/core/common/attachment_panel.xml:0
 #, python-format
 msgid "This conversation doesn't have any attachments."
-msgstr ""
+msgstr "Bu konuşmanın herhangi bir eklentisi yok."
 
 #. module: mail
 #. odoo-javascript
 #: code:addons/mail/static/src/discuss/message_pin/common/pinned_messages_panel.js:0
 #, python-format
 msgid "This conversation doesn't have any pinned messages."
-msgstr ""
+msgstr "Bu görüşmede sabitlenmiş herhangi bir mesaj yok."
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.res_partner_view_form_inherit_mail
@@ -9394,7 +9404,7 @@ msgid ""
 "including from the Technical menu in the Settings, in order to preserve "
 "storage space of your Odoo database."
 msgstr ""
-"Bu seçenek, Odoo veritabanınızın depolama alanını korumak için Ayarlar'daki "
+"Bu seçenek, Kolaysis veritabanınızın depolama alanını korumak için Ayarlar'daki "
 "Teknik menü de dahil olmak üzere gönderildikten sonra herhangi bir e-posta "
 "parçasını kalıcı olarak kaldırır."
 
