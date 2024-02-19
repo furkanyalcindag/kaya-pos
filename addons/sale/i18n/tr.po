@@ -1643,12 +1643,12 @@ msgstr ""
 #: model:ir.model.fields,help:sale.field_res_company__sale_down_payment_product_id
 #: model:ir.model.fields,help:sale.field_res_config_settings__deposit_default_product_id
 msgid "Default product used for down payments"
-msgstr ""
+msgstr "Peşinat ödemeleri için kullanılan varsayılan ürün"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Default values"
-msgstr ""
+msgstr "Varsayılan değerler"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
@@ -1656,6 +1656,8 @@ msgid ""
 "Default values used when creating new quotations. Those can still be changed"
 " on each quotation."
 msgstr ""
+"Yeni teklifler oluşturulurken kullanılan varsayılan değerler. Bunlar hala değiştirilebilir"
+" her alıntıda."
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
@@ -3675,6 +3677,8 @@ msgid ""
 "Request an online prepayment from your customers to confirm orders. You can "
 "ask them to fully pay the order or partially with a downpayment"
 msgstr ""
+"Siparişleri onaylamak için müşterilerinizden çevrimiçi ön ödeme talep edin. Yapabilirsiniz"
+"siparişin tamamını veya bir kısmını peşinatla ödemelerini isteyin"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
