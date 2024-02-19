@@ -1736,7 +1736,7 @@ msgstr "Kontrol et"
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.webclient_offline
 msgid ""
-"Check your network connection and come back here. Odoo will load as soon as "
+"Check your network connection and come back here. Kolaysis will load as soon as "
 "you're back online."
 msgstr "Ağ bağlantınızı kontrol edin ve buraya geri gelin. Tekrar çevrimiçi olduğunuzda Kolaysis yüklenecektir."
 
