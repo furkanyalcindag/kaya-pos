@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <templates xml:space="preserve">
     <t t-name="web.UpgradeDialog">
-        <Dialog size="'md'" title="'Odoo Enterprise'">
+       <!-- <Dialog size="'md'" title="'Odoo Enterprise'">
             <div class="row" role="status">
                 <div class="col-6">
                     Get this feature and much more with Odoo Enterprise!
@@ -22,6 +22,6 @@
                 <button class="btn btn-primary" t-on-click="_confirmUpgrade">Upgrade now</button>
                 <button class="btn btn-secondary" t-on-click="this.props.close">Cancel</button>
             </t>
-        </Dialog>
+        </Dialog> -->
     </t>
 </templates>
