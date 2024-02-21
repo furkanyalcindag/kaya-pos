@@ -406,7 +406,7 @@ msgstr "Satış Ekibi (PoS)"
 #. module: pos_sale
 #: model_terms:ir.ui.view,arch_db:pos_sale.res_config_settings_view_form
 msgid "Sales are reported to the following sales team"
-msgstr "Sales are reported to the following sales team"
+msgstr "Satışlar aşağıdaki satış ekibine raporlanır"
 
 #. module: pos_sale
 #. odoo-javascript

@@ -61,6 +61,11 @@ msgid ""
 "                </span>\n"
 "            </span>"
 msgstr ""
+"<span id=\"display_invoice_alert\" position=\"after\">\n"
+"                <span id=\"display_purchase_orders_alert\" invisible=\"display_purchase_orders_alert değil\">\n"
+"                    Bu satış siparişine bağlı olan ve otomatik olarak iptal edilmeyen aktif satın alma siparişleri var! <br/>\n"
+"                </span>\n"
+"            </span>"
 
 #. module: sale_purchase
 #: model_terms:ir.ui.view,arch_db:sale_purchase.exception_sale_on_purchase_cancellation

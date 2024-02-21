@@ -1,15 +1,16 @@
 /** @odoo-module **/
-
+import { _t } from "@web/core/l10n/translation";
 import { registry } from "@web/core/registry";
 import { CalendarRenderer } from "./calendar_renderer";
 import { CalendarArchParser } from "./calendar_arch_parser";
 import { CalendarModel } from "./calendar_model";
 import { CalendarController } from "./calendar_controller";
 
+
 export const calendarView = {
     type: "calendar",
 
-    display_name: "Calendar",
+    display_name: _t("Calendar"),
     icon: "fa fa-calendar",
     multiRecord: true,
     searchMenuTypes: ["filter", "favorite"],

@@ -1438,8 +1438,8 @@ export class Rtc {
         } catch {
             const str =
                 type === "camera"
-                    ? _t('%s" "Kamera" erişimi istiyor ', window.location.host)
-                    : _t('%s" "Ekran Kaydı" erişimi istiyor', window.location.host);
+                    ? _t('%s" requires "camera" access', window.location.host)
+                    : _t('%s" requires "screen recording" access', window.location.host);
             this.notification.add(str, { type: "warning" });
             stopVideo();
             return;
@@ -1545,7 +1545,7 @@ export class Rtc {
                 audioTrack = audioStream.getAudioTracks()[0];
             } catch {
                 this.notification.add(
-                    _t('"%(hostname)s"  mikrofon erişimi istiyor', {
+                    _t('"%(hostname)s" requires microphone access', {
                         hostname: window.location.host,
                     }),
                     { type: "warning" }

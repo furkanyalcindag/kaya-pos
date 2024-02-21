@@ -278,7 +278,7 @@
     <template id="webclient_offline">
         <t t-call="web.layout">
             <t t-set="html_data" t-value="{'style': 'height: 100%;'}"/>
-            <t t-set="title">Offline</t>
+            <t t-set="title">"Offline"</t>
             <t t-set="head">
                 <script type="text/javascript">
                     window.addEventListener('online', () => location.reload());
@@ -320,9 +320,9 @@
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
             </t>
             <div class="card">
-                <img t-attf-src="data:image/png;base64,{{odoo_icon}}" alt="Odoo logo"/>
+                <img t-attf-src="./static/img/kolaysis.ico"/>
                 <h1>You are offline</h1>
-                <p>Check your network connection and come back here. Odoo will load as soon as you're back online.</p>
+                <p>Check your network connection and come back here. Kolaysis will load as soon as you're back online.</p>
                 <button onclick="location.reload()">Check again</button>
             </div>
         </t>
