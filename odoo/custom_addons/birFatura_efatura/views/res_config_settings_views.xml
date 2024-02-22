@@ -33,6 +33,7 @@
                         <setting title="Canlı veya Test" help="Canlıda veya test ortamında denemek için gerekli alanı seçiniz.">
                             <div>
                                 <field name="birfatura_canli_test" class="o_light_label"/>
+                                <field name="status" class="o_light_label"/>
                             </div>
                         </setting>
                     </block>
@@ -52,7 +53,6 @@
     <menuitem id="birfatura_menu_configuration"
               name="birfatura içindeki Ayarlar"
               parent="birfatura_config_settings_menu"
-              sequence="0"
               action="birfatura_config_settings_action"
               groups="base.group_system"/>
 </odoo>

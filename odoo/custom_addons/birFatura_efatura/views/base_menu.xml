@@ -16,7 +16,6 @@
         id="birfatura_config_settings_menu"
         name="Ayarlar"
         parent="birfatura_menu_config"
-        action="birfatura_config_settings_action"
         groups="base.group_system"
     />
 
