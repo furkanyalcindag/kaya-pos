@@ -89,7 +89,7 @@ function odooAccountItem(env) {
     return {
         type: "item",
         id: "account",
-        description: _t("My Kolaysis.com help"),
+        description: _t("Kolaysis.com hesabım"),
         callback: () => {
             env.services
                 .rpc("/web/session/account")
