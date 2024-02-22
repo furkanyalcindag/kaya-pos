@@ -10,7 +10,7 @@
         'security/ir.model.access.csv',
         'views/base_menu.xml',
         'views/birfatura_view.xml',
-        'views/res_config_settings_view.xml'
+        'views/res_config_settings_views.xml'
     ],
      'installable': True,
     'application': True,

@@ -4,10 +4,10 @@ from odoo import models, fields
 class ResConfigSettings(models.TransientModel):
     _inherit = 'res.config.settings'
 
-    isyeri = fields.Char(string='Isyeri', required=True)
-    username = fields.Char(string='Username', required=True)
-    password = fields.Char(string='Password', required=True)
-    catalog = fields.Char(string='Catalog', required=True)
+    isyeri = fields.Char(string='Isyeri')
+    username = fields.Char(string='Username')
+    password = fields.Char(string='Password')
+    catalog = fields.Char(string='Catalog')
 
     birfatura_canli_test = fields.Selection([
         ('0', 'Canli'),

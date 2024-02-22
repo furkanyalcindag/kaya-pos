@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.birfatura</field>
+        <field name="model">res.config.settings</field>
+        <field name="priority" eval="5"/>
+        <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//form" position="inside">
+                <app data-string="BirFatura" string="BirFatura" name="birfatura" groups="sales_team.group_sale_manager"
+                     logo="birFatura_efatura/static/description/icon.png">
+                    <block title="Bir Fatura" id="birfatura_settings" groups="base.group_no_one">
+                        <setting title="E-fatura Entegrasyonu" help="Entegrasyonu yapabilmek için gerekli alanları doldurunuz.">
+                            <div class="content-group">
+                                <div class="row mt16">
+                                    <label string="Username" for="username" class="col-lg-3"/>
+                                    <field name="username"/>
+                                </div>
+                                <div class="row mt16">
+                                    <label string="Password" for="password" class="col-lg-3"/>
+                                    <field name="password"/>
+                                </div>
+                                <div class="row mt16">
+                                    <label string="İş Yeri" for="isyeri" class="col-lg-3"/>
+                                    <field name="isyeri"/>
+                                </div>
+                                <div class="row mt16">
+                                    <label string="Katalog" for="catalog" class="col-lg-3"/>
+                                    <field name="catalog"/>
+                                </div>
+                            </div>
+                        </setting>
+                        <setting title="Canlı veya Test" help="Canlıda veya test ortamında denemek için gerekli alanı seçiniz.">
+                            <div>
+                                <field name="birfatura_canli_test" class="o_light_label"/>
+                            </div>
+                        </setting>
+                    </block>
+                </app>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="birfatura_config_settings_action" model="ir.actions.act_window">
+        <field name="name">Settings</field>
+        <field name="res_model">res.config.settings</field>
+        <field name="view_mode">form</field>
+        <field name="target">inline</field>
+        <field name="context">{'module' : 'birfatura', 'bin_size': False}</field>
+    </record>
+
+    <menuitem id="birfatura_menu_configuration"
+              name="birfatura içindeki Ayarlar"
+              parent="birfatura_config_settings_menu"
+              sequence="0"
+              action="birfatura_config_settings_action"
+              groups="base.group_system"/>
+</odoo>

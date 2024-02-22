@@ -1,7 +1,7 @@
 <odoo>
     <menuitem
             id="birfatura_root_menu"
-            name="BirFatura E-Fatura"
+            name="Bir Fatura E-Fatura"
     />
     <menuitem
             id="birfatura_menu"
@@ -9,16 +9,15 @@
             parent="birfatura_root_menu"
     />
         <menuitem
-        id="crm_menu_config"
-        name="Configuration"
-        parent="birfatura_root_menu"
-        action="crm.action_your_pipeline"
-        sequence="25" groups="sales_team.group_sale_manager"/>
+        id="birfatura_menu_config"
+        name="Yapılandırma"
+        parent="birfatura_root_menu"/>
     <menuitem
-        id="crm_config_settings_menu"
-        name="Settings"
-        parent="crm_menu_config"
-        action="crm.crm_config_settings_action"
+        id="birfatura_config_settings_menu"
+        name="Ayarlar"
+        parent="birfatura_menu_config"
+        action="birfatura_config_settings_action"
         groups="base.group_system"
-        sequence="0"/>
+    />
+
 </odoo>
