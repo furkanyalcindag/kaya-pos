@@ -21,8 +21,8 @@
             t-on-input="() => this.state.hasKeyError = false"
             t-att-class="{ 'is-invalid': state.hasKeyError }"/>
         and paste
-        <a href="https://www.odoo.com/documentation/17.0/applications/websites/website/optimize/unsplash.html#generate-an-unsplash-application-id"
-           class="mx-1" target="_blank">Application ID</a>
+        <!--<a href="https://www.odoo.com/documentation/17.0/applications/websites/website/optimize/unsplash.html#generate-an-unsplash-application-id"
+           class="mx-1" target="_blank">Application ID</a>-->
         here:
         <input type="text"
             class="o_input o_required_modifier form-control w-auto ms-2"
