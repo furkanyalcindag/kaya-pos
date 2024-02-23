@@ -32,6 +32,8 @@ msgid ""
 "&amp;#128075; <br/>\n"
 "    Welcome to the To-do app!"
 msgstr ""
+"&amp;#128075; <br/>\n"
+"    Yapılacaklar uygulamasına hoşgeldiniz!"
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
@@ -41,6 +43,10 @@ msgid ""
 "                    (/<span style=\"font-style: italic;\">checklist</span>)\n"
 "                </span>"
 msgstr ""
+"<span style=\"font-size: 14px;\">\n"
+"                    Bir kontrol listesi ekleyin\n"
+"                    (/<span style=\"font-style: italic;\">kontrol listesi</span>)\n"
+"                </span>"
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
@@ -50,6 +56,10 @@ msgid ""
 "                    (/<span style=\"font-style: italic;\">separator</span>)\n"
 "                </span>"
 msgstr ""
+"<span style=\"font-size: 14px;\">\n"
+"                    Bir ayırıcı ekleyin\n"
+" (/<span style=\"font-style: italic;\">ayırıcı</span>)\n"
+"                </span>"
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
@@ -60,6 +70,11 @@ msgid ""
 "                    to convert a text into a title\n"
 "                </span>"
 msgstr ""
+"<span style=\"font-size: 14px;\">\n"
+"                    Bir metni başlığa dönüştürmek için\n"
+"                    /<span style=\"font-style: italic;\">başlık</span>\n"
+"                   kullanın.\n"
+"                </span>"
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
@@ -74,6 +89,16 @@ msgid ""
 "            \"<span style=\"font-weight: bolder;\">/</span>\"\n"
 "        </span>"
 msgstr ""
+"<span style=\"font-size: 14px;\">\n"
+"Bu listenin altında\n"
+"<span style=\"font-weight: bolder;\">komutları</span>\n"
+"\n"
+" <span style=\"font-weight: bolder;\">\n"
+"</span>\n"
+"            \"<span style=\"font-weight: bolder;\">/</span>\"\n"
+" </span>"
+"<font class=\"text-o-color-2\">yazarak deneyin.</font>\n"
+
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
@@ -87,6 +112,14 @@ msgid ""
 "            <span style=\"font-style: italic; text-decoration-line: underline;\">it</span>\n"
 "        </span>"
 msgstr ""
+"<span style=\"font-size: 14px;\">\n"
+"            Bir metni\n"
+"            <font class=\"bg-o-color-2\">Vurgulamak</font>,\n"
+"            <span style=\"text-decoration-line: line-through;\">üstünü çizmek</span>\n"
+" or\n"
+"            <span style=\"font-weight: bolder;\">şekil vermek için</span>\n"
+"            <span style=\"font-style: italic; text-decoration-line: underline;\">seçin.</span>\n"
+"        </span>"
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
@@ -95,6 +128,9 @@ msgid ""
 "        During the conversion of a to-do to a task, you will be able to add or remove assignees to control who has access to the created task. Note that its visibility will also depend on the visibility settings of the project you are assigning it to.\n"
 "    </span>"
 msgstr ""
+"<span style=\"font-size: 14px;\">\n"
+"        Bir yapılacak işin göreve dönüştürülmesi sırasında, oluşturulan göreve kimlerin erişebileceğini kontrol etmek için atanan kişileri ekleyebilir veya kaldırabilirsiniz. Görevin görünürlüğünün, atadığınız projenin görünürlük ayarlarına da bağlı olacağını unutmayın.\n"
+"    </span>"
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
@@ -111,6 +147,17 @@ msgid ""
 "        Similarly, private tasks created in the Project app will also appear in your to-dos.\n"
 "    </span>"
 msgstr ""
+"<span style=\"font-size: 14px;\">\n"
+"        Yapılacaklar artık \n"
+"        <span style=\"font-weight: bolder;\">\n"
+"            <font class=\"text-o-color-2\">özel görevler gibidir</font>\n"
+"        </span>\n"
+" ve Proje uygulamasında \n"
+"        <span>\n"
+"            <font style=\"font-weight: bolder;\" class=\"text-o-color-2\">Görevlerim altında görünecektir.</font>.\n"
+"        </span>\n"
+"        Benzer şekilde, Proje uygulamasında oluşturulan özel görevler de yapılacaklar listenizde görünecektir.\n"
+"    </span>"
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
@@ -123,7 +170,13 @@ msgid ""
 "        field above to share this to-do with other users.\n"
 "    </span>"
 msgstr ""
-
+"<span style=\"font-size: 14px;\">\n"
+"        Yapılacaklar, özel görevler gibi, yalnızca atananlar olarak belirtilen kullanıcılar tarafından erişilebilir. Bu yapılacak işi diğer kullanıcılarla paylaşmak için\n"
+"        <span style=\"font-weight: bolder;\">\n"
+"            <font class=\"text-o-color-2\">atananlar </font>\n"
+"        </span>\n"
+"       alanını kullanabilirsiniz.\n"
+"    </span>"
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding
 msgid ""
@@ -384,7 +437,7 @@ msgstr "Hatırlatma"
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.mail_activity_todo_create_popup
 msgid "Reminder to..."
-msgstr ""
+msgstr "Hatırlatıcı ..."
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.project_task_view_todo_conversion_form
@@ -422,7 +475,7 @@ msgstr "Görev"
 #: model:ir.ui.menu,name:project_todo.menu_todo_todos
 #: model_terms:ir.ui.view,arch_db:project_todo.project_task_view_todo_form
 msgid "To-do"
-msgstr ""
+msgstr "Yapılacak"
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.project_task_view_todo_quick_create_form
@@ -434,7 +487,7 @@ msgstr "Yapılacak İşler"
 #: model_terms:ir.ui.view,arch_db:project_todo.project_task_view_todo_activity
 #: model_terms:ir.ui.view,arch_db:project_todo.project_task_view_todo_tree
 msgid "To-dos"
-msgstr ""
+msgstr "Yapılacaklar"
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.project_task_view_todo_search

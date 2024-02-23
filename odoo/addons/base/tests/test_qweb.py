@@ -114,10 +114,10 @@ class TestQWebTField(TransactionCase):
 
         # record.name is non-empty
         result = """
-                <div>My Company</div>
+                <div>Şirketim</div>
         """
         rendered = self.env['ir.qweb']._render(t.id, {
-            'record': Partner.new({'name': 'My Company'})
+            'record': Partner.new({'name': 'Şirketim'})
         })
         self.assertEqual(str(rendered.strip()), result.strip(), "")
 
