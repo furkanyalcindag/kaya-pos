@@ -215,6 +215,7 @@ msgid ""
 "Due to an Outlook Calendar limitation, recurrent events must be created "
 "directly in Outlook Calendar."
 msgstr ""
+"Bir Outlook Takvim sınırlaması nedeniyle, yinelenen etkinlikler doğrudan Outlook Takvim'de oluşturulmalıdır."
 
 #. module: microsoft_calendar
 #: model:ir.model,name:microsoft_calendar.model_calendar_recurrence
@@ -261,7 +262,7 @@ msgstr ""
 #. module: microsoft_calendar
 #: model:ir.model.fields,help:microsoft_calendar.field_res_config_settings__cal_microsoft_sync_paused
 msgid "Indicates if synchronization with Outlook Calendar is paused or not."
-msgstr ""
+msgstr "Outlook Takvim ile senkronizasyonun duraklatılıp duraklatılmadığını gösterir."
 
 #. module: microsoft_calendar
 #. odoo-python
@@ -271,17 +272,18 @@ msgid ""
 "It is necessary adding the proposed organizer as attendee before saving the "
 "event."
 msgstr ""
+"Etkinliği kaydetmeden önce önerilen organizatörün katılımcı olarak eklenmesi gerekir."
 
 #. module: microsoft_calendar
 #: model:ir.model.fields,field_description:microsoft_calendar.field_microsoft_calendar_credentials__last_sync_date
 #: model:ir.model.fields,field_description:microsoft_calendar.field_res_users__microsoft_last_sync_date
 msgid "Last Sync Date"
-msgstr ""
+msgstr "Son Senkronizasyon Tarihi"
 
 #. module: microsoft_calendar
 #: model_terms:ir.ui.view,arch_db:microsoft_calendar.view_users_form
 msgid "Last Sync Time"
-msgstr ""
+msgstr "Son Senkronizasyon Zamanı"
 
 #. module: microsoft_calendar
 #: model:ir.model.fields,field_description:microsoft_calendar.field_microsoft_calendar_account_reset__write_uid
@@ -299,7 +301,7 @@ msgstr "Son Güncelleme"
 #: model:ir.model.fields,help:microsoft_calendar.field_microsoft_calendar_credentials__last_sync_date
 #: model:ir.model.fields,help:microsoft_calendar.field_res_users__microsoft_last_sync_date
 msgid "Last synchronization date with Outlook Calendar"
-msgstr ""
+msgstr "Outlook Takvim ile son senkronizasyon tarihi"
 
 #. module: microsoft_calendar
 #: model:ir.model.fields.selection,name:microsoft_calendar.selection__microsoft_calendar_account_reset__delete_policy__dont_delete
@@ -314,7 +316,7 @@ msgstr ""
 #. module: microsoft_calendar
 #: model:ir.model,name:microsoft_calendar.model_microsoft_calendar_credentials
 msgid "Microsoft Calendar Account Data"
-msgstr ""
+msgstr "Microsoft Takvim Hesap Verileri"
 
 #. module: microsoft_calendar
 #: model:ir.actions.act_window,name:microsoft_calendar.microsoft_calendar_reset_account_action
@@ -361,7 +363,7 @@ msgstr "Microsoft Yineleme Master Kimliği"
 #. module: microsoft_calendar
 #: model:ir.model.fields,field_description:microsoft_calendar.field_res_config_settings__cal_microsoft_sync_paused
 msgid "Microsoft Synchronization Paused"
-msgstr ""
+msgstr "Microsoft Senkronizasyonu Duraklatıldı"
 
 #. module: microsoft_calendar
 #: model:ir.model.fields,field_description:microsoft_calendar.field_calendar_event__need_sync_m
@@ -435,7 +437,7 @@ msgstr "Outlook: senkronizasyon"
 #. module: microsoft_calendar
 #: model_terms:ir.ui.view,arch_db:microsoft_calendar.res_config_settings_view_form
 msgid "Pause Synchronization"
-msgstr ""
+msgstr "Senkronizasyonu duraklat"
 
 #. module: microsoft_calendar
 #: model_terms:ir.ui.view,arch_db:microsoft_calendar.view_users_form
@@ -457,7 +459,7 @@ msgstr "Outlook Takvim Hesabını Sıfırla"
 #: code:addons/microsoft_calendar/static/src/views/microsoft_calendar/microsoft_calendar_controller.js:0
 #, python-format
 msgid "Stop Synchronization"
-msgstr ""
+msgstr "Senkronizasyonu durdur"
 
 #. module: microsoft_calendar
 #. odoo-javascript
@@ -509,7 +511,7 @@ msgstr "Outlook takvimi ile senkronizasyon başarıyla durduruldu."
 #. module: microsoft_calendar
 #: model:ir.model.constraint,message:microsoft_calendar.constraint_res_users_microsoft_token_uniq
 msgid "The user has already a microsoft account"
-msgstr ""
+msgstr "Kullanıcının zaten bir microsoft hesabı var"
 
 #. module: microsoft_calendar
 #: model:ir.model.fields,help:microsoft_calendar.field_microsoft_calendar_account_reset__delete_policy
@@ -561,4 +563,4 @@ msgstr ""
 #: code:addons/microsoft_calendar/static/src/views/microsoft_calendar/microsoft_calendar_controller.js:0
 #, python-format
 msgid "Your administrator paused the synchronization with Outlook Calendar."
-msgstr ""
+msgstr "Yöneticiniz Outlook Takvim ile senkronizasyonu duraklattı."
