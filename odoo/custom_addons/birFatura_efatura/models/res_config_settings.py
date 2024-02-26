@@ -4,7 +4,7 @@ from odoo import models, fields, api
 
 
 class ResConfigSettings(models.TransientModel):
-    _name = 'fatura.config.settings'
+    _name = 'res.config.settings'
 
     isyeri = fields.Char(string='Isyeri', default="SUBECOMITFY")
     username = fields.Char(string='Username', default="USERCOMITFY")
