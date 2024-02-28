@@ -48,7 +48,7 @@
 
 	<xsl:template match="config">
 		<para style="title">
-		<xsl:value-of select="report-header"/>
+		<xsl:value-of select="product"/>
 		</para>
 		<spacer length="1cm" width="2mm"/>
 	</xsl:template>

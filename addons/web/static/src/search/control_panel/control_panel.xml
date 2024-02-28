@@ -112,7 +112,7 @@
             </t>
             <div class="d-flex gap-1 text-truncate">
                 <div class="o_last_breadcrumb_item active d-flex gap-2 align-items-center min-w-0 lh-sm">
-                    <span class="min-w-0 text-truncate" t-call="web.Breadcrumb.Name"/>
+                   <!-- <span class="min-w-0 text-truncate" t-call="web.Breadcrumb.Name"/>-->
                 </div>
                 <t t-call="web.Breadcrumb.Actions"/>
             </div>

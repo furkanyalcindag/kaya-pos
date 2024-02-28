@@ -50,7 +50,7 @@ class ResConfigSettings(models.TransientModel):
     def open_company(self):
         return {
             'type': 'ir.actions.act_window',
-            'name': 'My Company',
+            'name': 'Şirketim',
             'view_mode': 'form',
             'res_model': 'res.company',
             'res_id': self.env.company.id,

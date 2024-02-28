@@ -150,7 +150,7 @@ msgstr "Analitik Hassasiyet"
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_mrp_bom
 msgid "Bill of Material"
-msgstr "Ürün Reçetesi"
+msgstr "Ürün Ağacı"
 
 #. module: mrp_account
 #. odoo-python
@@ -158,12 +158,12 @@ msgstr "Ürün Reçetesi"
 #: model_terms:ir.ui.view,arch_db:mrp_account.account_analytic_account_view_form_mrp
 #, python-format
 msgid "Bills of Materials"
-msgstr "Ürün Reçetesi"
+msgstr "Ürünlerin Ağaçları"
 
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_account_analytic_account__bom_count
 msgid "BoM Count"
-msgstr "BoM Sayısı"
+msgstr "Ürün Ağacı Sayısı"
 
 #. module: mrp_account
 #: model:ir.model.fields,field_description:mrp_account.field_account_analytic_account__bom_ids
@@ -182,7 +182,7 @@ msgstr "Kategori"
 #: model_terms:ir.ui.view,arch_db:mrp_account.product_product_view_form_normal_inherit_extended
 #: model_terms:ir.ui.view,arch_db:mrp_account.product_variant_easy_edit_view_bom_inherit
 msgid "Compute Price from BoM"
-msgstr "BoM'dan fiyat hesapla"
+msgstr "Ürün Ağacından fiyat hesapla"
 
 #. module: mrp_account
 #: model_terms:ir.ui.view,arch_db:mrp_account.product_product_ext_form_view2
