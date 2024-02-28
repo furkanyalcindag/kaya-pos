@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <data noupdate="1">
-        <!-- Sequences for lead mining requests -->
+    <!--<data noupdate="1">
+        &lt;!&ndash; Sequences for lead mining requests &ndash;&gt;
         <record id="ir_sequence_crm_iap_mine" model="ir.sequence">
             <field name="name">Lead Mining Request</field>
             <field name="code">crm.iap.lead.mining.request</field>
@@ -10,5 +10,5 @@
             <field name="company_id" eval="False"/>
         </record>
 
-    </data>
+    </data>-->
 </odoo>

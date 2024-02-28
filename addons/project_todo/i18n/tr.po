@@ -184,6 +184,9 @@ msgid ""
 "        Use it to manage your urgent work, take notes on the go, and create tasks based on them. \n"
 "    </span>"
 msgstr ""
+"<span style=\"font-size: 14px;\">\n"
+"        Acil işlerinizi yönetmek, hareket halindeyken not almak ve bunlara dayalı görevler oluşturmak için kullanın. \n"
+"    </span>"
 
 #. module: project_todo
 #: model_terms:ir.ui.view,arch_db:project_todo.todo_user_onboarding

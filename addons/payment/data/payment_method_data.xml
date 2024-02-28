@@ -2712,7 +2712,7 @@
         />
     </record>
 
-    <record id="payment_method_sepa_direct_debit" model="payment.method">
+    <!--<record id="payment_method_sepa_direct_debit" model="payment.method">
         <field name="name">SEPA Direct Debit</field>
         <field name="code">sepa_direct_debit</field>
         <field name="sequence">1000</field>
@@ -2760,7 +2760,7 @@
                      ])]"
         />
     </record>
-
+-->
     <record id="payment_method_shopback" model="payment.method">
         <field name="name">ShopBack</field>
         <field name="code">shopback</field>

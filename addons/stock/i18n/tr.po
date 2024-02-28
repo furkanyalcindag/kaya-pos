@@ -130,14 +130,14 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__return_count
 msgid "# Returns"
-msgstr ""
+msgstr "# Geri dönüşler"
 
 #. module: stock
 #. odoo-python
 #: code:addons/stock/models/stock_warehouse.py:0
 #, python-format
 msgid "%(name)s (copy)(%(id)s)"
-msgstr ""
+msgstr "%(name)s (kopya)(%(id)s)"
 
 #. module: stock
 #. odoo-python
@@ -147,6 +147,8 @@ msgid ""
 "%(warehouse)s can only provide %(free_qty)s %(uom)s, while the quantity to "
 "order is %(qty_to_order)s %(uom)s."
 msgstr ""
+"%(warehouse)s yalnızca %(free_qty)s %(uom)s sağlayabilirken, "
+"sipariş edilecek miktar %(qty_to_order)s %(uom)s'dir."
 
 #. module: stock
 #. odoo-python
@@ -174,7 +176,7 @@ msgstr "%s (kopya)"
 #: code:addons/stock/models/stock_move.py:0
 #, python-format
 msgid "%s --> Product UoM is %s (%s) - Move UoM is %s (%s)"
-msgstr ""
+msgstr "%s --> Ürün ölçü birimi  %s (%s) - Hareket Ölçü birimi %s (%s)"
 
 #. module: stock
 #. odoo-python
@@ -243,24 +245,24 @@ msgstr "(kopyası) %s"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid "(document barcode)"
-msgstr ""
+msgstr "(belge barkodu)"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_package_barcode
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid "(package barcode)"
-msgstr ""
+msgstr "(paket barkodu)"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_package_barcode
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid "(product barcode)"
-msgstr ""
+msgstr "(ürün barkodu)"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid "(serial barcode)"
-msgstr ""
+msgstr "(seri barkod)"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move__state
@@ -272,6 +274,11 @@ msgid ""
 "* Available: The product of the stock move is reserved.\n"
 "* Done: The product has been transferred and the transfer has been confirmed."
 msgstr ""
+"* Yeni: Stok hareketi oluşturuldu ancak onaylanmadı.\n"
+"* Başka Bir Hamle Bekleniyor: Bundan önce bağlantılı bir hisse senedi hamlesi yapılmalıdır.\n"
+"* Bekleyen Kullanılabilirlik: Stok hareketi onaylandı ancak ürün rezerve edilemiyor.\n"
+"* Kullanılabilir: Stok hareketinin ürünü rezerve edildi.\n"
+"* Tamamlandı: Ürün aktarıldı ve aktarım onaylandı."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_location__usage
@@ -384,12 +391,12 @@ msgstr "4 x 12"
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__lot_label_format__4x12_lots
 msgid "4 x 12 - One per lot/SN"
-msgstr ""
+msgstr "4 x 12 - Lot/SN başına bir adet"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__lot_label_format__4x12_units
 msgid "4 x 12 - One per unit"
-msgstr ""
+msgstr "4 x 12 - Birim başına bir adet"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__product_label_format__4x12xprice
@@ -486,6 +493,39 @@ msgid ""
 "</div>\n"
 "        "
 msgstr ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"        Merhaba <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,<br><br>\n"
+"        Siparişinizin kargoya verildiğini bildirmekten memnuniyet duyarız.\n"
+"        <t t-if=\"hasattr(object, 'carrier_tracking_ref') and object.carrier_tracking_ref\">\n"
+"            Takip referansınız\n"
+"            <strong>\n"
+"            <t t-if=\"object.carrier_tracking_url\">\n"
+"                <t t-set=\"multiple_carrier_tracking\" t-value=\"object.get_multiple_carrier_tracking()\"></t>\n"
+"                <t t-if=\"multiple_carrier_tracking\">\n"
+"                    <t t-foreach=\"multiple_carrier_tracking\" t-as=\"line\">\n"
+"                        <br><a t-att-href=\"line[1]\" target=\"_blank\" t-out=\"line[0] or ''\"></a>\n"
+"                    </t>\n"
+"                </t>\n"
+"                <t t-else=\"\">\n"
+"                    <a t-attf-href=\"{{ object.carrier_tracking_url }}\" target=\"_blank\" t-out=\"object.carrier_tracking_ref or ''\"></a>.\n"
+"                </t>\n"
+"            </t>\n"
+"            <t t-else=\"\">\n"
+"                <t t-out=\"object.carrier_tracking_ref or ''\"></t>.\n"
+"            </t>\n"
+"            </strong>\n"
+"        </t>\n"
+"        <br><br>\n"
+"        Daha fazla ayrıntı için lütfen teslimat siparişinizi ekte bulabilirsiniz.<br><br>\n"
+"        Teşekkürler, \n"
+"        <t t-if=\"user.signature\">\n"
+"            <br>\n"
+"            <t t-out=\"user.signature or ''\">--<br>Mitchell Admin</t>\n"
+"        </t>\n"
+"    </p>\n"
+"</div>\n"
+
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_scrap_view_kanban
@@ -504,12 +544,12 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 msgid "<span class=\"o_stat_text\">Allocation</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Tahsis</span>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 msgid "<span class=\"o_stat_text\">Detailed Operations</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Detaylı Operasyonlar</span>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.product_form_view_procurement_button
@@ -521,30 +561,30 @@ msgstr "<span class=\"o_stat_text\">Öngörülen</span>"
 #: model_terms:ir.ui.view,arch_db:stock.product_form_view_procurement_button
 #: model_terms:ir.ui.view,arch_db:stock.product_template_form_view_procurement_button
 msgid "<span class=\"o_stat_text\">In:</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">İçinde:</span>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_production_lot_form
 msgid "<span class=\"o_stat_text\">Location</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Konum</span>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.product_form_view_procurement_button
 #: model_terms:ir.ui.view,arch_db:stock.product_template_form_view_procurement_button
 msgid "<span class=\"o_stat_text\">Lot/Serial Numbers</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Lot/Seri Numaraları</span>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.product_form_view_procurement_button
 #: model_terms:ir.ui.view,arch_db:stock.product_template_form_view_procurement_button
 msgid "<span class=\"o_stat_text\">Max:</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Maks: </span>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.product_form_view_procurement_button
 #: model_terms:ir.ui.view,arch_db:stock.product_template_form_view_procurement_button
 msgid "<span class=\"o_stat_text\">Min:</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Min:</span>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.product_form_view_procurement_button
@@ -561,7 +601,7 @@ msgstr "<span class=\"o_stat_text\">Operasyonlar</span>"
 #: model_terms:ir.ui.view,arch_db:stock.product_form_view_procurement_button
 #: model_terms:ir.ui.view,arch_db:stock.product_template_form_view_procurement_button
 msgid "<span class=\"o_stat_text\">Out:</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Çıktı:</span>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_scrap_form_view
@@ -6292,7 +6332,7 @@ msgstr "Lütfen sıfır olmayan bir miktar girin."
 #: model:ir.model.fields,field_description:stock.field_stock_picking__show_reserved
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__show_reserved
 msgid "Pre-fill Detailed Operations"
-msgstr "Dolgu Öncesi Ayrıntılı İşlemler"
+msgstr "Dolgu Öncesi Ayrıntılı Operasyonlar"
 
 #. module: stock
 #. odoo-javascript

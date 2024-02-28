@@ -96,13 +96,15 @@ msgid ""
 "%)\n"
 "                                            for this proposal, I agree to the following terms:"
 msgstr ""
+"%)\n"
+"Bu teklif için aşağıdaki şartları kabul ediyorum:"
 
 #. module: sale
 #. odoo-python
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:0
 #, python-format
 msgid "%s has been created"
-msgstr ""
+msgstr "%s oluşturuldu"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_orders
@@ -212,6 +214,45 @@ msgid ""
 "</div>\n"
 "            "
 msgstr ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"    <p style=\"margin: 0px; padding: 0px; font-size: 12px;\">\n"
+"        <t t-set=\"transaction_sudo\" t-value=\"object.get_portal_last_transaction()\"></t>\n"
+"        Merhaba, \n"
+"        <br><br>\n"
+"        Referanslı bir ödeme\n"
+"        <span style=\"font-weight:bold;\" t-out=\"transaction_sudo.reference or ''\">SOOO49</span>\n"
+"amounting\n"
+"        <span style=\"font-weight:bold;\" t-out=\"format_amount(transaction_sudo.amount, object.currency_id) or ''\">$ 10.00</span>\n"
+" siparişiniz için\n"
+"        <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">S00049</span>\n"
+"        <t t-if=\"transaction_sudo and transaction_sudo.state == 'pending'\">\n"
+" beklemede.\n"
+"            <br>\n"
+"            <t t-if=\"object.currency_id.compare_amounts(object.amount_paid + transaction_sudo.amount, object.amount_total) &gt;= 0 and object.state in ('draft', 'sent')\">\n"
+"                Ödeme onaylandıktan sonra siparişiniz onaylanacaktır.\n"
+"            </t>\n"
+"            <t t-else=\"\">\n"
+"onaylandı. \n"
+"            <t t-if=\"object.currency_id.compare_amounts(object.amount_paid, object.amount_total) &lt; 0\">\n"
+"                <br>\n"
+"                <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total - object.amount_paid, object.currency_id) or ''\">$ 10.00</span>\n"
+" ödenmesi gerekmektedir.\n"
+"            </t>\n"
+"        </t>\n"
+"        <br><br>\n"
+"        Güveniniz için teşekkür ederiz!"
+"        <br>\n"
+"        Herhangi bir sorunuz olursa bizimle iletişime geçmekten çekinmeyin.\n"
+"        <t t-if=\"not is_html_empty(object.user_id.signature)\">\n"
+"            <br><br>\n"
+"            <t t-out=\"object.user_id.signature or ''\">--<br>Mitchell Admin</t>\n"
+"        </t>\n"
+"        <br><br>\n"
+"    </p>\n"
+"</div>\n"
+"            "
+
+
 
 #. module: sale
 #: model:mail.template,body_html:sale.mail_template_sale_confirmation
@@ -400,6 +441,32 @@ msgid ""
 "</t>\n"
 "</div>"
 msgstr ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"    <p style=\"margin: 0px; padding: 0px; font-size: 12px;\">\n"
+"        Merhaba, \n"
+"        <br><br>\n"
+"        <t t-set=\"tx_sudo\" t-value=\"object.get_portal_last_transaction()\"></t>\n"
+"        Siparişiniz <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">S00049</span> amount in <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 10.00</span>\n"
+"        <t t-if=\"object.state == 'sale' or (tx_sudo and tx_sudo.state in ('done', 'authorized'))\">\n"
+" teyit edilmiştir.<br>\n"
+"            Güveniniz için teşekkür ederiz! \n"
+"        </t>\n"
+"        <t t-elif=\"tx_sudo and tx_sudo.state == 'pending'\">\n"
+"beklemede. Ödeme alındığında onaylanacaktır.\n"
+"            <t t-if=\"object.reference\">\n"
+"                Ödeme referansınız <span style=\"font-weight:bold;\" t-out=\"object.reference or ''\"></span>.\n"
+"            </t>\n"
+"        </t>\n"
+"        <br><br>\n"
+"        Herhangi bir sorunuz olursa bizimle iletişime geçmekten çekinmeyin.\n"
+"        <t t-if=\"not is_html_empty(object.user_id.signature)\">\n"
+"            <br><br>\n"
+"            <t t-out=\"object.user_id.signature or ''\">--<br>Mitchell Admin</t>\n"
+"        </t>\n"
+"        <br><br>\n"
+"    </p>\n"
+"<t t-if=\"hasattr(object, 'website_id') and object.website_id\">\n"
+"    <div style=\"margin: 0px; padding: 0px;\">\n"
 
 #. module: sale
 #: model:mail.template,body_html:sale.email_template_edi_sale
@@ -458,6 +525,24 @@ msgid ""
 "</div>\n"
 "            "
 msgstr ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"        <t t-set=\"doc_name\" t-value=\"object.type_name\"></t>\n"
+"        Sevgili <t t-out=\"object.partner_id.name or ''\">user</t>,\n"
+"        <br><br>\n"
+"        Lütfen bilginiz olsun\n"
+"        <t t-out=\"doc_name or ''\">quotation</t> <strong t-out=\"object.name or ''\">S00052</strong>\n"
+"        <t t-if=\"object.origin\">\n"
+" (referans ile: <t t-out=\"object.origin or ''\">S00052</t> )\n"
+"        </t>\n"
+" iptal edilmiştir. Bu nedenle, bu sipariş için sizden daha fazla ücret talep edilmemelidir.\n"
+"        Herhangi bir geri ödeme yapılması gerekiyorsa, bu en uygun zamanda gerçekleştirilecektir.\n"
+"        <br><br>\n"
+"        Herhangi bir sorunuz olursa bizimle iletişime geçmekten çekinmeyin.\n"
+"        <br>\n"
+"    </p>\n"
+"</div>\n"
+"            "
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
@@ -1398,7 +1483,7 @@ msgstr "Oluşturma Tarihi"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_sale_advance_payment_inv
 msgid "Create Draft Invoice"
-msgstr ""
+msgstr "Taslak Fatura Oluştur"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__advance_payment_method
@@ -2081,7 +2166,7 @@ msgstr ""
 #: model:ir.model.fields.selection,name:sale.selection__sale_report__invoice_status__invoiced
 #: model_terms:ir.ui.view,arch_db:sale.view_order_product_search
 msgid "Fully Invoiced"
-msgstr "Tamamı Faturalanan"
+msgstr "Tam Faturalı"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_sales_order_filter
@@ -5131,7 +5216,7 @@ msgstr "%s için uyarı"
 #: code:addons/sale/models/sale_order.py:0
 #, python-format
 msgid "Warning for the change of your quotation's company"
-msgstr ""
+msgstr "Teklifinizin şirket değişikliği için uyarı"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_partner_view_buttons
@@ -5202,7 +5287,7 @@ msgstr ""
 #: code:addons/sale/models/sale_order.py:0
 #, python-format
 msgid "You cannot cancel a locked order. Please unlock it first."
-msgstr ""
+msgstr "Kilitli bir siparişi iptal edemezsiniz. Lütfen önce kilidi açın."
 
 #. module: sale
 #. odoo-python
@@ -5233,6 +5318,8 @@ msgid ""
 "You cannot set a negative number for the default quotation validity. Leave "
 "empty (or 0) to disable the automatic expiration of quotations."
 msgstr ""
+"Varsayılan teklif geçerliliği için negatif bir sayı belirleyemezsiniz. "
+"Kotasyonların otomatik olarak sona ermesini devre dışı bırakmak için boş (veya 0) bırakın."
 
 #. module: sale
 #: model_terms:ir.actions.act_window,help:sale.product_template_action
@@ -5246,12 +5333,12 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_orders
 msgid "Your Orders"
-msgstr ""
+msgstr "Siparişleriniz"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_content
 msgid "Your Reference:"
-msgstr ""
+msgstr "Referansınız:"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
@@ -5314,7 +5401,7 @@ msgstr "gün"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_sale_advance_payment_inv
 msgid "for this Sale Order."
-msgstr ""
+msgstr "bu Satış Emri için."
 
 #. module: sale
 #. odoo-python
@@ -5333,7 +5420,7 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
 msgid "units"
-msgstr ""
+msgstr "birimler"
 
 #. module: sale
 #: model:mail.template,subject:sale.mail_template_sale_confirmation
