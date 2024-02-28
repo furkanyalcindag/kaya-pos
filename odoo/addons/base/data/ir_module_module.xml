@@ -142,7 +142,7 @@
             <field name="website">https://www.odoo.com/app/quality?utm_source=db&amp;utm_medium=module</field>
         </record>
 
-        <record model="ir.module.module" id="base.module_sale_amazon">
+        <!--<record model="ir.module.module" id="base.module_sale_amazon">
             <field name="name">sale_amazon</field>
             <field name="shortdesc">Amazon Connector</field>
             <field name="sequence">320</field>
@@ -154,7 +154,7 @@
             <field name="to_buy" eval="True"/>
             <field name="icon">/base/static/img/icons/sale_amazon.png</field>
             <field name="website">https://www.odoo.com/app/amazon-connector?utm_source=db&amp;utm_medium=module</field>
-        </record>
+        </record>-->
 
         <record model="ir.module.module" id="base.module_sale_ebay">
             <field name="name">sale_ebay</field>

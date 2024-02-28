@@ -3868,7 +3868,7 @@ msgstr "gün"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "e.g. Cheese Burger"
-msgstr "e.g. Cheese Burger"
+msgstr "Örn. Vida"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_category_form_view
@@ -3878,7 +3878,7 @@ msgstr "Örn. Aydınlatma"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "e.g. Odoo Enterprise Subscription"
-msgstr "Örn. Odoo Kurumsal Abonelik"
+msgstr "Örn. Kolaysis Kurumsal Abonelik"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view

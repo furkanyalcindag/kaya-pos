@@ -59,7 +59,6 @@
                          ref('payment.payment_method_promptpay'),
                          ref('payment.payment_method_ratepay'),
                          ref('payment.payment_method_samsung_pay'),
-                         ref('payment.payment_method_sepa_direct_debit'),
                          ref('payment.payment_method_sofort'),
                          ref('payment.payment_method_swish'),
                          ref('payment.payment_method_touch_n_go'),
@@ -187,7 +186,6 @@
                          ref('payment.payment_method_paypal'),
                          ref('payment.payment_method_ideal'),
                          ref('payment.payment_method_afterpay_riverty'),
-                         ref('payment.payment_method_sepa_direct_debit'),
                          ref('payment.payment_method_alipay'),
                          ref('payment.payment_method_wechat_pay'),
                          ref('payment.payment_method_klarna'),
@@ -304,7 +302,7 @@
         />
     </record>
 
-    <record id="payment_provider_sepa_direct_debit" model="payment.provider">
+    <!--<record id="payment_provider_sepa_direct_debit" model="payment.provider">
         <field name="name">SEPA Direct Debit</field>
         <field name="sequence">20</field>
         <field name="image_128"
@@ -316,7 +314,7 @@
                      ref('payment.payment_method_sepa_direct_debit'),
                  ])]"
         />
-    </record>
+    </record>-->
 
     <record id="payment_provider_sips" model="payment.provider">
         <field name="name">Sips</field>
@@ -379,7 +377,6 @@
                          ref('payment.payment_method_pix'),
                          ref('payment.payment_method_promptpay'),
                          ref('payment.payment_method_revolut_pay'),
-                         ref('payment.payment_method_sepa_direct_debit'),
                          ref('payment.payment_method_sofort'),
                          ref('payment.payment_method_upi'),
                          ref('payment.payment_method_wechat_pay'),

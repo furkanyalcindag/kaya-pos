@@ -1,6 +1,6 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 r"""\
-Odoo HTTP layer / WSGI application
+Kolaysis HTTP layer / WSGI application
 
 The main duty of this module is to prepare and dispatch all http
 requests to their corresponding controllers: from a raw http request
@@ -46,7 +46,7 @@ Here be dragons:
 
 Application.__call__
   WSGI entry point, it sanitizes the request, it wraps it in a werkzeug
-  request and itself in an Odoo http request. The Odoo http request is
+  request and itself in an Kolaysis http request. The Kolaysis http request is
   exposed at ``http.request`` then it is forwarded to either
   ``_serve_static``, ``_serve_nodb`` or ``_serve_db`` depending on the
   request path and the presence of a database. It is also responsible of
@@ -247,12 +247,9 @@ JSON_MIMETYPES = ('application/json', 'application/json-rpc')
 MISSING_CSRF_WARNING = """\
 No CSRF validation token provided for path %r
 
-Odoo URLs are CSRF-protected by default (when accessed with unsafe
-HTTP methods). See
-https://www.odoo.com/documentation/17.0/developer/reference/addons/http.html#csrf
-for more details.
 
-* if this endpoint is accessed through Odoo via py-QWeb form, embed a CSRF
+
+* if this endpoint is accessed through Kolaysis via py-QWeb form, embed a CSRF
   token in the form, Tokens are available via `request.csrf_token()`
   can be provided through a hidden input and must be POST-ed named
   `csrf_token` e.g. in your form add:
@@ -622,25 +619,25 @@ class Controller:
     content over http and to be extended in child modules.
 
     Each class :ref:`inheriting <python:tut-inheritance>` from
-    :class:`~odoo.http.Controller` can use the :func:`~odoo.http.route`:
+    :class:`~Kolaysis.http.Controller` can use the :func:`~Kolaysis.http.route`:
     decorator to route matching incoming web requests to decorated
     methods.
 
     Like models, controllers can be extended by other modules. The
     extension mechanism is different because controllers can work in a
     database-free environment and therefore cannot use
-    :class:~odoo.api.Registry:.
+    :class:~Kolaysis.api.Registry:.
 
     To *override* a controller, :ref:`inherit <python:tut-inheritance>`
     from its class, override relevant methods and re-expose them with
-    :func:`~odoo.http.route`:. Please note that the decorators of all
+    :func:`~Kolaysis.http.route`:. Please note that the decorators of all
     methods are combined, if the overriding method’s decorator has no
     argument all previous ones will be kept, any provided argument will
     override previously defined ones.
 
     .. code-block:
 
-        class GreetingController(odoo.http.Controller):
+        class GreetingController(Kolaysis.http.Controller):
             @route('/greet', type='http', auth='public')
             def greeting(self):
                 return 'Hello'
@@ -669,7 +666,7 @@ def route(route=None, **routing):
     .. warning::
         It is mandatory to re-decorate any method that is overridden in
         controller extensions but the arguments can be omitted. See
-        :class:`~odoo.http.Controller` for more details.
+        :class:`~Kolaysis.http.Controller` for more details.
 
     :param Union[str, Iterable[str]] route: The paths that the decorated
         method is serving. Incoming HTTP request paths matching this
@@ -759,7 +756,7 @@ def _generate_routing_rules(modules, nodb_only, converters=None):
         """
         Create dummy controllers that inherit only from the controllers
         defined at the given ``modules`` (often system wide modules or
-        installed modules). Modules in this context are Odoo addons.
+        installed modules). Modules in this context are Kolaysis addons.
         """
         # Controllers defined outside of odoo addons are outside of the
         # controller inheritance/extension mechanism.
@@ -1061,7 +1058,7 @@ class GeoIP(collections.abc.Mapping):
     .. note:
 
         The geoip info the the current request are available at
-        :attr:`~odoo.http.request.geoip`.
+        :attr:`~Kolaysis.http.request.geoip`.
 
     .. code-block:
 
@@ -1970,7 +1967,7 @@ class JsonRPCDispatcher(Dispatcher):
                           # distinct from the HTTP status code. This
                           # code is ignored and the value 200 (while
                           # misleading) is totally arbitrary.
-            'message': "Odoo Server Error",
+            'message': "Kolaysis Server Error",
             'data': serialize_exception(exc),
         }
         if isinstance(exc, NotFound):
@@ -1978,7 +1975,7 @@ class JsonRPCDispatcher(Dispatcher):
             error['message'] = "404: Not Found"
         elif isinstance(exc, SessionExpiredException):
             error['code'] = 100
-            error['message'] = "Odoo Session Expired"
+            error['message'] = "Kolaysis Session Expired"
 
         return self._response(error=error)
 
@@ -1997,7 +1994,7 @@ class JsonRPCDispatcher(Dispatcher):
 # =========================================================
 
 class Application:
-    """ Odoo WSGI application """
+    """ Kolaysis WSGI application """
     # See also: https://www.python.org/dev/peps/pep-3333
 
     @lazy_property

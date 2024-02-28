@@ -90,7 +90,7 @@ msgstr "<b>Diğer girdi/çıktı hesaplarını ayarlayın </b>"
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_picking
 msgid "<span class=\"o_stat_text\">Valuation</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">Değerlendirme</span>"
 
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_account_report_invoice_document
@@ -193,7 +193,7 @@ msgstr "Otomatik"
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_res_config_settings__group_stock_accounting_automatic
 msgid "Automatic Stock Accounting"
-msgstr ""
+msgstr "Otomatik Stok Muhasebesi"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_product__avg_cost
@@ -262,7 +262,7 @@ msgstr "Değerlemeyi o tarihte almak için bir tarih seçin"
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_account_move_line__cogs_origin_id
 msgid "Cogs Origin"
-msgstr ""
+msgstr "Satılan Malların Maliyeti Köken"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__company_id
@@ -404,6 +404,8 @@ msgid ""
 "Due to a change of product category (from %s to %s), the costing method has "
 "changed for product template %s: from %s to %s."
 msgstr ""
+"Ürün kategorisindeki bir değişiklik nedeniyle (%s'den %s'ye), "
+"%s ürün şablonu için maliyetlendirme yöntemi değişti: %s'den %s'ye."
 
 #. module: stock_account
 #: model:ir.model.fields.selection,name:stock_account.selection__product_category__property_cost_method__fifo
@@ -435,7 +437,7 @@ msgstr "Gelen"
 #: model:ir.actions.act_window,name:stock_account.inventory_aging_action
 #: model:ir.ui.menu,name:stock_account.menu_inventory_aging
 msgid "Inventory Aging"
-msgstr ""
+msgstr "Envanter Yaşlanması"
 
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_stock_location
@@ -638,7 +640,7 @@ msgstr "Yeniden değerlemenin nedeni"
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__warehouse_id
 msgid "Receipt WH"
-msgstr ""
+msgstr "Depo makbuzu"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__reference
@@ -705,7 +707,7 @@ msgstr ""
 #. module: stock_account
 #: model:res.groups,name:stock_account.group_stock_accounting_automatic
 msgid "Stock Accounting Automatic"
-msgstr ""
+msgstr "Stok Muhasebesi Otomatik"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_category__property_stock_account_input_categ_id
@@ -872,7 +874,8 @@ msgid ""
 "The value of a stock valuation layer cannot be negative. Landed cost could "
 "be use to correct a specific transfer."
 msgstr ""
-
+"Bir stok değerleme katmanının değeri negatif olamaz. Arazi maliyeti belirli "
+"bir transferi düzeltmek için kullanılabilir."
 #. module: stock_account
 #: model_terms:ir.actions.act_window,help:stock_account.inventory_aging_action
 #: model_terms:ir.actions.act_window,help:stock_account.stock_valuation_layer_action
@@ -887,7 +890,7 @@ msgstr ""
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_tree
 msgid "Total Moved Quantity"
-msgstr ""
+msgstr "Toplam Taşınan Miktar"
 
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_valuation_layer_report_tree
@@ -1165,4 +1168,4 @@ msgstr "konumlar"
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.stock_account_report_invoice_document
 msgid "units"
-msgstr ""
+msgstr "birimler"
