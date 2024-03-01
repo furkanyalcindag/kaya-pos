@@ -1,8 +1,9 @@
 {
     'name': 'Version',
-    'author': "Comitfy",
+    'author': "Kolaysis",
     'category': '',
     'summary': 'Version Control',
+    'website': 'https://www.kolaysis.com',
     'version': '17.0.0.1.0',
     'depends': ['base'
                 ],

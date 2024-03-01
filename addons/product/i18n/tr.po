@@ -598,14 +598,14 @@ msgstr "Uygunluk"
 #: code:addons/product/static/src/product_catalog/kanban_controller.js:0
 #, python-format
 msgid "Back to Order"
-msgstr ""
+msgstr "Siparişe Geri Dön"
 
 #. module: product
 #. odoo-javascript
 #: code:addons/product/static/src/product_catalog/kanban_controller.js:0
 #, python-format
 msgid "Back to Quotation"
-msgstr ""
+msgstr "Fiyat Teklifine Geri Dön"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_packaging__barcode
@@ -1238,7 +1238,7 @@ msgstr "Dinamik"
 #: code:addons/product/models/product_template.py:0
 #, python-format
 msgid "E.G: product description, ebook, legal notice, ..."
-msgstr ""
+msgstr "Örn: ürün açıklaması, e-kitap, yasal uyarı, ..."
 
 #. module: product
 #: model:ir.model.constraint,message:product.constraint_product_template_attribute_value_attribute_value_unique
@@ -1248,7 +1248,7 @@ msgstr "Her değer, ürün nitelik başına yalnızca bir kez tanımlanmalıdır
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.report_packagingbarcode
 msgid "Eco-friendly Wooden Chair"
-msgstr ""
+msgstr "Çevre Dostu Ahşap Sandalye"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_document_kanban
@@ -3331,6 +3331,8 @@ msgid ""
 "Use this feature to store any files you would like to share with your "
 "customers."
 msgstr ""
+"Müşterilerinizle paylaşmak istediğiniz dosyaları saklamak için bu "
+"özelliği kullanın."
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_value__is_used_on_products

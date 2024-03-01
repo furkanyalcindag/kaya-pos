@@ -350,7 +350,7 @@ msgstr ""
 #. module: account
 #: model:account.payment.term,name:account.account_payment_term_30_days_end_month_the_10
 msgid "10 Days after End of Next Month"
-msgstr ""
+msgstr "Gelecek Ayın Sonundan 10 Gün Sonra"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_statement
@@ -5281,7 +5281,7 @@ msgstr "Varsayılan Hesap Türü"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Default Incoterm"
-msgstr ""
+msgstr "Varsayılan Teslimat Koşulu"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -9063,7 +9063,7 @@ msgstr "Ana Ek"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Main Currency"
-msgstr ""
+msgstr "Ana Para Birimi"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_report__commercial_partner_id

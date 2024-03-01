@@ -35,14 +35,14 @@ msgstr "Faturalanabilir Saatler"
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #, python-format
 msgid "Billable Rate"
-msgstr ""
+msgstr "Faturalandırılabilir Oran"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #, python-format
 msgid "Billable hours"
-msgstr ""
+msgstr "Faturalandırılabilir saatler"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
@@ -53,28 +53,28 @@ msgstr ""
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #, python-format
 msgid "Billable rate"
-msgstr ""
+msgstr "Faturalandırılabilir oran"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #, python-format
 msgid "Billed fixed price"
-msgstr ""
+msgstr "Faturalandırılmış sabit fiyat"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #, python-format
 msgid "Billed manually"
-msgstr ""
+msgstr "Manuel olarak faturalandırıldı"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #, python-format
 msgid "Billed timesheets"
-msgstr ""
+msgstr "Faturalandırılmış zaman çizelgeleri"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
@@ -105,7 +105,7 @@ msgstr "Personel"
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #, python-format
 msgid "Grand total"
-msgstr ""
+msgstr "Genel toplam"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
@@ -115,7 +115,7 @@ msgstr ""
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #, python-format
 msgid "Hours billed"
-msgstr ""
+msgstr "Faturalandırılan saatler"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
@@ -125,14 +125,14 @@ msgstr ""
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #, python-format
 msgid "Hours spent"
-msgstr ""
+msgstr "Harcanan saatler"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #, python-format
 msgid "KPI"
-msgstr ""
+msgstr "Temel Performans Göstergesi"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
@@ -146,7 +146,7 @@ msgstr "Faturalandırılamayan Saatler"
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #, python-format
 msgid "Non-billable hours"
-msgstr ""
+msgstr "Faturalandırılamayan saatler"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
@@ -184,7 +184,7 @@ msgstr "Görev"
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #, python-format
 msgid "Time Billed by Week"
-msgstr ""
+msgstr "Haftaya Göre Faturalandırılan Zaman"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #: model:spreadsheet.dashboard,name:spreadsheet_dashboard_sale_timesheet.spreadsheet_dashboard_timesheet
@@ -196,63 +196,63 @@ msgstr "Çalışma Çizelgeleri"
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #, python-format
 msgid "Timesheets Analysis by Department"
-msgstr ""
+msgstr "Departmana Göre Zaman Çizelgeleri Analizi"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #, python-format
 msgid "Timesheets Analysis by Employee"
-msgstr ""
+msgstr "Çalışana Göre Zaman Çizelgeleri Analizi"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #, python-format
 msgid "Timesheets Analysis by Project"
-msgstr ""
+msgstr "Projeye Göre Zaman Çizelgeleri Analizi"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #, python-format
 msgid "Timesheets Analysis by Task"
-msgstr ""
+msgstr "İşe Göre Zaman Çizelgeleri Analizi"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #, python-format
 msgid "Top Departments"
-msgstr ""
+msgstr "En İyi Departmanlar"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #, python-format
 msgid "Top Employees"
-msgstr ""
+msgstr "En İyi Çalışanlar"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #, python-format
 msgid "Top Projects"
-msgstr ""
+msgstr "En İyi Projeler"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #, python-format
 msgid "Top Tasks"
-msgstr ""
+msgstr "En Önemli Görevler"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #, python-format
 msgid "last period"
-msgstr ""
+msgstr "son dönem"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
@@ -260,18 +260,18 @@ msgstr ""
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #, python-format
 msgid "since last period"
-msgstr ""
+msgstr "son dönemden bu yana"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #, python-format
 msgid "stats - current"
-msgstr ""
+msgstr "i̇stati̇sti̇kler - güncel"
 
 #. module: spreadsheet_dashboard_sale_timesheet
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_sale_timesheet/data/files/timesheet_dashboard.json:0
 #, python-format
 msgid "stats - previous"
-msgstr ""
+msgstr "i̇stati̇sti̇kler - önceki̇"

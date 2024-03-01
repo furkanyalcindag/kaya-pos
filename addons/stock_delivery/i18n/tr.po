@@ -115,7 +115,7 @@ msgstr ""
 #. module: stock_delivery
 #: model:ir.model.fields,field_description:stock_delivery.field_stock_route__shipping_selectable
 msgid "Applicable on Shipping Methods"
-msgstr ""
+msgstr "Nakliye Yöntemlerinde Uygulanabilir"
 
 #. module: stock_delivery
 #: model:ir.model.fields,field_description:stock_delivery.field_stock_picking__weight_bulk
@@ -223,6 +223,8 @@ msgid ""
 "Estimated Cost: the customer will be invoiced the estimated cost of the shipping.\n"
 "Real Cost: the customer will be invoiced the real cost of the shipping, the cost of theshipping will be updated on the SO after the delivery."
 msgstr ""
+"Tahmini Maliyet: Müşteriye tahmini nakliye ücreti fatura edilecektir.\n"
+"Gerçek Maliyet: Müşteriye gerçek nakliye maliyeti fatura edilecektir, nakliye maliyeti teslimattan sonra SO'da güncellenecektir."
 
 #. module: stock_delivery
 #: model:ir.model.fields,field_description:stock_delivery.field_product_product__hs_code
