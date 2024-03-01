@@ -2470,7 +2470,7 @@ msgstr "Seri Numaraları Oluştur"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Generate a new BoM from this Manufacturing Order"
-msgstr ""
+msgstr "Bu Üretim Emrinden yeni bir Ürün Ağacı oluşturun"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__generated_mrp_lot_label_to_print
@@ -3157,12 +3157,12 @@ msgstr "MO Hazırlık"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "MO Ready"
-msgstr ""
+msgstr "Üretim Emri Hazır"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "MO Reference"
-msgstr ""
+msgstr "Üretim Emri Referansı"
 
 #. module: mrp
 #: model:ir.actions.client,name:mrp.mrp_reception_action
@@ -4285,7 +4285,7 @@ msgstr "Artık ürünler üretin"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
 msgid "Produce residual products (A + B -> C + D)"
-msgstr ""
+msgstr "Artık ürünlerin üretilmesi (A + B -> C + D)"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_warehouse__manufacture_steps
@@ -4293,6 +4293,8 @@ msgid ""
 "Produce: Move the components to the production location        directly and start the manufacturing process.\n"
 "Pick / Produce: Unload        the components from the Stock to Input location first, and then        transfer it to the Production location."
 msgstr ""
+"Üretin: Bileşenleri doğrudan üretim konumuna taşıyın ve üretim sürecini başlatın.\n"
+"Topla / Üret: Bileşenleri önce Stoktan Giriş konumuna boşaltın ve ardından Üretim konumuna aktarın."
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -4436,7 +4438,7 @@ msgstr "Ürün kapasitesi her iş merkezi için benzersiz olmalıdır."
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Product to build..."
-msgstr ""
+msgstr "Üretilecek ürün..."
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_picking_label_type__production_ids
@@ -4503,7 +4505,7 @@ msgstr "Üretim İş Merkezi"
 #: code:addons/mrp/static/src/mrp_forecasted/forecasted_details.xml:0
 #, python-format
 msgid "Production of Draft MO"
-msgstr "Taslak MO Üretimi"
+msgstr "Taslak Üretim Emri Üretimi"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_workorder_form_view_filter
@@ -5702,7 +5704,7 @@ msgstr "Üretilecek Miktardan Daha Fazla Seri Numarası var"
 msgid ""
 "There are no components to consume. Are you still sure you want to continue?"
 msgstr ""
-"Tüketilecek hiçbir bileşen yoktur. Hala devam etmek istediğinizden emin "
+"Tüketilecek hiçbir bileşen yok! Hala devam etmek istediğinizden emin "
 "misiniz?"
 
 #. module: mrp

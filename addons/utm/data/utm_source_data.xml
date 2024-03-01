@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <record model="utm.source" id="utm_source_search_engine">
-        <field name="name">Search engine</field>
+        <field name="name">Arama motoru</field>
     </record>
     <record model="utm.source" id="utm_source_mailing">
-        <field name="name">Lead Recall</field>
+        <field name="name">Potansiyel Müşteri Geri Çağırma</field>
     </record>
     <record model="utm.source" id="utm_source_newsletter">
-        <field name="name">Newsletter</field>
+        <field name="name">Haber Bülteni</field>
     </record>
     <record model="utm.source" id="utm_source_facebook">
         <field name="name">Facebook</field>
@@ -17,14 +17,5 @@
     </record>
     <record model="utm.source" id="utm_source_linkedin">
         <field name="name">LinkedIn</field>
-    </record>
-    <record model="utm.source" id="utm_source_monster">
-        <field name="name">Monster</field>
-    </record>
-    <record model="utm.source" id="utm_source_glassdoor">
-        <field name="name">Glassdoor</field>
-    </record>
-    <record model="utm.source" id="utm_source_craigslist">
-        <field name="name">Craigslist</field>
     </record>
 </odoo>

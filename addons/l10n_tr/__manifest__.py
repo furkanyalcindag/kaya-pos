@@ -1,7 +1,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Turkey - Accounting',
-    'website': 'https://www.odoo.com/documentation/17.0/applications/finance/fiscal_localizations.html',
+    'website': '',
     'icon': '/account/static/description/l10n.png',
     'countries': ['tr'],
     'version': '1.1',
@@ -14,7 +14,7 @@ Bu modül kurulduktan sonra, Muhasebe yapılandırma sihirbazı çalışır
     * Sihirbaz sizden hesap planı şablonu, planın kurulacağı şirket, banka hesap
       bilgileriniz, ilgili para birimi gibi bilgiler isteyecek.
     """,
-    'author': 'Odoo',
+    'author': 'Kolaysis',
     'depends': [
         'account',
     ],

@@ -38,7 +38,7 @@ class TestModuleManifest(BaseCase):
             'addons_path': self.addons_path,
             'application': False,
             'assets': {},
-            'author': 'Odoo S.A.',
+            'author': 'Kolaysis',
             'auto_install': False,
             'bootstrap': False,
             'category': 'Uncategorized',

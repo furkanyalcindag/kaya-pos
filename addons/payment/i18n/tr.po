@@ -390,7 +390,7 @@ msgstr "Uygunluk"
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_method_search
 msgid "Available methods"
-msgstr ""
+msgstr "Mevcut yöntemler"
 
 #. module: payment
 #. odoo-python
@@ -408,7 +408,7 @@ msgstr "Banka Adı"
 #: model:ir.model.fields,field_description:payment.field_payment_method__brand_ids
 #: model_terms:ir.ui.view,arch_db:payment.payment_method_form
 msgid "Brands"
-msgstr ""
+msgstr "Markalar"
 
 #. module: payment
 #: model:payment.provider,name:payment.payment_provider_buckaroo
@@ -1037,19 +1037,19 @@ msgstr ""
 #. module: payment
 #: model_terms:ir.actions.act_window,help:payment.action_payment_method
 msgid "No payment methods found for your payment providers."
-msgstr ""
+msgstr "Ödeme sağlayıcılarınız için herhangi bir ödeme yöntemi bulunamadı."
 
 #. module: payment
 #. odoo-python
 #: code:addons/payment/models/payment_token.py:0
 #, python-format
 msgid "No token can be assigned to the public partner."
-msgstr ""
+msgstr "Genel ortağa hiçbir belirteç atanamaz."
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__module_to_buy
 msgid "Odoo Enterprise Module"
-msgstr "Odoo Enterprise Modül"
+msgstr "Kolaysis İşletme Modül"
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_transaction__operation__offline
@@ -1064,7 +1064,7 @@ msgstr "Katılım Adımı"
 #. module: payment
 #: model:onboarding.onboarding.step,step_image_alt:payment.onboarding_onboarding_step_payment_provider
 msgid "Onboarding Step Image"
-msgstr ""
+msgstr "Katılım Adım Görüntüsü"
 
 #. module: payment
 #: model:onboarding.onboarding.step,title:payment.onboarding_onboarding_step_payment_provider
@@ -1127,7 +1127,7 @@ msgstr "Diğer"
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.form
 msgid "Other payment methods"
-msgstr ""
+msgstr "Diğer ödeme yöntemleri"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider_onboarding_wizard__paypal_pdt_token
@@ -2288,6 +2288,8 @@ msgid ""
 "to make this\n"
 "                    payment."
 msgstr ""
+"bu ödemeyi yapmak \n"
+" için."
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.transaction_status
