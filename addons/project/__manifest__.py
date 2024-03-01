@@ -4,7 +4,7 @@
 {
     'name': 'Project',
     'version': '1.3',
-    'website': 'https://www.odoo.com/app/project',
+    'website': 'https://www.kolaysis.com',
     'category': 'Services/Project',
     'sequence': 45,
     'summary': 'Organize and plan your projects',

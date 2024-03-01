@@ -9,7 +9,7 @@ Design gorgeous mails
     """,
     'version': '1.2',
     'sequence': 110,
-    'website': 'https://www.odoo.com/app/mailing',
+    'website': 'https://www.kolaysis.com',
     'category': 'Marketing/Email Marketing',
     'depends': [
         'mass_mailing',

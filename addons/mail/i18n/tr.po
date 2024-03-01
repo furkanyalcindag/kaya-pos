@@ -2440,14 +2440,14 @@ msgstr "Yeni bir hazır yanıt oluşturun"
 #: code:addons/mail/models/mail_thread.py:0
 #, python-format
 msgid "Create new %(document)s"
-msgstr "Create new %(document)s"
+msgstr "Yeni %(document)s oluşturun"
 
 #. module: mail
 #. odoo-python
 #: code:addons/mail/models/mail_thread.py:0
 #, python-format
 msgid "Create new %(document)s by sending an email to %(email_link)s"
-msgstr "Create new %(document)s by sending an email to %(email_link)s"
+msgstr "%(email_link)s bir e-posta göndererek yeni %(belge)ler oluşturun"
 
 #. module: mail
 #. odoo-javascript

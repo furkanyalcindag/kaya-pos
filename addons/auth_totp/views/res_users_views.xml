@@ -34,9 +34,7 @@
                                 class="fa fa-toggle-on o_auth_2fa_btn text-primary enabled" aria-label="Disable 2FA"></button>
                             </div>
                             <span invisible="totp_enabled" class="text-muted">
-                                Two-factor Authentication ("2FA") is a system of double authentication.
-                                The first one is done with your password and the second one with a code you get from a dedicated mobile app.
-                                Popular ones include Authy, Google Authenticator or the Microsoft Authenticator.
+                                İki Faktörlü Kimlik Doğrulama (2FA), çift kimlik doğrulama sistemidir. İlki şifrenizle, ikincisi ise özel bir mobil uygulamadan aldığınız bir kodla yapılır. Popüler olanlar arasında Authy, Google Authenticator veya Microsoft Authenticator bulunur.
                                 </span>
                                 <span invisible="not totp_enabled" class="text-muted">This account is protected!</span>
                             </div>
@@ -74,11 +72,7 @@
                             type="object" class="fa fa-toggle-on o_auth_2fa_btn text-primary" aria-label="Disable 2FA"/>
                     </div>
                     <span invisible="not totp_enabled" class="text-muted">Your account is protected!</span>
-                    <span invisible="totp_enabled" class="text-muted">
-                        Two-factor Authentication ("2FA") is a system of double authentication.
-                        The first one is done with your password and the second one with a code you get from a dedicated mobile app.
-                        Popular ones include Authy, Google Authenticator or the Microsoft Authenticator.
-                    </span>
+                    <span invisible="totp_enabled" class="text-muted">İki Faktörlü Kimlik Doğrulama (2FA), çift kimlik doğrulama sistemidir. İlki şifrenizle, ikincisi ise özel bir mobil uygulamadan aldığınız bir kodla yapılır. Popüler olanlar arasında Authy, Google Authenticator veya Microsoft Authenticator bulunur.</span>
                     <group name="auth_devices" string="Trusted Devices" invisible="not totp_trusted_device_ids">
                         <div colspan="2">
                             <field name="totp_trusted_device_ids" nolabel="1" colspan="4" readonly="1">

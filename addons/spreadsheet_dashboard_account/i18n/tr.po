@@ -34,7 +34,7 @@ msgstr " gün"
 #: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
 #, python-format
 msgid "# days"
-msgstr ""
+msgstr "# günler"
 
 #. module: spreadsheet_dashboard_account
 #. odoo-javascript
@@ -52,14 +52,14 @@ msgstr "Tutar"
 #: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
 #, python-format
 msgid "Average Invoice"
-msgstr ""
+msgstr "Ortalama Fatura"
 
 #. module: spreadsheet_dashboard_account
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
 #, python-format
 msgid "COGS"
-msgstr ""
+msgstr "Satılan malların maliyeti"
 
 #. module: spreadsheet_dashboard_account
 #. odoo-javascript
@@ -74,7 +74,7 @@ msgstr "Ülke"
 #: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
 #, python-format
 msgid "Current year"
-msgstr ""
+msgstr "Cari yıl"
 
 #. module: spreadsheet_dashboard_account
 #. odoo-javascript
@@ -88,7 +88,7 @@ msgstr "Müşteri"
 #: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
 #, python-format
 msgid "DSO"
-msgstr ""
+msgstr "Bekleyen satış günleri"
 
 #. module: spreadsheet_dashboard_account
 #. odoo-javascript
@@ -116,7 +116,7 @@ msgstr "Faturalanan"
 #: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
 #, python-format
 msgid "Invoiced by Month"
-msgstr ""
+msgstr "Aylara Göre Faturalandırılmış"
 
 #. module: spreadsheet_dashboard_account
 #. odoo-javascript
@@ -130,7 +130,7 @@ msgstr "Faturalar"
 #: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
 #, python-format
 msgid "Invoices by Total Signed"
-msgstr ""
+msgstr "İmzalanan Toplam Faturalara Göre"
 
 #. module: spreadsheet_dashboard_account
 #: model:spreadsheet.dashboard,name:spreadsheet_dashboard_account.dashboard_invoicing
@@ -143,14 +143,14 @@ msgstr "Faturalama"
 #: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
 #, python-format
 msgid "KPI - Average Invoice"
-msgstr ""
+msgstr "Temel Performans Göstergesi - Ortalama Fatura"
 
 #. module: spreadsheet_dashboard_account
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
 #, python-format
 msgid "KPI - DSO"
-msgstr ""
+msgstr "Temel Performans Göstergesi - Bekleyen satış günleri"
 
 #. module: spreadsheet_dashboard_account
 #. odoo-javascript
@@ -158,14 +158,14 @@ msgstr ""
 #: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
 #, python-format
 msgid "KPI - Income"
-msgstr ""
+msgstr "Temel Performans Göstergesi - Gelir"
 
 #. module: spreadsheet_dashboard_account
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
 #, python-format
 msgid "KPI - Invoice Count"
-msgstr ""
+msgstr "Temel Performans Göstergesi - Fatura Sayısı"
 
 #. module: spreadsheet_dashboard_account
 #. odoo-javascript
@@ -173,7 +173,7 @@ msgstr ""
 #: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
 #, python-format
 msgid "KPI - Unpaid Invoices"
-msgstr ""
+msgstr "Temel Performans Göstergesi - Ödenmemiş Faturalar "
 
 #. module: spreadsheet_dashboard_account
 #. odoo-javascript
@@ -251,7 +251,7 @@ msgstr "Durumu"
 #: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
 #, python-format
 msgid "Top Categories"
-msgstr ""
+msgstr "En Çok Satan Kategoriler"
 
 #. module: spreadsheet_dashboard_account
 #. odoo-javascript
@@ -259,14 +259,14 @@ msgstr ""
 #: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
 #, python-format
 msgid "Top Countries"
-msgstr ""
+msgstr "Başlıca Ülkeler"
 
 #. module: spreadsheet_dashboard_account
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
 #, python-format
 msgid "Top Invoices"
-msgstr ""
+msgstr "En Yüksek Faturalar"
 
 #. module: spreadsheet_dashboard_account
 #. odoo-javascript
@@ -274,7 +274,7 @@ msgstr ""
 #: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
 #, python-format
 msgid "Top Products"
-msgstr ""
+msgstr "En İyi Ürünler"
 
 #. module: spreadsheet_dashboard_account
 #. odoo-javascript
@@ -282,18 +282,22 @@ msgstr ""
 #: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
 #, python-format
 msgid "Top Salespeople"
-msgstr ""
+msgstr "En İyi Satış Elemanları"
 
 #. module: spreadsheet_dashboard_account
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
 #, python-format
 msgid "in current year"
-msgstr ""
+msgstr "cari yıl içinde"
 
 #. module: spreadsheet_dashboard_account
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_account/data/files/invoicing_dashboard.json:0
 #, python-format
 msgid "unpaid"
-msgstr ""
+msgstr "ödenmemiş"
+
+
+msgid "To reimburse"
+msgstr "Geri ödeme için"

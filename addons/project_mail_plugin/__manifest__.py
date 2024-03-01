@@ -11,7 +11,7 @@
     'data': [
         'views/project_task_views.xml'
     ],
-    'website': 'https://www.odoo.com/app/project',
+    'website': 'https://www.kolaysis.com',
     'depends': [
         'project',
         'mail_plugin',
