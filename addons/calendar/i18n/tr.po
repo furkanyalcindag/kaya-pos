@@ -507,7 +507,7 @@ msgstr "<span class=\"fa fa-plus\"/> <span>Kolaysis toplantısı</span>"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form_quick_create
 msgid "<span class=\"fa fa-times\"/><span> Clear meeting</span>"
-msgstr "<span class=\"fa fa-times\"/><span> Net Toplantı</span>"
+msgstr "<span class=\"fa fa-times\"/><span> Toplantı bağlantısını kaldır</span>"
 
 #. module: calendar
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form

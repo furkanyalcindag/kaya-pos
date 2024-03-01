@@ -16,33 +16,33 @@
         </record>
 
         <record id="onboarding_plan" model="mail.activity.plan">
-            <field name="name">Onboarding</field>
+            <field name="name">İşe Alım</field>
             <field name="res_model">hr.employee</field>
         </record>
 
         <record id="onboarding_setup_it_materials" model="mail.activity.plan.template">
             <field name="sequence">10</field>
-            <field name="summary">Setup IT Materials</field>
+            <field name="summary">BT Malzemelerini Kurun</field>
             <field name="responsible_type">manager</field>
             <field name="plan_id" ref="onboarding_plan"/>
         </record>
 
         <record id="onboarding_plan_training" model="mail.activity.plan.template">
             <field name="sequence">20</field>
-            <field name="summary">Plan Training</field>
+            <field name="summary">Eğitim Planı</field>
             <field name="responsible_type">manager</field>
             <field name="plan_id" ref="onboarding_plan"/>
         </record>
 
         <record id="onboarding_training" model="mail.activity.plan.template">
             <field name="sequence">30</field>
-            <field name="summary">Training</field>
+            <field name="summary">Eğitim</field>
             <field name="responsible_type">employee</field>
             <field name="plan_id" ref="onboarding_plan"/>
         </record>
 
         <record id="offboarding_plan" model="mail.activity.plan">
-            <field name="name">Offboarding</field>
+            <field name="name">İşten Çıkarma</field>
             <field name="res_model">hr.employee</field>
         </record>
 
@@ -55,7 +55,7 @@
 
         <record id="offboarding_take_back_hr_materials" model="mail.activity.plan.template">
             <field name="sequence">20</field>
-            <field name="summary">Take Back HR Materials</field>
+            <field name="summary">İK Materyallerini Geri Alın</field>
             <field name="responsible_type">manager</field>
             <field name="plan_id" ref="offboarding_plan"/>
         </record>
@@ -68,19 +68,19 @@
         <!-- Departure Reasons -->
         <record id="departure_fired" model="hr.departure.reason">
             <field name="sequence">0</field>
-            <field name="name">Fired</field>
+            <field name="name">Kovuldu</field>
             <field name="reason_code">342</field>
         </record>
 
         <record id="departure_resigned" model="hr.departure.reason">
             <field name="sequence">1</field>
-            <field name="name">Resigned</field>
+            <field name="name">İstifa etti</field>
             <field name="reason_code">343</field>
         </record>
 
         <record id="departure_retired" model="hr.departure.reason">
             <field name="sequence">2</field>
-            <field name="name">Retired</field>
+            <field name="name">Emekli</field>
             <field name="reason_code">340</field>
         </record>
 

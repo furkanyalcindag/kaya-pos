@@ -4143,14 +4143,14 @@ msgstr "Diller"
 #: code:addons/spreadsheet/static/src/helpers/constants.js:0
 #, python-format
 msgid "Last 180 Days"
-msgstr ""
+msgstr "Son 180 Gün"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/helpers/constants.js:0
 #, python-format
 msgid "Last 3 Years"
-msgstr ""
+msgstr "Son 3 Yıl"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -4178,7 +4178,7 @@ msgstr "Son 7 Gün"
 #: code:addons/spreadsheet/static/src/helpers/constants.js:0
 #, python-format
 msgid "Last 90 Days"
-msgstr ""
+msgstr "Son 90 Gün"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -5853,7 +5853,7 @@ msgstr "Hepsini Seç"
 #: code:addons/spreadsheet/static/src/global_filters/components/filter_value/filter_value.xml:0
 #, python-format
 msgid "Select period..."
-msgstr ""
+msgstr "Dönem seçiniz..."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11255,28 +11255,28 @@ msgstr "Belirli bir tarihe göre belirtilen yıl."
 #: code:addons/spreadsheet/static/src/helpers/constants.js:0
 #, python-format
 msgid "Year to Date"
-msgstr ""
+msgstr "Yıldan Bugüne"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "You can't create a filter over a range that contains a merge."
-msgstr ""
+msgstr "Birleştirme içeren bir aralık üzerinde filtre oluşturamazsınız."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "You can't merge cells inside of an existing filter."
-msgstr ""
+msgstr "Mevcut bir filtrenin içindeki hücreleri birleştiremezsiniz."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "You cannot create overlapping filters."
-msgstr ""
+msgstr "Üst üste binen filtreler oluşturamazsınız."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11313,7 +11313,7 @@ msgstr "[[FUNCTION_NAME]] aralığı dışı satır değeri %s değerlendirir."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "[[FUNCTION_NAME]] expects non-empty ranges for both parameters."
-msgstr ""
+msgstr "[[FUNCTION_NAME]] her iki parametre için de boş olmayan aralıklar bekler."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11343,6 +11343,7 @@ msgstr "[[FUNCTION_NAME]] %s ile %s arasında uyumsuz argüman sayısı var."
 msgid ""
 "[[FUNCTION_NAME]] has mismatched dimensions for argument %s (%s vs %s)."
 msgstr ""
+"[[FUNCTION_NAME]] %s bağımsız değişkeni için uyumsuz boyutlara sahip (%s vs %s)."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11368,7 +11369,7 @@ msgstr "[[FUNCTION_NAME]] geçerli giriş verisine sahip değil."
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "[[FUNCTION_NAME]] needs at least two values for both parameters"
-msgstr ""
+msgstr "[[FUNCTION_NAME]] her iki parametre için en az iki değere ihtiyaç duyar"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11383,7 +11384,7 @@ msgstr "ve"
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 #, python-format
 msgid "and value or formula"
-msgstr ""
+msgstr "ve değer veya formül"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11392,21 +11393,21 @@ msgstr ""
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 #, python-format
 msgid "as headers"
-msgstr ""
+msgstr "başlıklar olarak"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 #, python-format
 msgid "default:"
-msgstr ""
+msgstr "varsayılan:"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "exact date"
-msgstr ""
+msgstr "kesin tarih"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11414,7 +11415,7 @@ msgstr ""
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "in the past month"
-msgstr ""
+msgstr "geçtiğimiz ay içinde"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11422,7 +11423,7 @@ msgstr ""
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "in the past week"
-msgstr ""
+msgstr "geçtiğimiz hafta içinde"
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11430,84 +11431,84 @@ msgstr ""
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "in the past year"
-msgstr ""
+msgstr "geçtiğimiz yıl"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "lookup_range should be either a single row or single column."
-msgstr ""
+msgstr "lookup_range tek bir satır ya da tek bir sütun olmalıdır."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "matchMode should be a value in [-1, 0, 1]."
-msgstr ""
+msgstr "matchMode [-1, 0, 1] içinde bir değer olmalıdır."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 #, python-format
 msgid "more rows at the bottom"
-msgstr ""
+msgstr "altta daha fazla satır"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/pivot/pivot_functions.js:0
 #, python-format
 msgid "number of rows"
-msgstr ""
+msgstr "satır sayısı"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "one month ago"
-msgstr ""
+msgstr "bir ay önce"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "one week ago"
-msgstr ""
+msgstr "bir hafta önce"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "one year ago"
-msgstr ""
+msgstr "bir yıl önce"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.xml:0
 #, python-format
 msgid "repeatable"
-msgstr ""
+msgstr "tekrarlanabilir"
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "return_range should have the same dimensions as lookup_range."
-msgstr ""
+msgstr "return_range, lookup_range ile aynı boyutlara sahip olmalıdır."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "searchMode should be a value in [-1, 1, -2, 2]."
-msgstr ""
+msgstr "searchMode [-1, 1, -2, 2] arasında bir değer olmalıdır."
 
 #. module: spreadsheet
 #. odoo-javascript
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "start_date (%s) should be on or before end_date (%s)."
-msgstr ""
+msgstr "start_date (%s), end_date (%s) üzerinde veya öncesinde olmalıdır."
 
 #. module: spreadsheet
 #. odoo-javascript
@@ -11534,4 +11535,4 @@ msgstr "yarın"
 #: code:addons/spreadsheet/static/src/o_spreadsheet/o_spreadsheet.js:0
 #, python-format
 msgid "yesterday"
-msgstr ""
+msgstr "dün"

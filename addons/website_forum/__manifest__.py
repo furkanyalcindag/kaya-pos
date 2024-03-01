@@ -11,7 +11,7 @@
     'description': """
 Ask questions, get answers, no distractions
         """,
-    'website': 'https://www.odoo.com/app/forum',
+    'website': 'https://www.kolaysis.com',
     'depends': [
         'auth_signup',
         'website_mail',

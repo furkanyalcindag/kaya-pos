@@ -218,7 +218,7 @@ msgid ""
 "List of Products used in the BoM, used to filter the list of products in the"
 " subcontracting portal view"
 msgstr ""
-"Ürün Reçetesinde kullanılan Ürünlerin Listesi, alt yüklenici portalı görünümündeki "
+"Ürün ağacında kullanılan Ürünlerin Listesi, alt yüklenici portalı görünümündeki "
 "ürün listesini filtrelemek için kullanılır"
 
 #. module: mrp_subcontracting
