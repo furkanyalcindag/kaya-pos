@@ -21155,7 +21155,7 @@ msgstr "Kayıt"
 #: model_terms:ir.ui.view,arch_db:base.res_users_identitycheck_view_form_revokedevices
 #: model_terms:ir.ui.view,arch_db:base.view_users_form_simple_modif
 msgid "Log out from all devices"
-msgstr ""
+msgstr "Tüm cihazlardan çıkış yapın"
 
 #. module: base
 #. odoo-python
@@ -33981,6 +33981,8 @@ msgid ""
 "You are about to log out from all devices that currently have access to your account.<br/><br/>\n"
 "                        <strong>Type in your password to confirm :</strong>"
 msgstr ""
+"Şu anda hesabınıza erişimi olan tüm cihazlardan çıkış yapmak üzeresiniz.<br/><br/>\n"
+"                        <strong>Onaylamak için şifrenizi girin :</strong>"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_users_simple_form
