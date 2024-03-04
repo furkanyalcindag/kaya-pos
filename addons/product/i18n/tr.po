@@ -849,12 +849,8 @@ msgstr "Sarf Malzeme"
 #. odoo-python
 #: code:addons/product/models/product_template.py:0
 #, python-format
-msgid ""
-"Consumables are physical products for which you don't manage the inventory "
-"level: they are always available."
-msgstr ""
-"Sarf malzemeleri, envanter düzeyini yönetmediğiniz fiziksel ürünlerdir: her "
-"zaman kullanılabilirler."
+msgid "Consumables are physical products for which you don't manage the inventory level: they are always available."
+msgstr "Sarf malzemeleri, envanter düzeyini yönetmediğiniz fiziksel ürünlerdir: her zaman kullanılabilirler."
 
 #. module: product
 #: model:ir.model,name:product.model_res_partner
@@ -3854,7 +3850,7 @@ msgstr ""
 msgid ""
 "You must define a product for everything you sell or purchase,\n"
 "                            whether it's a storable product, a consumable or a service."
-msgstr
+msgstr ""
 "Sattığınız ya da satın aldığınız her şey için, ister depolanabilir bir ürün, ister bir tüketim maddesi \n"
 "ya da bir hizmet olsun, bir ürün tanımlamanız gerekir."
 
