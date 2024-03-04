@@ -549,7 +549,7 @@ msgstr "<span class=\"o_stat_text\">Tahsis</span>"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 msgid "<span class=\"o_stat_text\">Detailed Operations</span>"
-msgstr "<span class=\"o_stat_text\">Detaylı Operasyonlar</span>"
+msgstr "<span class=\"o_stat_text\">Ayrıntılı İşlemler</span>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.product_form_view_procurement_button
@@ -1033,7 +1033,7 @@ msgstr "Malların teslim edileceği adres. İsteğe bağlı."
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_stock_adjustments
 msgid "Adjustments"
-msgstr "Adjustments"
+msgstr "Ayarlamalar"
 
 #. module: stock
 #: model:res.groups,name:stock.group_stock_manager
@@ -2886,7 +2886,7 @@ msgstr "Hedef Rota"
 #: code:addons/stock/models/stock_picking.py:0
 #, python-format
 msgid "Detailed Operations"
-msgstr "Detaylı Operasyonlar"
+msgstr "Ayrıntılı İşlemler"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__show_details_visible
