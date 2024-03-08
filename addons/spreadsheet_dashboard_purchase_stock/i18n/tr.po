@@ -199,7 +199,7 @@ msgstr "Ürün Kategorisi"
 #. module: spreadsheet_dashboard_purchase_stock
 #: model:spreadsheet.dashboard,name:spreadsheet_dashboard_purchase_stock.spreadsheet_dashboard_purchase
 msgid "Purchase"
-msgstr "Satınalma"
+msgstr "Satın alma"
 
 #. module: spreadsheet_dashboard_purchase_stock
 #. odoo-javascript

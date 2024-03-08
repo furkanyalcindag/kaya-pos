@@ -263,7 +263,7 @@ msgid ""
 "company sells/buys to another of your company."
 msgstr ""
 "Bir şirketiniz, bir diğer grup şirketinize satış yaptığında veya ondan "
-"satınalma yaptığında; satış siparişleri ve satınalma siparişlerini otomatik "
+"Satın alma yaptığında; satış siparişleri ve Satın alma siparişlerini otomatik "
 "olarak oluşturacak şekilde şirket kurallarını yapılandırın."
 
 #. module: base_setup

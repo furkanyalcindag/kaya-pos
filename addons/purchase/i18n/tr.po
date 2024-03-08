@@ -296,7 +296,8 @@ msgid ""
 "<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')\">Request for Quotation </span>\n"
 "                        <span class=\"o_form_label\" invisible=\"state in ('draft', 'sent')\">Purchase Order </span>"
 msgstr ""
-
+"<span class=\"o_form_label\" invisible=\"state not in ('draft', 'sent')\">Fiyat Teklifi Talebi </span>\n"
+"                        <span class=\"o_form_label\" invisible=\"state in ('draft', 'sent')\"> Satın Alma Siparişi </span>"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.product_normal_form_view_inherit_purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_product_template_purchase_buttons_from
@@ -547,7 +548,7 @@ msgstr "Bir Bölüm Ekle"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Add several variants to the purchase order from a grid"
-msgstr "Bir tablodan satınalma siparişine birkaç varyant ekleyin"
+msgstr "Bir tablodan Satın alma siparişine birkaç varyant ekleyin"
 
 #. module: purchase
 #. odoo-javascript
@@ -619,7 +620,7 @@ msgid ""
 "Amount of time between date planned and order by date for each purchase "
 "order line."
 msgstr ""
-"Her bir satınalma siparişi satırı için planlanan tarih ile siparişe göre "
+"Her bir Satın alma siparişi satırı için planlanan tarih ile siparişe göre "
 "tarih arasındaki süre."
 
 #. module: purchase
@@ -932,7 +933,7 @@ msgstr "Geçen Yılki Onay Tarihi"
 #. module: purchase
 #: model:ir.model.fields.selection,name:purchase.selection__res_company__po_lock__lock
 msgid "Confirmed purchase orders are not editable"
-msgstr "Onaylanan satınalma siparişleri düzenlenemez"
+msgstr "Onaylanan Satın alma siparişleri düzenlenemez"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_res_partner
@@ -1088,7 +1089,7 @@ msgid ""
 "Depicts the date within which the Quotation should be confirmed and "
 "converted into a purchase order."
 msgstr ""
-"Teklifin onaylanması ve satınalma siparişine dönüştürülmesi gereken tarihi "
+"Teklifin onaylanması ve Satın alma siparişine dönüştürülmesi gereken tarihi "
 "gösterir."
 
 #. module: purchase
@@ -1306,7 +1307,7 @@ msgid ""
 "If installed, the product variants will be added to purchase orders through "
 "a grid entry."
 msgstr ""
-"Takılıysa, ürün varyantları bir tablo girişi yoluyla satınalma siparişlerine"
+"Takılıysa, ürün varyantları bir tablo girişi yoluyla Satın alma siparişlerine"
 " eklenir."
 
 #. module: purchase
@@ -1326,7 +1327,7 @@ msgstr "Ürünler İçe Aktarma Şablonu"
 #: code:addons/purchase/models/purchase_order.py:0
 #, python-format
 msgid "In order to delete a purchase order, you must cancel it first."
-msgstr "Bir satınalma siparişi silmek için, önce onu iptal etmeniz gerekir."
+msgstr "Bir Satın alma siparişi silmek için, önce onu iptal etmeniz gerekir."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__incoterm_id
@@ -1547,7 +1548,7 @@ msgstr " Çift doğrulama gerektiren minimum miktar"
 #. module: purchase
 #: model:ir.model.constraint,message:purchase.constraint_purchase_order_line_accountable_required_fields
 msgid "Missing required fields on accountable purchase order line."
-msgstr "Sorumlu satınalma siparişi satırında zorunlu alanlar eksik."
+msgstr "Sorumlu Satın alma siparişi satırında zorunlu alanlar eksik."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__my_activity_date_deadline
@@ -1744,7 +1745,7 @@ msgid ""
 "Once you get the price from the vendor, you can complete the purchase order "
 "with the right price."
 msgstr ""
-"Satıcıdan fiyatı aldıktan sonra doğru fiyat ile satınalma siparişini "
+"Satıcıdan fiyatı aldıktan sonra doğru fiyat ile Satın alma siparişini "
 "tamamlayabilirsiniz."
 
 #. module: purchase
@@ -2125,12 +2126,12 @@ msgstr "Satın Alma Uyarıları"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_search
 msgid "Purchase orders that have been invoiced."
-msgstr "Faturalanan satınalma siparişi."
+msgstr "Faturalanan Satın alma siparişi."
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_view_search
 msgid "Purchase orders that include lines not invoiced."
-msgstr "İçinde faturalanmamış kalemler içeren satınalma siparişleri"
+msgstr "İçinde faturalanmamış kalemler içeren Satın alma siparişleri"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
@@ -2145,7 +2146,7 @@ msgstr "Satın Alma hatırlatıcısı"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Purchase variants of a product using attributes (size, color, etc.)"
-msgstr "Ürünün varyant özellikleri (beden, renk vb.) kullanarak satınalma."
+msgstr "Ürünün varyant özellikleri (beden, renk vb.) kullanarak Satın alma."
 
 #. module: purchase
 #: model:mail.template,name:purchase.email_template_edi_purchase_done
@@ -2838,7 +2839,7 @@ msgstr ""
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_product_supplier_inherit
 msgid "This note is added to purchase orders."
-msgstr "Bu not satınalma siparişlerine eklenir."
+msgstr "Bu not Satın alma siparişlerine eklenir."
 
 #. module: purchase
 #. odoo-python
@@ -2849,7 +2850,7 @@ msgid ""
 "purchase %(quantity).2f %(unit)s."
 msgstr ""
 "Bu ürün %(pack_size).2f%(pack_name)s olarak paketlenmiştir. "
-"%(quantity).2f%(unit)s satınalmalısınız."
+"%(quantity).2f%(unit)s Satın almalısınız."
 
 #. module: purchase
 #. odoo-python
@@ -3115,7 +3116,7 @@ msgid ""
 "                    you receive from your vendor according to the draft\n"
 "                    document in Odoo."
 msgstr ""
-"Tedarikçi faturaları, satınalma siparişlerine veya alımlara dayanarak "
+"Tedarikçi faturaları, Satın alma siparişlerine veya alımlara dayanarak "
 "önceden oluşturulabilir. Bu, Odoo'daki taslak dokümana göre satıcınızdan "
 "aldığınız faturaları kontrol etmenizi sağlar."
 
@@ -3208,7 +3209,7 @@ msgid ""
 " dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
 msgstr ""
-"Bir satınalma siparişi oluştururken, tedarikçinin <i>Zamanında Teslimat</i> "
+"Bir Satın alma siparişi oluştururken, tedarikçinin <i>Zamanında Teslimat</i> "
 "oranına bir göz atın: zamanında sevk edilen ürünlerin yüzdesi çok düşükse, "
 "<i>otomatik hatırlatıcıları</i> etkinleştirin. Vadesi dolan sevkiyattan "
 "birkaç gün önce, Odoo tedarikçiye gönderi tarihlerinin onayını istemek için "

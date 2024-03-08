@@ -40,7 +40,7 @@ msgstr "# Satışta Faturalandı"
 #. module: product_margin
 #: model_terms:ir.ui.view,arch_db:product_margin.view_product_margin_tree
 msgid "# Purchased"
-msgstr "Satınalma Sayısı"
+msgstr "Satın alma Sayısı"
 
 #. module: product_margin
 #: model_terms:ir.ui.view,arch_db:product_margin.view_product_margin_form
@@ -60,7 +60,7 @@ msgstr "Ort. Tedarikçi Faturalarındaki Fiyat"
 #. module: product_margin
 #: model:ir.model.fields,field_description:product_margin.field_product_product__purchase_avg_price
 msgid "Avg. Purchase Unit Price"
-msgstr "Ort. Satınalma birim fiyatı"
+msgstr "Ort. Satın alma birim fiyatı"
 
 #. module: product_margin
 #: model:ir.model.fields,field_description:product_margin.field_product_product__sale_avg_price
@@ -241,7 +241,7 @@ msgstr "Alış Farkı"
 #. module: product_margin
 #: model_terms:ir.ui.view,arch_db:product_margin.view_product_margin_form
 msgid "Purchases"
-msgstr "Satınalma"
+msgstr "Satın alma"
 
 #. module: product_margin
 #: model_terms:ir.ui.view,arch_db:product_margin.view_product_margin_form

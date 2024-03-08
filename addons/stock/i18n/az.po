@@ -221,7 +221,7 @@ msgid ""
 msgstr ""
 "* Yeni: Ehtiyat hərəkəti yaradıldığı və hələ təsdiq edilmədiyi zaman.\n"
 "* Digər hərəkətin gözlənilməsi: Bu vəziyyəti hərəkət üçün başqa bir hərəkət gözləmək lazım gəldiyi halda, məsələn zəncirli axın zamanı, müşahidə etmək olar.\n"
-"* Mövcudluğun gözlənilməsi: Bu vəziyyət satınalma qərarı birbaşa olmadığı halda əldə olunur. Dispetçeri işə salmaq, tərkib hissəsini istehsal etmək lazım ola bilər...\n"
+"* Mövcudluğun gözlənilməsi: Bu vəziyyət Satın alma qərarı birbaşa olmadığı halda əldə olunur. Dispetçeri işə salmaq, tərkib hissəsini istehsal etmək lazım ola bilər...\n"
 "* Mövcuddur: Məhsullar rezerv edildikdə, onlar üçün 'Mövcuddur' yazısı təyin olunur.\n"
 "* Yerinə yetirilib: Göndəriş işləndiyi zaman vəziyyət 'Yerinə yetirilib' olaraq təyin olunur."
 
@@ -5592,7 +5592,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock.field_stock_picking__group_id
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__group_id
 msgid "Procurement Group"
-msgstr "Satınalma qrupu"
+msgstr "Satın alma qrupu"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.procurement_group_form_view
