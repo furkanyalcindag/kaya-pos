@@ -4,14 +4,31 @@
         <field name="model">machines</field>
         <field name="arch" type="xml">
             <tree multi_edit="1" create="1" edit="1" delete="1">
-                <field name="ip_address" />
-                <field name="name" />
-                <field name="place" />
-                <field name="port" />
-                <field name="serial_no" />
+                <field name="ip_address"/>
+                <field name="name"/>
+                <field name="place"/>
+                <field name="port"/>
+                <field name="serial_no"/>
             </tree>
         </field>
     </record>
+
+    <record id="machine_view_search" model="ir.ui.view">
+        <field name="name">Machine search</field>
+        <field name="model">machines</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="ip_address"/>
+                <field name="name"/>
+                <field name="place"/>
+                <field name="port"/>
+                <field name="serial_no"/>
+
+                <!-- <filter name="is_name" string="Makina adı ile" domain="[('name', '=', True)]" /> -->
+            </search>
+        </field>
+    </record>
+
 
     <record id="machine_action" model="ir.actions.act_window">
         <field name="name">Machine Action</field>
@@ -19,9 +36,9 @@
     </record>
 
     <menuitem
-          id="machines_ment_item"
-          name="Machines"
-          parent="machines_menu"
-          action="machine_action"
+            id="machines_ment_item"
+            name="Machines"
+            parent="machines_menu"
+            action="machine_action"
     />
 </odoo>

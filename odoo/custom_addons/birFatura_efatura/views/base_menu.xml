@@ -1,0 +1,22 @@
+<odoo>
+    <menuitem
+            id="birfatura_root_menu"
+            name="Bir Fatura E-Fatura"
+    />
+    <menuitem
+            id="birfatura_menu"
+            name="Bir Fatura E-Fatura"
+            parent="birfatura_root_menu"
+    />
+        <menuitem
+        id="birfatura_menu_config"
+        name="Yapılandırma"
+        parent="birfatura_root_menu"/>
+    <menuitem
+        id="birfatura_config_settings_menu"
+        name="Ayarlar"
+        parent="birfatura_menu_config"
+        groups="base.group_system"
+    />
+
+</odoo>
