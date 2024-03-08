@@ -5,11 +5,11 @@
 {
     'name': 'Manufacturing',
     'version': '2.0',
-    'website': 'https://www.odoo.com/app/manufacturing',
+    'website': 'https://www.kolaysis.com',
     'category': 'Manufacturing/Manufacturing',
     'sequence': 55,
     'summary': 'Manufacturing Orders & BOMs',
-    'depends': ['product', 'stock', 'resource'],
+    'depends': ['product', 'stock', 'resource', 'sale', 'hr'],
     'data': [
         'security/mrp_security.xml',
         'security/ir.model.access.csv',

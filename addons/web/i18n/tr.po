@@ -5931,19 +5931,17 @@ msgstr "Yalnızca okunur:"
 #: code:addons/web/static/src/core/confirmation_dialog/confirmation_dialog.js:0
 #, python-format
 msgid ""
-"Ready to make your record disappear into thin air? Are you sure?\n"
+"Ready to make your record disappear into thin air? Are you sure?\n\"
 "\n"
 "It will be gone forever!\n"
 "\n"
 "\n"
 "Think twice before you click that 'Delete' button!"
 msgstr ""
-"Kaydınızın buhar olup uçmasına hazır mısınız? Emin misin?\n"
 "\n"
 "Sonsuza dek yok olacak!\n"
 "\n"
 "\n"
-"O 'Sil' butonuna tıklamadan önce iki kez düşünün!\n"
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/debug/profiling/profiling_item.xml:0

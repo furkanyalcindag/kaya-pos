@@ -2440,14 +2440,14 @@ msgstr "Yeni bir hazır yanıt oluşturun"
 #: code:addons/mail/models/mail_thread.py:0
 #, python-format
 msgid "Create new %(document)s"
-msgstr "Create new %(document)s"
+msgstr "Yeni %(document)s oluşturun"
 
 #. module: mail
 #. odoo-python
 #: code:addons/mail/models/mail_thread.py:0
 #, python-format
 msgid "Create new %(document)s by sending an email to %(email_link)s"
-msgstr "Create new %(document)s by sending an email to %(email_link)s"
+msgstr "%(email_link)s bir e-posta göndererek yeni %(belge)ler oluşturun"
 
 #. module: mail
 #. odoo-javascript
@@ -11466,3 +11466,31 @@ msgstr "“%(member_name)s” bu kanalda “%(channel_name)s”"
 
 msgid "Want to spice up your conversations with GIFs? Activate the feature in the settings!"
 msgstr "Konuşmalarınızı GIF'lerle renklendirmek ister misiniz? Ayarlardan bu özelliği etkinleştirin!"
+
+#. module: mail
+#. odoo-javascript
+#: code:addons/mail/static/src/js/tours/mail.js:0
+#, python-format
+msgid "<p><b>Chat with coworkers</b> in real-time using direct messages.</p><p><i>You might need to invite users from the Settings app first.</i></p>"
+msgstr "<p><b>Doğrudan mesajları kullanarak iş arkadaşlarınızla</b> gerçek zamanlı sohbet edin.</p><p><i>Kullanıcıları önce Ayarlar uygulamasından davet etmeniz gerekebilir.</i></p>"
+
+#. module: mail
+#. odoo-javascript
+#: code:addons/mail/static/src/js/tours/mail.js:0
+#, python-format
+msgid "<p><b>Write a message</b> to the members of the channel here.</p> <p>You can notify someone with <i>'@'</i> or link another channel with <i>'#'</i>. Start your message with <i>'/'</i> to get the list of possible commands.</p>"
+msgstr "<p><b>Kanal üyelerine buradan bir mesaj</b> yazın.</p> <p>Birini <i>'@'</i> ile bilgilendirebilir veya <i>'#'</i> ile başka bir kanala bağlayabilirsiniz. Olası komutların listesini almak için mesajınıza <i>'/'</i> ile başlayın.</p>"
+
+#. module: mail
+#. odoo-javascript
+#: code:addons/mail/static/src/js/tours/mail.js:0
+#, python-format
+msgid "<p>Channels make it easy to organize information across different topics and groups.</p> <p>Try to <b>create your first channel</b> (e.g. sales, marketing, product XYZ, after work party, etc).</p>"
+msgstr "<p>Kanallar, farklı konular ve gruplar arasında bilgi düzenlemeyi kolaylaştırır.</p> <p>İlk kanalınızı <b>oluşturmaya çalışın</b> (örneğin satış, pazarlama, XYZ ürünü, iş sonrası parti vb.)</p>"
+
+#. module: mail
+#. odoo-javascript
+#: code:addons/mail/static/src/js/tours/mail.js:0
+#, python-format
+msgid "<p>Create a channel here.</p>"
+msgstr "<p>Buradan bir kanal oluşturun.</p>"

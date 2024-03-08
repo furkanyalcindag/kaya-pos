@@ -355,25 +355,15 @@ msgstr "İki Faktörlü Kimlik Doğrulama"
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_form
-msgid ""
-"Two-factor Authentication (\"2FA\") is a system of double authentication.\n"
-"                                The first one is done with your password and the second one with a code you get from a dedicated mobile app.\n"
-"                                Popular ones include Authy, Google Authenticator or the Microsoft Authenticator."
-msgstr ""
-"İki Faktörlü Kimlik Doğrulama (\"2FA\"), bir çift kimlik doğrulama sistemidir.\n"
-"                                Birincisi şifrenizle ve ikincisi özel bir mobil uygulamadan aldığınız bir kodla yapılır.\n"
-"                                Popüler olanlar arasında Authy, Google Authenticator veya Microsoft Authenticator bulunur."
+msgid "Two-factor Authentication (2FA) is a system of double authentication.The first one is done with your password and the second one with a code you get from a dedicated mobile app.Popular ones include Authy, Google Authenticator or the Microsoft Authenticator."
+
+msgstr "İki Faktörlü Kimlik Doğrulama (2FA), çift kimlik doğrulama sistemidir. İlki şifrenizle, ikincisi ise özel bir mobil uygulamadan aldığınız bir kodla yapılır. Popüler olanlar arasında Authy, Google Authenticator veya Microsoft Authenticator bulunur."
 
 #. module: auth_totp
 #: model_terms:ir.ui.view,arch_db:auth_totp.view_totp_field
-msgid ""
-"Two-factor Authentication (\"2FA\") is a system of double authentication.\n"
-"                        The first one is done with your password and the second one with a code you get from a dedicated mobile app.\n"
-"                        Popular ones include Authy, Google Authenticator or the Microsoft Authenticator."
-msgstr ""
-"İki Faktörlü Kimlik Doğrulama (\"2FA\"), bir çift kimlik doğrulama sistemidir.\n"
-"                            Birincisi şifrenizle ve ikincisi özel bir mobil uygulamadan aldığınız bir kodla yapılır.\n"
-"                            Popüler olanlar arasında Authy, Google Authenticator veya Microsoft Authenticator bulunur."
+msgid "Two-factor Authentication (2FA) is a system of double authentication.The first one is done with your password and the second one with a code you get from a dedicated mobile app.Popular ones include Authy, Google Authenticator or the Microsoft Authenticator."
+
+msgstr "İki Faktörlü Kimlik Doğrulama (2FA), çift kimlik doğrulama sistemidir. İlki şifrenizle, ikincisi ise özel bir mobil uygulamadan aldığınız bir kodla yapılır. Popüler olanlar arasında Authy, Google Authenticator veya Microsoft Authenticator bulunur."
 
 #. module: auth_totp
 #: model:ir.model.fields,field_description:auth_totp.field_res_users__totp_enabled

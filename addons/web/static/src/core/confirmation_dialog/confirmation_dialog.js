@@ -7,9 +7,9 @@ import { useChildRef } from "@web/core/utils/hooks";
 import { Component } from "@odoo/owl";
 
 export const deleteConfirmationMessage = _t(
-    "Ready to make your record disappear into thin air? Are you sure?\n\
-It will be gone forever!\n\n\
-Think twice before you click that 'Delete' button!"
+    "Bu kaydı silmek istediğinize emin misiniz?\n\
+Kayıt sonsuza dek yok olacak!\n\n\
+'Sil' düğmesine tıklamadan önce iki kez düşünün!"
 );
 
 export class ConfirmationDialog extends Component {

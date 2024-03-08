@@ -57,6 +57,8 @@
                     <field name="date_finished" optional="hide" widget="remaining_days"/>
                     <field name="date_deadline" widget="remaining_days" invisible="state in ['done', 'cancel']" optional="hide"/>
                     <field name="product_id" readonly="1" optional="show"/>
+                    <field name="sale_order_id" optional="show"/>
+                    <field name="gkk_no" optional="show"/>
                     <field name="lot_producing_id" optional="hide"/>
                     <field name="bom_id" readonly="1" optional="hide"/>
                     <field name="activity_ids" string="Next Activity" widget="list_activity" optional="show"/>
@@ -284,6 +286,8 @@
                                     title="Note that another version of this BOM is available." class="text-danger"
                                     invisible="not is_outdated_bom or state not in ['draft', 'confirmed']"/>
                             </div>
+                            <field name="sale_order_id" readonly="state != 'draft'"/>
+                            <field name="sale_order_partner_id" readonly="state != 'draft'"/>
                             <label for="lot_producing_id" invisible="state == 'draft' or product_tracking in ('none', False)"/>
                             <div class="o_row" invisible="state == 'draft' or product_tracking in ('none', False)">
                                 <field name="lot_producing_id"
@@ -310,6 +314,7 @@
                                 decoration-warning="reservation_state != 'assigned' and components_availability_state in ('expected', 'available')"
                                 decoration-danger="reservation_state != 'assigned' and components_availability_state in ('late', 'unavailable')"/>
                             <field name="user_id" widget="many2one_avatar" readonly="state in ['cancel', 'done']"/>
+                            <field name="gkk_no" readonly="state != 'draft'"/>
                             <field name="show_final_lots" invisible="1"/>
                             <field name="production_location_id" invisible="1" readonly="1"/>
                             <field name="move_finished_ids" invisible="1" readonly="state == 'cancel' or (state == 'done' and is_locked)">

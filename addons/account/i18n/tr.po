@@ -350,7 +350,7 @@ msgstr ""
 #. module: account
 #: model:account.payment.term,name:account.account_payment_term_30_days_end_month_the_10
 msgid "10 Days after End of Next Month"
-msgstr ""
+msgstr "Gelecek Ayın Sonundan 10 Gün Sonra"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_statement
@@ -3520,7 +3520,7 @@ msgstr "İptal Edilen Fatura"
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Cannot create a purchase document in a non purchase journal"
-msgstr "Satınalma yevmiyesi olmadığında satın alma belgesi oluşturulamıyor"
+msgstr "Satın alma yevmiyesi olmadığında satın alma belgesi oluşturulamıyor"
 
 #. module: account
 #. odoo-python
@@ -5281,7 +5281,7 @@ msgstr "Varsayılan Hesap Türü"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Default Incoterm"
-msgstr ""
+msgstr "Varsayılan Teslimat Koşulu"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -5302,7 +5302,7 @@ msgstr "Varsayılan POS Alacak Hesabı"
 #: model:ir.model.fields,field_description:account.field_res_company__account_purchase_tax_id
 #: model:ir.model.fields,field_description:account.field_res_config_settings__purchase_tax_id
 msgid "Default Purchase Tax"
-msgstr "Varsayılan Satınalma Vergisi"
+msgstr "Varsayılan Satın alma Vergisi"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company__account_sale_tax_id
@@ -9063,7 +9063,7 @@ msgstr "Ana Ek"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Main Currency"
-msgstr ""
+msgstr "Ana Para Birimi"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_report__commercial_partner_id
@@ -11375,14 +11375,14 @@ msgstr "Kar Hesabı"
 #: model:ir.model.fields.selection,name:account.selection__account_journal__type__purchase
 #: model_terms:ir.ui.view,arch_db:account.view_account_tax_search
 msgid "Purchase"
-msgstr "Satınalma"
+msgstr "Satın alma"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__group_show_purchase_receipts
 #: model:ir.model.fields.selection,name:account.selection__account_move__move_type__in_receipt
 #: model:res.groups,name:account.group_purchase_receipts
 msgid "Purchase Receipt"
-msgstr "Satınalma Makbuzu"
+msgstr "Satın alma Makbuzu"
 
 #. module: account
 #. odoo-python
@@ -11394,12 +11394,12 @@ msgstr "Satın Alma Makbuzu Oluşturuldu"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.portal_invoice_page
 msgid "Purchase Representative"
-msgstr "Satınalma Temsilcisi"
+msgstr "Satın alma Temsilcisi"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Purchase Tax"
-msgstr "Satınalma Vergisi"
+msgstr "Satın alma Vergisi"
 
 #. module: account
 #: model:account.account,name:account.1_expense_invest
@@ -11414,7 +11414,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_line_payment_filter
 msgid "Purchases"
-msgstr "Satınalma"
+msgstr "Satın alma"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -12350,7 +12350,7 @@ msgid ""
 "Select 'General' for miscellaneous operations journals."
 msgstr ""
 "Müşteri faturaları yevmiyesi için 'Satış' seçeneğini seçin.\n"
-"Tedarikçi fatura yevmiyeleri için 'Satınalma' seçeneğini seçin.\n"
+"Tedarikçi fatura yevmiyeleri için 'Satın alma' seçeneğini seçin.\n"
 "Müşteri veya tedarikçi ödemelerinde kullanılan yevmiyeler için \"Nakit\" veya \"Banka\" seçeneğini seçin.\n"
 "Muhtelif işlem yevmiyeleri için 'Genel' seçeneğini seçin."
 
@@ -16196,7 +16196,7 @@ msgid ""
 "When the purchase receipt is confirmed, you can record the\n"
 "                vendor payment related to this purchase receipt."
 msgstr ""
-"Satınalma makbuzu onaylandığında, bu satınalma makbuzu ile\n"
+"Satın alma makbuzu onaylandığında, bu satınalma makbuzu ile\n"
 "ilgili satıcı ödemesini kaydedebilirsiniz."
 
 #. module: account

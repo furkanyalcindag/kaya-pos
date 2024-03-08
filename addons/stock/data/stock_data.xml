@@ -83,7 +83,7 @@
         <!-- Resource: stock.warehouse -->
         <record id="warehouse0" model="stock.warehouse">
             <field name="partner_id" ref="base.main_partner"/>
-            <field name="code">WH</field>
+            <field name="code">DEPO</field>
         </record>
 
         <!-- create xml ids for demo data that are widely used in tests or in other codes, for more convenience -->

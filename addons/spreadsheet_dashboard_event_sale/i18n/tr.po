@@ -224,7 +224,7 @@ msgstr ""
 #: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
 #, python-format
 msgid "events - previous"
-msgstr ""
+msgstr "etkinlikler - önceki"
 
 #. module: spreadsheet_dashboard_event_sale
 #. odoo-javascript
@@ -233,18 +233,18 @@ msgstr ""
 #: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
 #, python-format
 msgid "since last period"
-msgstr ""
+msgstr "son dönemden bu yana"
 
 #. module: spreadsheet_dashboard_event_sale
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
 #, python-format
 msgid "untaxed revenue - current"
-msgstr ""
+msgstr "vergilendirilmemiş gelir - güncel"
 
 #. module: spreadsheet_dashboard_event_sale
 #. odoo-javascript
 #: code:addons/spreadsheet_dashboard_event_sale/data/files/events_dashboard.json:0
 #, python-format
 msgid "untaxed revenue - previous"
-msgstr ""
+msgstr "vergilendirilmemiş gelir - önceki"
