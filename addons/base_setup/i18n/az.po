@@ -205,7 +205,7 @@ msgstr "Sənəd Tərtibatını Konfiqurasiya edin"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Configure company rules to automatically create SO/PO when one of your company sells/buys to another of your company."
-msgstr "Şirkətinizdən biri digəri ilə alqı-satqı etdikdə avtomatik olaraq Satış Sifarişi və ya Satınalma Sifarişini tərtib etmək üçün şirkət qaydalarını konfiqurasiya edin."
+msgstr "Şirkətinizdən biri digəri ilə alqı-satqı etdikdə avtomatik olaraq Satış Sifarişi və ya Satın alma Sifarişini tərtib etmək üçün şirkət qaydalarını konfiqurasiya edin."
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form

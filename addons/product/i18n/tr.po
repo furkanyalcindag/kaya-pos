@@ -1053,7 +1053,7 @@ msgid ""
 "Default unit of measure used for purchase orders. It must be in the same "
 "category as the default unit of measure."
 msgstr ""
-"Satınalma siparişleri için kullanılan varsayılan ölçü birimi. Varsayılan "
+"Satın alma siparişleri için kullanılan varsayılan ölçü birimi. Varsayılan "
 "ölçü birimiyle aynı kategoride olmalıdır."
 
 #. module: product
@@ -1781,8 +1781,8 @@ msgid ""
 "receipt of the products in your warehouse. Used by the scheduler for "
 "automatic computation of the purchase order planning."
 msgstr ""
-"Satınalma siparişi ve ürünlerin deponuza girişi arasındaki hazırlık süresi "
-"(gün olarak). Sistem tarafından satınalma siparişi planlamasının otomatik "
+"Satın alma siparişi ve ürünlerin deponuza girişi arasındaki hazırlık süresi "
+"(gün olarak). Sistem tarafından Satın alma siparişi planlamasının otomatik "
 "hesaplanmasında kullanılır."
 
 #. module: product
@@ -2654,19 +2654,19 @@ msgstr "Özellikler"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Purchase"
-msgstr "Satınalma"
+msgstr "Satın alma"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__description_purchase
 #: model:ir.model.fields,field_description:product.field_product_template__description_purchase
 msgid "Purchase Description"
-msgstr "Satınalma Açıklaması"
+msgstr "Satın alma Açıklaması"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__uom_po_id
 #: model:ir.model.fields,field_description:product.field_product_template__uom_po_id
 msgid "Purchase UoM"
-msgstr "Satınalma Ölçü Birimi"
+msgstr "Satın alma Ölçü Birimi"
 
 #. module: product
 #. odoo-javascript
@@ -2831,7 +2831,7 @@ msgstr "Satış Fiyatı"
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_attribute__display_type__select
 msgid "Select"
-msgstr "Seçmeli"
+msgstr "Seçiniz"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__sequence

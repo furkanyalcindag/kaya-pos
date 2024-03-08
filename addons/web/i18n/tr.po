@@ -6432,7 +6432,7 @@ msgstr "Örneklere bakın"
 #: code:addons/web/static/src/views/view_dialogs/select_create_dialog.xml:0
 #, python-format
 msgid "Select"
-msgstr "Seçmeli"
+msgstr "Seçiniz"
 
 #. module: web
 #. odoo-javascript

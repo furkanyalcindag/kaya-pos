@@ -1349,7 +1349,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"        Bu modul satınalma sifarişlərini tez bir zamanda doldurmağa imkan verir\n"
+"        Bu modul Satın alma sifarişlərini tez bir zamanda doldurmağa imkan verir\n"
 "        Şəbəkə Girişi vasitəsilə məhsul variantları kəmiyyəti seçmək.\n"
 "    "
 
@@ -1561,7 +1561,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"       Şəbəkə Sifarişi vasitəsilə satınalma sifarişləri üçün variantlar əlavə et.\n"
+"       Şəbəkə Sifarişi vasitəsilə Satın alma sifarişləri üçün variantlar əlavə et.\n"
 "    "
 
 #. module: base
@@ -2686,7 +2686,7 @@ msgid ""
 "The wizard to launch the report has several options to help you get the data you need.\n"
 msgstr ""
 "\n"
-"Faktura əsasında məhsullar üzrə satış, satınalma, marjalar və digər maraqlı göstəriciləri hesablayan hesabat menyusu əlavə edir.\n"
+"Faktura əsasında məhsullar üzrə satış, Satın alma, marjalar və digər maraqlı göstəriciləri hesablayan hesabat menyusu əlavə edir.\n"
 "=============================================================================================================================\n"
 "\n"
 "Hesabat başlatma sehrbazı sizə lazım olan məlumatları əldə etməyə kömək etmək üçün bir neçə varianta malikdir.\n"
@@ -2891,7 +2891,7 @@ msgid ""
 msgstr ""
 "\n"
 "Üçüncü tərəfin xidmətlərindən istifadəyə imkan verir. Bu modul kənar təchizatçı tərəfindən təmin olunan xidmətləri satmağa və\n"
-" xidmət satıcılarına yönləndirilmiş satınalma sifarişlərinin avtomatik yaradılmasına imkan verir.\n"
+" xidmət satıcılarına yönləndirilmiş Satın alma sifarişlərinin avtomatik yaradılmasına imkan verir.\n"
 "    "
 
 #. module: base
@@ -5385,7 +5385,7 @@ msgstr ""
 "\n"
 "Bu modul Birbaşa Çatdırılma əməliyyatının əvvəlcədən hazırlanmış növünü,\n"
 " eləcə də məhsulların və \n"
-"Birbaşa çatdırılan sifarişlərinin konfiqurasiya etməyə imkan verən satınalma marşrutunu əlavə edir.\n"
+"Birbaşa çatdırılan sifarişlərinin konfiqurasiya etməyə imkan verən Satın alma marşrutunu əlavə edir.\n"
 "\n"
 "Birbaşa çatdırılma istifadə edərkən, \n"
 "mallar pərakəndə satıcının anbarından keçmədən \n"
@@ -8335,7 +8335,7 @@ msgstr ""
 "Bu modul istifadəçiyə eyni vaxtda mrp quraşdırmaq və modullar almaq imkanı verir.\n"
 "========================================================================================\n"
 "\n"
-"Əsasən satınalma sifarişindən yaranan istehsal sifarişlərini \n"
+"Əsasən Satın alma sifarişindən yaranan istehsal sifarişlərini \n"
 "izləmək istədiyimiz zaman istifadə olunur.\n"
 "    "
 
@@ -10620,7 +10620,7 @@ msgstr "Hesab Qaiməsi Çıxarışı"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_invoice_extract_purchase
 msgid "Account Invoice Extract Purchase"
-msgstr "Qaimə Çıxarış Satınalma Hesabı"
+msgstr "Qaimə Çıxarış Satın alma Hesabı"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner_bank__acc_number
@@ -11381,7 +11381,7 @@ msgstr "Qabaqcıl Tədbirlər"
 #. module: base
 #: model:ir.module.module,summary:base.module_purchase_enterprise
 msgid "Advanced Features for Purchase Management"
-msgstr "Satınalmanın İdarəolunması üçün qabaqcıl xüsusiyyətlər"
+msgstr "Satın almanın İdarəolunması üçün qabaqcıl xüsusiyyətlər"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.act_report_xml_view
@@ -12237,7 +12237,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,summary:base.module_account_invoice_extract_purchase
 msgid "Automatically finds the purchase order linked to a vendor bill when using invoice extraction"
-msgstr "Faktura çıxarışından istifadə edərkən bir podratçı fakturası ilə əlaqəli satınalma sifarişini avtomatik olaraq tapır"
+msgstr "Faktura çıxarışından istifadə edərkən bir podratçı fakturası ilə əlaqəli Satın alma sifarişini avtomatik olaraq tapır"
 
 #. module: base
 #: model:ir.ui.menu,name:base.menu_automation
@@ -12627,7 +12627,7 @@ msgstr "Keyfiyyət üçün Əsas Xüsusiyyət"
 #. module: base
 #: model:ir.module.module,summary:base.module_iap
 msgid "Basic models and helpers to support In-App purchases."
-msgstr "Tətbiqdaxili satınalmaları dəstəkləyən əsas modellər və köməkçilər."
+msgstr "Tətbiqdaxili Satın almaları dəstəkləyən əsas modellər və köməkçilər."
 
 #. module: base
 #: model:ir.module.module,summary:base.module_iot
@@ -17855,7 +17855,7 @@ msgstr "GTS Satış məntəqəsi"
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_in_purchase
 msgid "GST Purchase Report"
-msgstr "GST Satınalma hesabatı"
+msgstr "GST Satın alma hesabatı"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_in_sale
@@ -19304,7 +19304,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_iap
 msgid "In-App Purchases"
-msgstr "Tətbiq Daxilində Satınalmalar"
+msgstr "Tətbiq Daxilində Satın almalar"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_currency_search
@@ -19360,7 +19360,7 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_in_purchase_stock
 msgid "India Purchase and Warehouse Management"
-msgstr "Hindistan Satınalma və Anbar İdarəetməsi"
+msgstr "Hindistan Satın alma və Anbar İdarəetməsi"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_in_sale_stock
@@ -19405,7 +19405,7 @@ msgstr "Hindistan - Satış Nöqtəsi"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_in_purchase
 msgid "Indian - Purchase Report(GST)"
-msgstr "Hindistan - Satınalma Hesabatı (GST)"
+msgstr "Hindistan - Satın alma Hesabatı (GST)"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_in_sale
@@ -19646,7 +19646,7 @@ msgstr ""
 #: model:ir.module.module,shortdesc:base.module_account_inter_company_rules
 #: model:ir.module.module,shortdesc:base.module_sale_purchase_inter_company_rules
 msgid "Inter Company Module for Sale/Purchase Orders and Invoices"
-msgstr "Satış/ Satınalma Sifarişləri və Fakturalar üçün Şirkətdaxili Modullar"
+msgstr "Satış/ Satın alma Sifarişləri və Fakturalar üçün Şirkətdaxili Modullar"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_sale_service
@@ -25930,7 +25930,7 @@ msgstr "Satın alın"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_requisition
 msgid "Purchase Agreements"
-msgstr "Satınalma Razılaşması"
+msgstr "Satın alma Razılaşması"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_intrastat
@@ -25940,12 +25940,12 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_product_matrix
 msgid "Purchase Matrix"
-msgstr "Satınalma Matris"
+msgstr "Satın alma Matris"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_purchase_stock
 msgid "Purchase Orders, Receipts, Vendor Bills for Stock"
-msgstr "Satınalma sifarişləri, Qəbzlər, Ehtiyat üzrə Satıcı Hesabları"
+msgstr "Satın alma sifarişləri, Qəbzlər, Ehtiyat üzrə Satıcı Hesabları"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_requisition_sale
@@ -25955,17 +25955,17 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_requisition_stock
 msgid "Purchase Requisition Stock"
-msgstr "Satınalma Sorğusu Ehtiyatı"
+msgstr "Satın alma Sorğusu Ehtiyatı"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_stock
 msgid "Purchase Stock"
-msgstr "Satınalma Ehtiyatı"
+msgstr "Satın alma Ehtiyatı"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_mrp
 msgid "Purchase and MRP Management"
-msgstr "Satınalma və MTP Menecmenti"
+msgstr "Satın alma və MTP Menecmenti"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mrp_subcontracting_purchase
@@ -25975,12 +25975,12 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_enterprise
 msgid "Purchase enterprise"
-msgstr "Satınalma müəssisəsi"
+msgstr "Satın alma müəssisəsi"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_purchase
 msgid "Purchase orders, tenders and agreements"
-msgstr "Satınalma sifarişləri, tenderlər və razılaşmalar"
+msgstr "Satın alma sifarişləri, tenderlər və razılaşmalar"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_event_track_social

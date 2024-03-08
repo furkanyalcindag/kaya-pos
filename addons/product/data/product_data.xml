@@ -2,15 +2,15 @@
 <odoo>
     <data noupdate="1">
         <record id="product_category_all" model="product.category">
-            <field name="name">All</field>
+            <field name="name">Hepsi</field>
         </record>
         <record id="product_category_1" model="product.category">
             <field name="parent_id" ref="product_category_all"/>
-            <field name="name">Saleable</field>
+            <field name="name">Satılabilir</field>
         </record>
         <record id="cat_expense" model="product.category">
             <field name="parent_id" ref="product_category_all"/>
-            <field name="name">Expenses</field>
+            <field name="name">Masraflar</field>
         </record>
 
         <!--

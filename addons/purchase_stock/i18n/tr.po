@@ -54,7 +54,7 @@ msgstr "<span class=\"o_stat_text\">Zaman-Oranı</span>"
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.stock_production_lot_view_form
 msgid "<span class=\"o_stat_text\">Purchases</span>"
-msgstr "<span class=\"o_stat_text\">Satınalma</span>"
+msgstr "<span class=\"o_stat_text\">Satın alma</span>"
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_partner_view_purchase_buttons_inherit
@@ -64,7 +64,7 @@ msgstr "<span class=\"o_stat_value\">%</span>"
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.purchase_order_view_form_inherit
 msgid "<span invisible=\"on_time_rate &gt;= 0\">No On-time Delivery Data</span>"
-msgstr ""
+msgstr "<span invisible=\"on_time_rate &gt;= 0\">Zamanında Teslimat Verisi Yok</span>"
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_config_settings_view_form_stock
@@ -248,7 +248,7 @@ msgstr "Geçerlilik Tarihi Son Yıl"
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.exception_on_po
 msgid "Exception(s) occurred on the purchase order(s):"
-msgstr "Satınalma siparişlerinde istisnalar oluştu:"
+msgstr "Satın alma siparişlerinde istisnalar oluştu:"
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.exception_on_po
@@ -295,7 +295,7 @@ msgstr "Tedarikçi taslak faturası oluşturun. "
 #: code:addons/purchase_stock/static/src/js/tours/purchase_stock.js:0
 #, python-format
 msgid "Go back to the purchase order to generate the vendor bill."
-msgstr "Tedarikçi faturasını oluşturmak için satınalma siparişine geri dönün."
+msgstr "Tedarikçi faturasını oluşturmak için Satın alma siparişine geri dönün."
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_vendor_delay_report__id
@@ -340,7 +340,7 @@ msgstr "Yevmiye Kalemi"
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_product_supplierinfo__last_purchase_date
 msgid "Last Purchase"
-msgstr "Son Satınalma"
+msgstr "Son Satın alma"
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_config_settings_view_form_purchase
@@ -515,37 +515,37 @@ msgstr "Yayılım iptali"
 #: model:ir.model.fields,field_description:purchase_stock.field_res_partner__purchase_line_ids
 #: model:ir.model.fields,field_description:purchase_stock.field_res_users__purchase_line_ids
 msgid "Purchase Lines"
-msgstr "Satınalma Satırları"
+msgstr "Satın alma Satırları"
 
 #. module: purchase_stock
 #: model:ir.model,name:purchase_stock.model_purchase_order
 msgid "Purchase Order"
-msgstr "Satınalma Siparişi"
+msgstr "Satın alma Siparişi"
 
 #. module: purchase_stock
 #: model:ir.model,name:purchase_stock.model_purchase_order_line
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_move__purchase_line_id
 msgid "Purchase Order Line"
-msgstr "Satınalma Sipariş Satırı"
+msgstr "Satın alma Sipariş Satırı"
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_lot__purchase_order_ids
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_picking__purchase_id
 #: model_terms:ir.ui.view,arch_db:purchase_stock.stock_production_lot_view_form
 msgid "Purchase Orders"
-msgstr "Satınalma Siparişleri"
+msgstr "Satın alma Siparişleri"
 
 #. module: purchase_stock
 #: model:ir.model,name:purchase_stock.model_purchase_report
 msgid "Purchase Report"
-msgstr "Satınalma Raporu"
+msgstr "Satın alma Raporu"
 
 #. module: purchase_stock
 #. odoo-python
 #: code:addons/purchase_stock/models/stock_rule.py:0
 #, python-format
 msgid "Purchase Security Lead Time"
-msgstr "Satınalma Güvenliği Tedarik Süresi"
+msgstr "Satın alma Güvenliği Tedarik Süresi"
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_warehouse_orderpoint__purchase_visibility_days
@@ -555,7 +555,7 @@ msgstr "Görünürlük Günlerini Satın Alın"
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_lot__purchase_order_count
 msgid "Purchase order count"
-msgstr "Satınalma siparişi sayısı"
+msgstr "Satın alma siparişi sayısı"
 
 #. module: purchase_stock
 #: model:ir.model.fields,help:purchase_stock.field_purchase_order__dest_address_id
@@ -722,7 +722,7 @@ msgid ""
 "The quantities on your purchase order indicate less than billed. You should "
 "ask for a refund."
 msgstr ""
-"Satınalma siparişinizdeki miktarlar faturalanandan daha azını gösteriyor. "
+"Satın alma siparişinizdeki miktarlar faturalanandan daha azını gösteriyor. "
 "Geri ödeme talebinde bulunmalısınız. "
 
 #. module: purchase_stock
@@ -734,7 +734,7 @@ msgid ""
 " %s (no vendor defined, minimum quantity not reached, dates not valid, ...)."
 " Go on the product form and complete the list of vendors."
 msgstr ""
-" %s ürünü için satınalma siparişi oluşturmak için uygun tedarikçi fiyatı yok"
+" %s ürünü için Satın alma siparişi oluşturmak için uygun tedarikçi fiyatı yok"
 " (tedarikçi tanımlanmamış, minimum miktara ulaşılmadı, tarihler geçerli "
 "değil, ...). Ürün formuna gidin ve tedarikçi listesini tamamlayın."
 
@@ -746,7 +746,7 @@ msgid ""
 "difference between a purchase order and its related vendor bill when "
 "validating this vendor bill."
 msgstr ""
-"Bu hesap, bu tedarikçi faturasını doğrularken satınalma siparişi ile ilgili "
+"Bu hesap, bu tedarikçi faturasını doğrularken Satın alma siparişi ile ilgili "
 "satıcı faturası arasındaki fiyat farkını kaydetmek için otomatik envanter "
 "değerlemesinde kullanılır."
 
@@ -770,7 +770,7 @@ msgid ""
 msgstr ""
 "Bu, tedarikçilerinizden müşterilerinize teslim etmelerini istemek için "
 "ürünlere uygulanacak bir dropshipping rotası ekler. Dropship ürünü, satış "
-"siparişi onaylandıktan sonra teklif için bir satınalma talebi "
+"siparişi onaylandıktan sonra teklif için bir Satın alma talebi "
 "oluşturacaktır. Bu isteğe bağlı bir akış. Talep edilen teslimat adresi, "
 "deponuz değil müşteri teslimat adresi olacaktır."
 

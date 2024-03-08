@@ -4455,7 +4455,7 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_discount1
 msgid "We are continuing to grow and we miss seeing you be a part of it! We've increased store hours and have lot's of new brands available. To welcome you back please accept this 20% discount on you next purchase by clicking the button."
-msgstr "Böyüməyə davam edirik və bunun bir hissəsi olduğunuzu görməyimiz üçün darıxırıq! Mağazanın açıq olduğu saatları artırdıq, bir çox yeni markalarımız mövcuddur. Sizi yenidən salamlamaq üçün düyməni klikləyərək növbəti satınalma üçün 20% endirim əldə edin."
+msgstr "Böyüməyə davam edirik və bunun bir hissəsi olduğunuzu görməyimiz üçün darıxırıq! Mağazanın açıq olduğu saatları artırdıq, bir çox yeni markalarımız mövcuddur. Sizi yenidən salamlamaq üçün düyməni klikləyərək növbəti Satın alma üçün 20% endirim əldə edin."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_references

@@ -3023,7 +3023,7 @@ msgstr "Alt"
 #: code:addons/website/static/src/client_actions/configurator/configurator.xml:0
 #, python-format
 msgid "Choose"
-msgstr "Seç"
+msgstr "Seçiniz"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_picture

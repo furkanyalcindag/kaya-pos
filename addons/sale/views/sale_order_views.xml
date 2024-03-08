@@ -571,9 +571,9 @@
                                     optional="show"/>
                                 <field name="discount" string="Disc.%" groups="product.group_discount_per_so_line" optional="show"/>
                                 <field name="is_downpayment" column_invisible="True"/>
-                                <field name="price_subtotal" string="Tax excl." invisible="is_downpayment"/>
+                                <field name="price_subtotal" string="Vergi hariç" invisible="is_downpayment"/>
                                 <field name="price_total"
-                                       string="Tax incl."
+                                       string="Vergi dahil"
                                        column_invisible="parent.tax_calculation_rounding_method == 'round_globally'"
                                        invisible="is_downpayment"
                                        optional="hide"/>
