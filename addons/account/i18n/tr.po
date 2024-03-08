@@ -9946,7 +9946,7 @@ msgid ""
 "                the related sale or purchase invoices."
 msgstr ""
 "Odoo, bir ekstre satırını doğrudan aşağıdakilerle denkleştirmenize olanak tanır\n"
-"                ilgili satış veya satınalma faturaları."
+"                ilgili satış veya Satın alma faturaları."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_customer
@@ -12714,7 +12714,7 @@ msgstr "İşaretli Olarak Ayarla"
 #. module: account
 #: model:onboarding.onboarding.step,description:account.onboarding_onboarding_step_default_taxes
 msgid "Set default Taxes for sales and purchase transactions."
-msgstr "Satış ve satınalma hareketleri için varsayılan Vergiler'i ayarlayın."
+msgstr "Satış ve Satın alma hareketleri için varsayılan Vergiler'i ayarlayın."
 
 #. module: account
 #: model:onboarding.onboarding.step,button_text:account.onboarding_onboarding_step_sales_tax
@@ -15060,7 +15060,7 @@ msgid ""
 "This payment term will be used instead of the default one for purchase "
 "orders and vendor bills"
 msgstr ""
-"Bu ödeme koşulu satınalma siparişleri ve satıcı faturaları için varsayılan "
+"Bu ödeme koşulu Satın alma siparişleri ve satıcı faturaları için varsayılan "
 "fiyat yerine kullanılacaktır"
 
 #. module: account
@@ -16196,7 +16196,7 @@ msgid ""
 "When the purchase receipt is confirmed, you can record the\n"
 "                vendor payment related to this purchase receipt."
 msgstr ""
-"Satın alma makbuzu onaylandığında, bu satınalma makbuzu ile\n"
+"Satın alma makbuzu onaylandığında, bu Satın alma makbuzu ile\n"
 "ilgili satıcı ödemesini kaydedebilirsiniz."
 
 #. module: account
@@ -16205,7 +16205,7 @@ msgid ""
 "When the sale receipt is confirmed, you can record the customer\n"
 "                payment related to this sales receipt."
 msgstr ""
-"Satış makbuzu onaylandığında, bu satınalma makbuzu ile\n"
+"Satış makbuzu onaylandığında, bu Satın alma makbuzu ile\n"
 "ilgili müşteri ödemesini kaydedebilirsiniz."
 
 #. module: account
