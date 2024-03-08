@@ -1639,7 +1639,7 @@ msgstr "Hərəkətlər"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Activate to create purchase receipt"
-msgstr "Satınalma qəbzi yaratmaq üçün aktivləşdirin"
+msgstr "Satın alma qəbzi yaratmaq üçün aktivləşdirin"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -4629,7 +4629,7 @@ msgstr "Defolt PoS Alınacaqlar"
 #: model:ir.model.fields,field_description:account.field_res_company__account_purchase_tax_id
 #: model:ir.model.fields,field_description:account.field_res_config_settings__purchase_tax_id
 msgid "Default Purchase Tax"
-msgstr "Defolt Satınalma Vergisi"
+msgstr "Defolt Satın alma Vergisi"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_company__account_sale_tax_id
@@ -5178,7 +5178,7 @@ msgstr "Qaralama Banka Ödəniş Sənədi"
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Draft Purchase Receipt"
-msgstr "Qaralama Satınalma Qəbzi"
+msgstr "Qaralama Satın alma Qəbzi"
 
 #. module: account
 #. odoo-python
@@ -8733,7 +8733,7 @@ msgid ""
 "Odoo allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoices."
 msgstr ""
-"Odoo, əlaqəli satış və ya satınalma faktura(lar)ı ilə çıxarış sətrini \n"
+"Odoo, əlaqəli satış və ya Satın alma faktura(lar)ı ilə çıxarış sətrini \n"
 "                 birbaşa üzləşdirməyə imkan verir."
 
 #. module: account
@@ -9978,24 +9978,24 @@ msgstr "Satın alın"
 #: model:ir.model.fields.selection,name:account.selection__account_move__move_type__in_receipt
 #: model:res.groups,name:account.group_purchase_receipts
 msgid "Purchase Receipt"
-msgstr "Satınalma Qəbzi"
+msgstr "Satın alma Qəbzi"
 
 #. module: account
 #. odoo-python
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Purchase Receipt Created"
-msgstr "Satınalma Qəbzi Yaradıldı"
+msgstr "Satın alma Qəbzi Yaradıldı"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.portal_invoice_page
 msgid "Purchase Representative"
-msgstr "Satınalma Nümayəndəsi"
+msgstr "Satın alma Nümayəndəsi"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Purchase Tax"
-msgstr "Satınalma Vergisi"
+msgstr "Satın alma Vergisi"
 
 #. module: account
 #: model:account.account,name:account.1_expense_invest
@@ -10009,7 +10009,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_filter
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
 msgid "Purchases"
-msgstr "Satınalmalar"
+msgstr "Satın almalar"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -10280,7 +10280,7 @@ msgstr "Bank çıxarışını qeydiyyatdan keçirin"
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_move_in_receipt_type
 msgid "Register a new purchase receipt"
-msgstr "Yeni satınalma qəbzini qeydiyyatdan keçirin"
+msgstr "Yeni Satın alma qəbzini qeydiyyatdan keçirin"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_payments
@@ -10865,7 +10865,7 @@ msgid ""
 "Select 'General' for miscellaneous operations journals."
 msgstr ""
 "Müştərinin faktura jurnalları üzrə \"Satış\"ı seçin.\n"
-"Podratçının faktura jurnalları üzrə \"Satınalma\"nı seçin.\n"
+"Podratçının faktura jurnalları üzrə \"Satın alma\"nı seçin.\n"
 "Müştəri və ya podratçı ödənişlərində istifadə olunan jurnallar üzrə 'Nağd pul' və ya 'Bank' seçin.\n"
 "Müxtəlif əməliyyat jurnalları üzrə 'Ümumi' seçin."
 
@@ -13102,7 +13102,7 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_res_partner__property_supplier_payment_term_id
 #: model:ir.model.fields,help:account.field_res_users__property_supplier_payment_term_id
 msgid "This payment term will be used instead of the default one for purchase orders and vendor bills"
-msgstr "Bu ödəniş müddəti Satınalma Sifarişləri və satıcı  fakturaları üçün susmaya görə istifadə olunacaq"
+msgstr "Bu ödəniş müddəti Satın alma Sifarişləri və satıcı  fakturaları üçün susmaya görə istifadə olunacaq"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_res_partner__property_payment_term_id
@@ -14063,7 +14063,7 @@ msgid ""
 "When the purchase receipt is confirmed, you can record the\n"
 "                vendor payment related to this purchase receipt."
 msgstr ""
-"Satınalma qəbzi təsdiq olunduqda, bu satınalma qəbzi ilə bağlı podratçının ödənişini qeyd edə bilərsiniz\n"
+"Satın alma qəbzi təsdiq olunduqda, bu Satın alma qəbzi ilə bağlı podratçının ödənişini qeyd edə bilərsiniz\n"
 "                ."
 
 #. module: account

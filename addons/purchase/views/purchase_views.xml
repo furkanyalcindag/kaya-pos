@@ -259,9 +259,9 @@
                                     <button name="action_purchase_history" type="object" icon="fa-history" title="Purchase History" invisible="not id"/>
                                     <field name="taxes_id" widget="many2many_tags" domain="[('type_tax_use', '=', 'purchase'), ('company_id', 'parent_of', parent.company_id), ('country_id', '=', parent.tax_country_id)]" context="{'default_type_tax_use': 'purchase', 'search_view_ref': 'account.account_tax_view_search'}" options="{'no_create': True}" optional="show"/>
                                     <field name="discount" string="Disc.%" readonly="qty_invoiced != 0" optional="hide"/>
-                                    <field name="price_subtotal" string="Tax excl."/>
+                                    <field name="price_subtotal" string="Vergi hariç"/>
                                     <field name="price_total"
-                                           string="Tax incl."
+                                           string="Vergi dahil"
                                            column_invisible="parent.tax_calculation_rounding_method == 'round_globally'"
                                            optional="hide"/>
                                 </tree>
@@ -338,7 +338,7 @@
                                                          <div class="col-4">
                                                              <strong>
                                                                  <span>
-                                                                     Tax excl.: <t t-esc="record.price_subtotal.value" class="float-end text-end"/>
+                                                                     Vergi hariç: <t t-esc="record.price_subtotal.value" class="float-end text-end"/>
                                                                  </span>
                                                              </strong>
                                                          </div>
@@ -354,7 +354,7 @@
                                                          <div class="col-4" t-if="record.tax_calculation_rounding_method.raw_value === 'round_per_line'">
                                                              <strong>
                                                                 <span>
-                                                                    Tax incl.: <t t-esc="record.price_total.value"/>
+                                                                    Vergi dahil: <t t-esc="record.price_total.value"/>
                                                                 </span>
                                                              </strong>
                                                          </div>

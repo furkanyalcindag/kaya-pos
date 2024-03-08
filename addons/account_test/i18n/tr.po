@@ -93,7 +93,7 @@ msgstr "Borç ve Alacak hesaplarını tanımlayan uzlaştırılmış hareket kal
 #. module: account_test
 #: model:accounting.assert.test,desc:account_test.account_test_05
 msgid "Check that reconciled invoice for Sales/Purchases has reconciled entries for Payable and Receivable Accounts"
-msgstr "Uzlaştırılmış Satış/Satınalma faturasının Alacak ve Borç Hesaplarında uzlaştırılmış girişler olup olmadığını denetleyin"
+msgstr "Uzlaştırılmış Satış/Satın alma faturasının Alacak ve Borç Hesaplarında uzlaştırılmış girişler olup olmadığını denetleyin"
 
 #. module: account_test
 #: model:accounting.assert.test,desc:account_test.account_test_01

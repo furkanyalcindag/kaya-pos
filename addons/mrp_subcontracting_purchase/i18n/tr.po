@@ -87,12 +87,12 @@ msgstr "Fason PO Kaynak Sayısı"
 #. module: mrp_subcontracting_purchase
 #: model:ir.model.fields,help:mrp_subcontracting_purchase.field_stock_picking__subcontracting_source_purchase_count
 msgid "Number of subcontracting Purchase Order Source"
-msgstr "Fason Satınalma Kaynak Sayısı"
+msgstr "Fason Satın alma Kaynak Sayısı"
 
 #. module: mrp_subcontracting_purchase
 #: model:ir.model,name:mrp_subcontracting_purchase.model_purchase_order
 msgid "Purchase Order"
-msgstr "Satınalma Siparişi"
+msgstr "Satın alma Siparişi"
 
 #. module: mrp_subcontracting_purchase
 #. odoo-python

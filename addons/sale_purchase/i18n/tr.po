@@ -45,7 +45,7 @@ msgstr "<span class=\"fa fa-lg fa-building-o fa-fw\" title=\"Service to Purchase
 #. module: sale_purchase
 #: model_terms:ir.ui.view,arch_db:sale_purchase.sale_order_inherited_form_purchase
 msgid "<span class=\"o_stat_text\">Purchase</span>"
-msgstr "<span class=\"o_stat_text\">Satınalma</span>"
+msgstr "<span class=\"o_stat_text\">Satın alma</span>"
 
 #. module: sale_purchase
 #: model_terms:ir.ui.view,arch_db:sale_purchase.purchase_order_inherited_form_sale
@@ -70,7 +70,7 @@ msgstr ""
 #. module: sale_purchase
 #: model_terms:ir.ui.view,arch_db:sale_purchase.exception_sale_on_purchase_cancellation
 msgid "Exception(s) occurred on the purchase order(s):"
-msgstr "Satınalma siparişlerinde istisnalar oluştu:"
+msgstr "Satın alma siparişlerinde istisnalar oluştu:"
 
 #. module: sale_purchase
 #: model_terms:ir.ui.view,arch_db:sale_purchase.exception_purchase_on_sale_cancellation
@@ -88,7 +88,7 @@ msgstr "İstisna(lar):"
 #. module: sale_purchase
 #: model:ir.model.fields,field_description:sale_purchase.field_sale_order_line__purchase_line_ids
 msgid "Generated Purchase Lines"
-msgstr "Oluşturulan Satınalma Siparişi"
+msgstr "Oluşturulan Satın alma Siparişi"
 
 #. module: sale_purchase
 #: model:ir.model.fields,help:sale_purchase.field_product_product__service_to_purchase
@@ -110,7 +110,7 @@ msgstr "Manuel işlem gerekebilir."
 #. module: sale_purchase
 #: model:ir.model.fields,field_description:sale_purchase.field_sale_order__purchase_order_count
 msgid "Number of Purchase Order Generated"
-msgstr "Oluşturulan Satınalma Siparişi Sayısı"
+msgstr "Oluşturulan Satın alma Siparişi Sayısı"
 
 #. module: sale_purchase
 #: model:ir.model.fields,field_description:sale_purchase.field_purchase_order__sale_order_count
@@ -160,7 +160,7 @@ msgstr "Hizmet olmayan ürün RFQ oluşturamaz."
 #. module: sale_purchase
 #: model:ir.model,name:sale_purchase.model_purchase_order
 msgid "Purchase Order"
-msgstr "Satınalma Siparişi"
+msgstr "Satın alma Siparişi"
 
 #. module: sale_purchase
 #: model:ir.model.fields,field_description:sale_purchase.field_sale_order_cancel__display_purchase_orders_alert
@@ -170,7 +170,7 @@ msgstr "Satın Alma Siparişi Uyarısı"
 #. module: sale_purchase
 #: model:ir.model,name:sale_purchase.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Satınalma Sipariş Satırı"
+msgstr "Satın alma Sipariş Satırı"
 
 #. module: sale_purchase
 #. odoo-python
@@ -245,7 +245,7 @@ msgid ""
 "You are decreasing the ordered quantity! Do not forget to manually update "
 "the purchase order if needed."
 msgstr ""
-"Sipariş edilen miktarı düşürüyorsunuz! Gerekirse satınalma siparişini manuel"
+"Sipariş edilen miktarı düşürüyorsunuz! Gerekirse Satın alma siparişini manuel"
 " olarak güncellemeyi unutmayın."
 
 #. module: sale_purchase

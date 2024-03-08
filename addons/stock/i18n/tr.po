@@ -1516,7 +1516,7 @@ msgid ""
 msgstr ""
 "Varsayılan olarak, sistem kaynak konumdaki stoktan alacak ve pasif olarak "
 "stok durumunun uygun olmasını bekleyecektir. Diğer olasılık, ürün toplamak "
-"için kaynak konumda doğrudan bir satınalma yaratmanıza (dolayısıyla mevcut "
+"için kaynak konumda doğrudan bir Satın alma yaratmanıza (dolayısıyla mevcut "
 "stoğunuzu yok saymanıza) olanak tanır. Bağlantılı hareket oluşturmak ve bir "
 "önceki hareketi beklemek istiyorsak, bu ikinci seçenek daha uygun olabilir."
 
@@ -2558,7 +2558,7 @@ msgid ""
 "            consumptions, inventories, etc."
 msgstr ""
 "Depo yapınızı ve organizasyonunuzu yansıtacak şekilde konumlarınızı tanımlayın. \n"
-"Odoo, fiziksel lokasyonları (depolar, raflar, çöp kutusu vb.), \n"
+"Kolaysis, fiziksel lokasyonları (depolar, raflar, çöp kutusu vb.), \n"
 "ortak lokasyonları (müşteriler, satıcılar) \n"
 "ve üretim siparişleri tüketimleri, envanterler vb. \n"
 "stok operasyonlarının karşılığı olan sanal lokasyonları yönetebilir."
@@ -3827,7 +3827,7 @@ msgid ""
 "If the active field is set to False, it will allow you to hide the "
 "orderpoint without removing it."
 msgstr ""
-"Seçili alan 'Yanlış' ise, satınalma noktasını kaldırmadan gizlemenize izin "
+"Seçili alan 'Yanlış' ise, Satın alma noktasını kaldırmadan gizlemenize izin "
 "verecektir."
 
 #. module: stock
@@ -9138,7 +9138,7 @@ msgid ""
 msgstr ""
 "Bu, tedarikçilerinizden müşterilerinize teslim etmelerini istemek için "
 "ürünlere uygulanacak bir dropshipping rotası ekler. Dropship ürünü, satış "
-"siparişi onaylandıktan sonra teklif için bir satınalma talebi "
+"siparişi onaylandıktan sonra teklif için bir Satın alma talebi "
 "oluşturacaktır. Bu isteğe bağlı bir akış. Talep edilen teslimat adresi, "
 "deponuz değil müşteri teslimat adresi olacaktır."
 
@@ -10012,7 +10012,7 @@ msgstr "Tedarikçi Konumları"
 #: model:ir.model.fields.selection,name:stock.selection__stock_location__usage__view
 #: model_terms:ir.ui.view,arch_db:stock.stock_picking_type_kanban
 msgid "View"
-msgstr "Görüntüle"
+msgstr "Görünüm"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.product_view_kanban_catalog
