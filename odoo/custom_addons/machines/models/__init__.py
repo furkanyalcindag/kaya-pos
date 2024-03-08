@@ -1,2 +1,2 @@
 from . import machines
-from . import mrp_production
+from . import mrp_production_machine

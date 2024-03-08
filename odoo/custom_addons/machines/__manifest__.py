@@ -10,8 +10,7 @@
     'data': [
         'security/ir.model.access.csv',
         'views/base_menu.xml',
-        'views/machines_view.xml',
-        'views/mrp_production_view.xml'
+        'views/machines_view.xml'
     ],
      'installable': True,
     'application': True,

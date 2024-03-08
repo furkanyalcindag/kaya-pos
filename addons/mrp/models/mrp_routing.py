@@ -142,6 +142,7 @@ class MrpRoutingWorkcenter(models.Model):
             }
 
     def copy_existing_operations(self):
+        print('Sa')
         return {
             'type': 'ir.actions.act_window',
             'name': _('Select Operations to Copy'),
