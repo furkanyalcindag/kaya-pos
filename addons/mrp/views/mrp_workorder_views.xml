@@ -79,6 +79,7 @@
                 <field name="working_state" column_invisible="True"/>
                 <field name="operation_id" column_invisible="True" domain="['|', ('bom_id', '=', production_bom_id), ('bom_id', '=', False)]" context="{'default_workcenter_id': workcenter_id, 'default_company_id': company_id}"/>
                 <field name="name" string="Operation" readonly="state in ['cancel', 'done']"/>
+                <field name="hr_id" />
                 <field name="workcenter_id" readonly="state in ['cancel', 'done', 'progress']"/>
                 <field name="product_id" optional="show"/>
                 <field name="qty_remaining" optional="show" string="Quantity"/>

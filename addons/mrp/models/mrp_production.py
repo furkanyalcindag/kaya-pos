@@ -65,6 +65,9 @@ class MrpProduction(models.Model):
         readonly=False, required=True, check_company=True)
     product_variant_attributes = fields.Many2many('product.template.attribute.value', related='product_id.product_template_attribute_value_ids')
     workcenter_id = fields.Many2one('mrp.workcenter', store=False)  # Only used for search in view_mrp_production_filter
+    sale_order_id = fields.Many2one('sale.order', 'Sipariş No', store=True)
+    sale_order_partner_id = fields.Many2one(related='sale_order_id.partner_id', store=False, string='Müşteri')
+    gkk_no = fields.Char(string='GKK Rapor No', store=True, readonly=False,)
     product_tracking = fields.Selection(related='product_id.tracking')
     product_tmpl_id = fields.Many2one('product.template', 'Product Template', related='product_id.product_tmpl_id')
     product_qty = fields.Float(
