@@ -5938,12 +5938,10 @@ msgid ""
 "\n"
 "Think twice before you click that 'Delete' button!"
 msgstr ""
-"Bu kaydı silmek istediğinize emin misiniz?\n\"
 "\n"
 "Sonsuza dek yok olacak!\n"
 "\n"
 "\n"
-"'Sil' butonuna tıklamadan önce iki kez düşünün!\n"
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/debug/profiling/profiling_item.xml:0

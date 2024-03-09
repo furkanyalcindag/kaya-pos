@@ -29,7 +29,7 @@ E-invoice implementation for the Kingdom of Saudi Arabia
         'views/account_journal_views.xml',
         'views/res_partner_views.xml',
         'views/res_company_views.xml',
-        'views/res_config_settings_view.xml',
+        'views/res_config_settings_views.xml',
         'views/report_invoice.xml',
     ],
     'demo': [
