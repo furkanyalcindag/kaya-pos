@@ -287,7 +287,7 @@
                                     invisible="not is_outdated_bom or state not in ['draft', 'confirmed']"/>
                             </div>
                             <field name="sale_order_id" readonly="state != 'draft'"/>
-                            <field name="sale_order_partner_id" readonly="state != 'draft'"/>
+                            <field name="sale_order_partner_id"/>
                             <label for="lot_producing_id" invisible="state == 'draft' or product_tracking in ('none', False)"/>
                             <div class="o_row" invisible="state == 'draft' or product_tracking in ('none', False)">
                                 <field name="lot_producing_id"
