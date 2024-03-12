@@ -29,6 +29,7 @@ class MrpProduction(models.Model):
     _inherit = ['mail.thread', 'mail.activity.mixin']
     _order = 'priority desc, date_start asc,id'
 
+
     @api.model
     def _get_default_date_start(self):
         if self.env.context.get('default_date_deadline'):
@@ -49,7 +50,7 @@ class MrpProduction(models.Model):
     def _get_default_is_locked(self):
         return not self.user_has_groups('mrp.group_unlocked_by_default')
 
-    name = fields.Char('Reference', default='New', copy=False, readonly=True)
+    name = fields.Char('Reference', default='Yeni', copy=False, readonly=True)
     priority = fields.Selection(
         PROCUREMENT_PRIORITIES, string='Priority', default='0',
         help="Components will be reserved first for the MO with the highest priorities.")
@@ -66,8 +67,10 @@ class MrpProduction(models.Model):
     product_variant_attributes = fields.Many2many('product.template.attribute.value', related='product_id.product_template_attribute_value_ids')
     workcenter_id = fields.Many2one('mrp.workcenter', store=False)  # Only used for search in view_mrp_production_filter
     sale_order_id = fields.Many2one('sale.order', 'Sipariş No', store=True)
-    sale_order_partner_id = fields.Many2one(related='sale_order_id.partner_id', store=False, string='Müşteri')
+    sale_order_partner_id = fields.Many2one(related='sale_order_id.partner_id', store=True, string='Müşteri')
     gkk_no = fields.Char(string='GKK Rapor No', store=True, readonly=False,)
+    kgk_no = fields.Char(string='KGK No', store=True, readonly=False,)
+    revizyon_no = fields.Char(string='Revizyon No', store=True, readonly=False,)
     product_tracking = fields.Selection(related='product_id.tracking')
     product_tmpl_id = fields.Many2one('product.template', 'Product Template', related='product_id.product_tmpl_id')
     product_qty = fields.Float(
