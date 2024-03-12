@@ -718,6 +718,7 @@
                                                             </t>
                                                         </div>
                                                     </div>
+                                                </div>
                                                 </t>
                                                 <t t-if="record.display_type.raw_value === 'line_section' || record.display_type.raw_value === 'line_note'">
                                                     <div class="row">
