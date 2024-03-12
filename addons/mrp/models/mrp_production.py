@@ -69,7 +69,7 @@ class MrpProduction(models.Model):
     sale_order_id = fields.Many2one('sale.order', 'Sipariş No', store=True)
     sale_order_partner_id = fields.Many2one(related='sale_order_id.partner_id', store=True, string='Müşteri')
     gkk_no = fields.Char(string='GKK Rapor No', store=True, readonly=False,)
-    kgk_no = fields.Char(string='KGK', store=True, readonly=False,)
+    kgk_no = fields.Char(string='KGK No', store=True, readonly=False,)
     revizyon_no = fields.Char(string='Revizyon No', store=True, readonly=False,)
     product_tracking = fields.Selection(related='product_id.tracking')
     product_tmpl_id = fields.Many2one('product.template', 'Product Template', related='product_id.product_tmpl_id')

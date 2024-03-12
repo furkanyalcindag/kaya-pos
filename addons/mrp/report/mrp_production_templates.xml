@@ -51,12 +51,12 @@
                                 <span t-field="o.sale_order_id">-</span>
                             </div>
                             <div class="col-3">
-                                <strong>GKK Numarası:</strong>
+                                <strong>GKK No:</strong>
                                 <br/>
                                 <span t-field="o.gkk_no">-</span>
                             </div>
                             <div class="col-3">
-                                <strong>KGK</strong>
+                                <strong>KGK No:</strong>
                                 <br/>
                                 <span t-field="o.kgk_no">-</span>
                             </div>
