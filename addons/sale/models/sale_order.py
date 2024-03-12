@@ -58,6 +58,8 @@ class SaleOrder(models.Model):
         comodel_name='res.company',
         required=True, index=True,
         default=lambda self: self.env.company)
+
+    customer_order_number = fields.Char(string="Müşteri Sipariş Numarası")
     partner_id = fields.Many2one(
         comodel_name='res.partner',
         string="Customer",
