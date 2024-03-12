@@ -1731,7 +1731,7 @@ msgstr "Nəqliyyat vasitəsinin kW - da Enerji "
 #. module: fleet
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle__net_car_value
 msgid "Purchase Value"
-msgstr "Satınalma Dəyəri"
+msgstr "Satın alma Dəyəri"
 
 #. module: fleet
 #: model:fleet.vehicle.tag,name:fleet.vehicle_tag_purchased

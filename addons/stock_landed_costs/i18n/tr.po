@@ -596,7 +596,7 @@ msgstr "Ürün Türü"
 #. module: stock_landed_costs
 #: model:ir.model,name:stock_landed_costs.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Satınalma Sipariş Satırı"
+msgstr "Satın alma Sipariş Satırı"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines__quantity

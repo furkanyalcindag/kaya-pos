@@ -24,7 +24,7 @@ msgstr ""
 #. module: project_purchase
 #: model:ir.model.fields,field_description:project_purchase.field_project_project__purchase_orders_count
 msgid "# Purchase Orders"
-msgstr "# Satınalma Siparişleri"
+msgstr "# Satın alma Siparişleri"
 
 #. module: project_purchase
 #: model:ir.model,name:project_purchase.model_project_project
@@ -36,12 +36,12 @@ msgstr "Proje"
 #: code:addons/project_purchase/models/project_project.py:0
 #, python-format
 msgid "Purchase Order Items"
-msgstr "Satınalma Sipariş Satırları"
+msgstr "Satın alma Sipariş Satırları"
 
 #. module: project_purchase
 #: model:ir.model,name:project_purchase.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Satınalma Sipariş Satırı"
+msgstr "Satın alma Sipariş Satırı"
 
 #. module: project_purchase
 #. odoo-python
@@ -50,4 +50,4 @@ msgstr "Satınalma Sipariş Satırı"
 #: code:addons/project_purchase/models/project_project.py:0
 #, python-format
 msgid "Purchase Orders"
-msgstr "Satınalma Siparişleri"
+msgstr "Satın alma Siparişleri"

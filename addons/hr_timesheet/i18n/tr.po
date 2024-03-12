@@ -294,7 +294,7 @@ msgid ""
 "This analytic account can be changed on each task individually if necessary.\n"
 "An analytic account is required in order to use timesheets."
 msgstr ""
-"Bu projenin, görevlerinin ve çalışma çizelgelerinin bağlı olduğu analitik hesap. İlgili belgelerinizde (örn. satış siparişleri, faturalar, satınalma siparişleri, satıcı faturaları, giderler vb.) bu analitik hesabı ayarlayarak projenizin maliyetlerini ve gelirlerini izleyin.\n"
+"Bu projenin, görevlerinin ve çalışma çizelgelerinin bağlı olduğu analitik hesap. İlgili belgelerinizde (örn. satış siparişleri, faturalar, Satın alma siparişleri, satıcı faturaları, giderler vb.) bu analitik hesabı ayarlayarak projenizin maliyetlerini ve gelirlerini izleyin.\n"
 "Bu analitik hesap, gerekirse her görevde ayrı ayrı değiştirilebilir. Çalışma çizelgelerini kullanmak için bir analitik hesap gereklidir."
 
 #. module: hr_timesheet

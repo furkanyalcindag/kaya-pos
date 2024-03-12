@@ -242,7 +242,7 @@ msgstr ""
 #. module: product_expiry
 #: model:ir.model,name:product_expiry.model_procurement_group
 msgid "Procurement Group"
-msgstr "Satınalma qrupu"
+msgstr "Satın alma qrupu"
 
 #. module: product_expiry
 #: model:ir.model,name:product_expiry.model_product_template

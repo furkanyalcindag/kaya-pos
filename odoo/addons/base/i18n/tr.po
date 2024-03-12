@@ -4919,7 +4919,7 @@ msgstr ""
 "\n"
 "Ana Üretim Çizelgesi\n"
 "\n"
-"Bazen yalnızca daha sonra oluşturulacak üretim siparişlerinin bileşenleri için satınalma siparişlerini oluşturmanız gerekir.\n"
+"Bazen yalnızca daha sonra oluşturulacak üretim siparişlerinin bileşenleri için Satın alma siparişlerini oluşturmanız gerekir.\n"
 "Ya da sadece satış siparişlerini alacağınız üretim siparişleri için.\n"
 "Çözüm, satış tahminlerinizi tahmin etmek ve zaten bazı üretim siparişleri veya satın alma siparişleri oluşturacağınızı temel almaktır.\n"
 "\n"
@@ -9639,7 +9639,7 @@ msgstr ""
 "\n"
 "Bu modülü kullanmak için yapmanız gerekenler:\n"
 "\n"
-"* Yurt dışından bir ürün için yeni satınalma siparişi oluşturun. Arsa maliyetleri\n"
+"* Yurt dışından bir ürün için yeni Satın alma siparişi oluşturun. Arsa maliyetleri\n"
 "  yalnızca \"otomatik\" değerleme ile yapılandırılan ürünler için mümkündür.\n"
 "  'FIFO' maliyet yöntemi. Maliyetlendirme yöntemi üründe yapılandırılmıştır.\n"
 "  kategori.\n"
@@ -9652,7 +9652,7 @@ msgstr ""
 "\n"
 "* Envanter -> Envanter kontrolü -> İthalat Maliyeti'ne gidin\n"
 "\n"
-"* Satınalma siparişinin toplanmasını gösteren yeni bir ithalat maliyeti oluşturun\n"
+"* Satın alma siparişinin toplanmasını gösteren yeni bir ithalat maliyeti oluşturun\n"
 "  ve gümrük bilgilerinin numarası (altlık). Arsa maliyetleri\n"
 "  sadece gerçek zamanlı değerleme ile gerçek zamanlı değerlemede yapılandırılmış ürünler için mümkündür\n"
 "  fiyat maliyet yöntemi. Maliyetlendirme yöntemi üründe yapılandırılmıştır\n"
@@ -11902,7 +11902,7 @@ msgid ""
 "Automatically finds the purchase order linked to a vendor bill when using "
 "invoice extraction"
 msgstr ""
-"Fatura ayıklama özelliğini kullanırken tedarikçi faturasına bağlı satınalma "
+"Fatura ayıklama özelliğini kullanırken tedarikçi faturasına bağlı Satın alma "
 "siparişini otomatik olarak bulur"
 
 #. module: base
@@ -24091,13 +24091,13 @@ msgstr ""
 "\n"
 "Tedarik kurallarıyla stok düzeyini azaltın. Doğru satın alma işlemini alın\n"
 "envanter seviyenizi azaltmak için doğru zamanda teklifte bulunun. Bilgisayarınızı geliştirin\n"
-"stoka bağlı tedarik kuralları ile satınalma ve stok performansı\n"
+"stoka bağlı tedarik kuralları ile Satın alma ve stok performansı\n"
 "seviyeler, lojistik kurallar, satış siparişleri, öngörülen üretim siparişleri vb.\n"
 "\n"
-"Tek bir tıklamayla satıcınıza teklif veya satınalma siparişleri için talepler gönderin.\n"
-"Satınalma siparişinizden ürün alımlarına ve faturalara erişin.\n"
+"Tek bir tıklamayla satıcınıza teklif veya Satın alma siparişleri için talepler gönderin.\n"
+"Satın alma siparişinizden ürün alımlarına ve faturalara erişin.\n"
 "\n"
-"Satınalma İhaleleri\n"
+"Satın alma İhaleleri\n"
 "----------------\n"
 "\n"
 "Satın alma ihaleleri başlatın, satıcının cevaplarını sürece entegre edin ve\n"
@@ -24107,7 +24107,7 @@ msgstr ""
 "E-posta entegrasyonları\n"
 "------------------\n"
 "\n"
-"Almak için tüm satıcının iletişimlerini satınalma siparişlerine (veya RfQ'lara) entegre edin\n"
+"Almak için tüm satıcının iletişimlerini Satın alma siparişlerine (veya RfQ'lara) entegre edin\n"
 "müzakere veya satış sonrası servis konularında güçlü bir izlenebilirlik. Kullanın\n"
 "satıcılar ile ilgili sorunları izlemek için talep yönetimi modülü.\n"
 "\n"
@@ -24134,8 +24134,8 @@ msgstr ""
 "ihtiyacınıza göre kontrol yöntemi.\n"
 "\n"
 "Satıcı faturalarını zahmetsizce kontrol edin. Göre doğru yöntemi seçin\n"
-"İhtiyacınız: satınalma siparişlerine, ürünlere dayalı taslak faturaları önceden oluşturun\n"
-"alımlar, manuel olarak fatura oluşturma ve satınalma siparişlerinden hatları içe aktarma,\n"
+"İhtiyacınız: Satın alma siparişlerine, ürünlere dayalı taslak faturaları önceden oluşturun\n"
+"alımlar, manuel olarak fatura oluşturma ve Satın alma siparişlerinden hatları içe aktarma,\n"
 "ve saire. \n"
 
 #. module: base
@@ -26726,12 +26726,12 @@ msgstr "Porto Riko"
 #: model:ir.module.module,shortdesc:base.module_purchase
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 msgid "Purchase"
-msgstr "Satınalma"
+msgstr "Satın alma"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_requisition
 msgid "Purchase Agreements"
-msgstr "Satınalma Sözleşmeleri"
+msgstr "Satın alma Sözleşmeleri"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_intrastat
@@ -26746,7 +26746,7 @@ msgstr "Satın Alma Matrisi"
 #. module: base
 #: model:ir.module.module,summary:base.module_purchase_stock
 msgid "Purchase Orders, Receipts, Vendor Bills for Stock"
-msgstr "Satınalma Siparişleri, Makbuzlar, Stok Satıcısı"
+msgstr "Satın alma Siparişleri, Makbuzlar, Stok Satıcısı"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_requisition_sale
@@ -26756,27 +26756,27 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_requisition_stock
 msgid "Purchase Requisition Stock"
-msgstr "Satınalma Talebi Stoku"
+msgstr "Satın alma Talebi Stoku"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_stock
 msgid "Purchase Stock"
-msgstr "Satınalma Stok"
+msgstr "Satın alma Stok"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_mrp
 msgid "Purchase and MRP Management"
-msgstr "Satınalma ve MRP Yönetimi"
+msgstr "Satın alma ve MRP Yönetimi"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mrp_subcontracting_purchase
 msgid "Purchase and Subcontracting Management"
-msgstr "Satınalma ve Fason Yönetimi"
+msgstr "Satın alma ve Fason Yönetimi"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_purchase
 msgid "Purchase orders, tenders and agreements"
-msgstr "Satınalma siparişleri, ihaleler ve anlaşmalar"
+msgstr "Satın alma siparişleri, ihaleler ve anlaşmalar"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_event_track_social
@@ -27962,7 +27962,7 @@ msgstr "Satış Projesi Tahmini"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_purchase
 msgid "Sale Purchase"
-msgstr "Satış  Satınalma"
+msgstr "Satış  Satın alma"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_stock_margin
@@ -28017,7 +28017,7 @@ msgstr "Satış"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 msgid "Sales & Purchase"
-msgstr "Satış & Satınalma"
+msgstr "Satış & Satın alma"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_project
@@ -34467,7 +34467,7 @@ msgstr "char"
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__base_language_export__state__choose
 msgid "choose"
-msgstr "seç"
+msgstr "seçiniz"
 
 #. module: base
 #. odoo-python

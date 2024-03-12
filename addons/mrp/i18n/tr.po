@@ -4122,7 +4122,7 @@ msgstr "Bileşenlerin Kullanılabilirliğine Dayalı Plan"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.res_config_settings_view_form
 msgid "Plan manufacturing or purchase orders based on forecasts"
-msgstr "Tahminlere dayalı olarak imalat veya satınalma siparişlerini planla"
+msgstr "Tahminlere dayalı olarak imalat veya Satın alma siparişlerini planla"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.stock_production_type_kanban

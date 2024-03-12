@@ -271,7 +271,7 @@ msgstr "Kategori"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_line_compare_tree
 msgid "Choose"
-msgstr "Seç"
+msgstr "Seçiniz"
 
 #. module: purchase_requisition
 #: model:ir.model.fields,help:purchase_requisition.field_purchase_requisition_create_alternative__partner_id
@@ -774,7 +774,7 @@ msgstr "Satınalınacak Ürünler"
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_line__requisition_id
 msgid "Purchase Agreement"
-msgstr "Satınalma Sözleşmeleri"
+msgstr "Satın alma Sözleşmeleri"
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_type_form
@@ -787,7 +787,7 @@ msgstr "Alım Sözleşme Türleri"
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_tree
 msgid "Purchase Agreements"
-msgstr "Satınalma Sözleşmeleri"
+msgstr "Satın alma Sözleşmeleri"
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_order__purchase_group_id
@@ -797,49 +797,49 @@ msgstr "Satın Alma Grubu"
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_purchase_order
 msgid "Purchase Order"
-msgstr "Satınalma Siparişi"
+msgstr "Satın alma Siparişi"
 
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Satınalma Sipariş Satırı"
+msgstr "Satın alma Sipariş Satırı"
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_line_compare_tree
 msgid "Purchase Order Lines"
-msgstr "Satınalma Sipariş Satırları"
+msgstr "Satın alma Sipariş Satırları"
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__purchase_ids
 msgid "Purchase Orders"
-msgstr "Satınalma Siparişleri"
+msgstr "Satın alma Siparişleri"
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.purchase_order_search_inherit
 msgid "Purchase Orders with requisition"
-msgstr "İstenmiş Satınalma Siparişleri"
+msgstr "İstenmiş Satın alma Siparişleri"
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition__user_id
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 msgid "Purchase Representative"
-msgstr "Satınalma Temsilcisi"
+msgstr "Satın alma Temsilcisi"
 
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_purchase_requisition
 msgid "Purchase Requisition"
-msgstr "Satınalma İsteği"
+msgstr "Satın alma İsteği"
 
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_purchase_requisition_line
 #: model:ir.model.fields,field_description:purchase_requisition.field_product_supplierinfo__purchase_requisition_line_id
 msgid "Purchase Requisition Line"
-msgstr "Satınalma Talep Satırı"
+msgstr "Satın alma Talep Satırı"
 
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_purchase_requisition_type
 msgid "Purchase Requisition Type"
-msgstr "Satınalma Talep Türü"
+msgstr "Satın alma Talep Türü"
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_order__is_quantity_copy
@@ -925,7 +925,7 @@ msgstr "Planlanan Tarih"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_filter
 msgid "Search Purchase Agreements"
-msgstr "Satınalma Sözleşmelerinde Ara"
+msgstr "Satın alma Sözleşmelerinde Ara"
 
 #. module: purchase_requisition
 #: model:ir.model.fields.selection,name:purchase_requisition.selection__purchase_requisition_type__exclusive__multiple
@@ -1035,7 +1035,7 @@ msgstr "Tedarikçi Fiyat Listesi"
 #: model:ir.model,name:purchase_requisition.model_purchase_order_group
 msgid "Technical model to group PO for call to tenders"
 msgstr ""
-"İhale çağrıları için satınalma siparişini gruplandırmak için teknik model"
+"İhale çağrıları için Satın alma siparişini gruplandırmak için teknik model"
 
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
@@ -1236,7 +1236,7 @@ msgid ""
 "Whether or not this purchase order is linked to another purchase order as an"
 " alternative."
 msgstr ""
-"Bu satınalma siparişinin alternatif olarak başka bir satınalma siparişine "
+"Bu Satın alma siparişinin alternatif olarak başka bir Satın alma siparişine "
 "bağlı olup olmadığı."
 
 #. module: purchase_requisition

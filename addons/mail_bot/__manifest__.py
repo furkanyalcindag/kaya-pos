@@ -2,7 +2,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': 'OdooBot',
+    'name': 'KolayBot',
     'version': '1.2',
     'category': 'Productivity/Discuss',
     'summary': 'Add OdooBot in discussions',
