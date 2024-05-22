@@ -51,8 +51,8 @@ class WebManifest(http.Controller):
             'scope': '/web',
             'start_url': '/web',
             'display': 'standalone',
-            'background_color': '#714B67',
-            'theme_color': '#714B67',
+            'background_color': '#e42728',
+            'theme_color': '#e42728',
             'prefer_related_applications': False,
         }
         icon_sizes = ['192x192', '512x512']

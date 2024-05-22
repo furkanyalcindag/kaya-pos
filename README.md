@@ -1,5 +1,5 @@
 
-![](https://github.com/furkanyalcindag/comitfy-kolaysis/blob/main/addons/web/static/img/kolaysisLogo.png)
+![](https://github.com/furkanyalcindag/comitfy-kolaysis/blob/main/addons/web/static/img/kayaLogo.png)
 
 Kolaysis, web tabanlı iş uygulamalarından oluşan bir pakettir. Ana Kolaysis Uygulamaları arasında CRM, Proje Yönetimi, Faturalama ve Muhasebe, Satış Noktası, İnsan Kaynakları, Pazarlama, Üretim, Satın Alma Yönetimi bulunmaktadır. Kolaysis Uygulamaları bağımsız uygulamalar olarak kullanılabilir, ancak aynı zamanda sorunsuz bir şekilde entegre olurlar, böylece birkaç uygulama yüklediğinizde tam özellikli bir Açık Kaynak ERP elde edebilirsiniz.
 

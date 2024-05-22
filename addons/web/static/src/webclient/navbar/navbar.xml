@@ -12,7 +12,7 @@
                align-items: center;"
       >
         <a href="/web">
-          <img src="/web/static/img/whiteKolaysisLogo.png" alt="Logo" style="width: auto; height: 70px;"/>
+          <img src="/web/static/img/whiteKayaLogo.png" alt="Logo" style="width: auto; height: 70px;"/>
         </a>
         <!-- Apps Menu -->
         <t t-call="web.NavBar.AppsMenu">

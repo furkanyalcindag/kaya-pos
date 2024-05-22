@@ -420,7 +420,7 @@ msgstr ""
 "</td></tr> <!-- POWERED BY --> <tr><td align=\"center\" style=\"min-width\\:"
 " 590px;\"> Destekleyici <a target=\"_blank\" "
 "href=\"https\\://www.kolaysis.com?utm_source=db&amp;utm_medium=email\" "
-"style=\"color\\: #875A7B;\">Kolaysis</a> </td></tr> </table>"
+"style=\"color\\: #875A7B;\">Kaya</a> </td></tr> </table>"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_defaults
