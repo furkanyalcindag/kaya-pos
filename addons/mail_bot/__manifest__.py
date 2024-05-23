@@ -6,7 +6,7 @@
     'version': '1.2',
     'category': 'Productivity/Discuss',
     'summary': 'Add OdooBot in discussions',
-    'website': 'https://www.kolaysis.com',
+    'website': 'https://www.Kaya.com',
     'depends': ['mail'],
     'auto_install': True,
     'installable': True,

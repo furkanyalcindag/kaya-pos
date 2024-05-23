@@ -5,7 +5,7 @@
     'name': 'IoT Box Homepage',
     'category': 'Sales/Point of Sale',
     'sequence': 6,
-    'website': 'https://www.kolaysis.com',
+    'website': 'https://www.Kaya.com',
     'summary': 'A homepage for the IoT Box',
     'description': """
 IoT Box Homepage

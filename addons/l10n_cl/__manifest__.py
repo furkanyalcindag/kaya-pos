@@ -9,7 +9,7 @@ Chilean accounting chart and tax localization.
 Plan contable chileno e impuestos de acuerdo a disposiciones vigentes.
     """,
     'author': 'Blanco Martín & Asociados',
-    'website': 'https://www.kolaysis.com/documentation/17.0/applications/finance/fiscal_localizations/chile.html',
+    'website': 'https://www.Kaya.com/documentation/17.0/applications/finance/fiscal_localizations/chile.html',
     'category': 'Accounting/Localizations/Account Charts',
     'depends': [
         'contacts',

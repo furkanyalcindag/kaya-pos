@@ -6,7 +6,7 @@
     'summary': 'Design, send and track emails',
     'version': '2.7',
     'sequence': 60,
-    'website': 'https://www.kolaysis.com',
+    'website': 'https://www.Kaya.com',
     'category': 'Marketing/Email Marketing',
     'depends': [
         'contacts',

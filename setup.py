@@ -5,11 +5,11 @@ from setuptools import find_packages, setup
 from os.path import join, dirname
 
 
-exec(open(join(dirname(__file__), 'Kolaysis', 'release.py'), 'rb').read())  # Load release variables
-lib_name = 'Kolaysis'
+exec(open(join(dirname(__file__), 'Kaya', 'release.py'), 'rb').read())  # Load release variables
+lib_name = 'Kaya'
 
 setup(
-    name='Kolaysis',
+    name='Kaya',
     version=version,
     description=description,
     long_description=long_desc,
@@ -20,7 +20,7 @@ setup(
     license=license,
     scripts=['setup/odoo'],
     packages=find_packages(),
-    package_dir={'%s' % lib_name: 'Kolaysis'},
+    package_dir={'%s' % lib_name: 'Kaya'},
     include_package_data=True,
     install_requires=[
         'babel >= 1.0',

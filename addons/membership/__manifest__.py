@@ -29,6 +29,6 @@ invoice and send propositions for membership renewal.
         'views/partner_views.xml',
         'report/report_membership_views.xml',
     ],
-    'website': 'https://www.kolaysis.com',
+    'website': 'https://www.Kaya.com',
     'license': 'LGPL-3',
 }

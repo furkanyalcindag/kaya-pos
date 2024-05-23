@@ -17,7 +17,7 @@ This module adds several features to the Point of Sale that are specific to rest
 
 """,
     'depends': ['point_of_sale'],
-    'website': 'https://www.kolaysis.com',
+    'website': 'https://www.Kaya.com',
     'data': [
         'security/ir.model.access.csv',
         'views/pos_order_views.xml',

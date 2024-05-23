@@ -57,7 +57,7 @@ msgstr ""
 "    <p>IAP Lead Generation hesabınızda artık kredi yok,<br>\n"
 "    IAP Potansiyel Müşteri Oluşturma hesabınızı CRM uygulamasının ayarlarından şarj edebilirsiniz.<br></p>\n"
 "    <p>Saygılarımla,</p>\n"
-"    <p>Kolaysis </p>\n"
+"    <p>Kaya </p>\n"
 "</div>"
 
 #. module: crm_iap_mine

@@ -2272,7 +2272,7 @@ msgstr "Numaralı liste"
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.tests
 msgid "Odoo Editor Tests"
-msgstr "Kolaysis Editör Testleri"
+msgstr "Kaya Editör Testleri"
 
 #. module: web_editor
 #. odoo-python

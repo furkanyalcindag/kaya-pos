@@ -29,7 +29,7 @@ _DEFAULT_MANIFEST = {
     'application': False,
     'bootstrap': False,  # web
     'assets': {},
-    'author': 'Kolaysis',
+    'author': 'Kaya',
     'auto_install': False,
     'category': 'Uncategorized',
     'configurator_snippets': {},  # website themes

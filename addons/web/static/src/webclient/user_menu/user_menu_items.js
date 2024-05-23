@@ -89,7 +89,7 @@ function odooAccountItem(env) {
     return {
         type: "item",
         id: "account",
-        description: _t("Kolaysis.com hesabım"),
+        description: _t("Kaya.com hesabım"),
         callback: () => {
             env.services
                 .rpc("/web/session/account")
@@ -97,7 +97,7 @@ function odooAccountItem(env) {
                     browser.open(url, "_blank");
                 })
                 .catch(() => {
-                    browser.open("https://www.kolaysis.com/", "_blank");
+                    browser.open("https://www.Kaya.com/", "_blank");
                 });
         },
         sequence: 60,

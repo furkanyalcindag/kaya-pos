@@ -6,7 +6,7 @@
     'version': '3.2',
     'category': 'Accounting/Localizations/Account Charts',
     'author': 'Onestein (http://www.onestein.eu)',
-    'website': 'https://www.kolaysis.com/documentation/17.0/applications/finance/fiscal_localizations/netherlands.html',
+    'website': 'https://www.Kaya.com/documentation/17.0/applications/finance/fiscal_localizations/netherlands.html',
     'depends': [
         'base_iban',
         'base_vat',

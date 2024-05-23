@@ -1,9 +1,9 @@
 
-![](https://github.com/furkanyalcindag/comitfy-kolaysis/blob/main/addons/web/static/img/kayaLogo.png)
+![](https://github.com/furkanyalcindag/comitfy-Kaya/blob/main/addons/web/static/img/kayaLogo.png)
 
-Kolaysis, web tabanlı iş uygulamalarından oluşan bir pakettir. Ana Kolaysis Uygulamaları arasında CRM, Proje Yönetimi, Faturalama ve Muhasebe, Satış Noktası, İnsan Kaynakları, Pazarlama, Üretim, Satın Alma Yönetimi bulunmaktadır. Kolaysis Uygulamaları bağımsız uygulamalar olarak kullanılabilir, ancak aynı zamanda sorunsuz bir şekilde entegre olurlar, böylece birkaç uygulama yüklediğinizde tam özellikli bir Açık Kaynak ERP elde edebilirsiniz.
+Kaya, web tabanlı iş uygulamalarından oluşan bir pakettir. Ana Kaya Uygulamaları arasında CRM, Proje Yönetimi, Faturalama ve Muhasebe, Satış Noktası, İnsan Kaynakları, Pazarlama, Üretim, Satın Alma Yönetimi bulunmaktadır. Kaya Uygulamaları bağımsız uygulamalar olarak kullanılabilir, ancak aynı zamanda sorunsuz bir şekilde entegre olurlar, böylece birkaç uygulama yüklediğinizde tam özellikli bir Açık Kaynak ERP elde edebilirsiniz.
 
-# Kolaysis ile Ubuntu'da Çalışmaya Başlama
+# Kaya ile Ubuntu'da Çalışmaya Başlama
 
 Standart bir Ubuntu kurulumu için aşağıdaki adımları izleyebilirsiniz.
 
@@ -76,7 +76,7 @@ sudo /usr/pgadmin4/bin/setup-web.sh
 Projeyi bilgisayarımıza klonlayalım:
 
 ```
-git clone https://github.com/furkanyalcindag/comitfy-kolaysis.git --depth 1 --branch main --single-branch Comitfy-Kolaysis
+git clone https://github.com/furkanyalcindag/comitfy-Kaya.git --depth 1 --branch main --single-branch Comitfy-Kaya
 ```
 
 Projeyi başarılı bir şekilde klonladıktan sonra projenin dizinine gidip aşağıdaki komutu çalıştıralım:
@@ -112,12 +112,12 @@ ALTER USER
 
 ### Konfigürasyonları Ayarlayalım:
 
-<img alt="image" src="https://github.com/furkanyalcindag/comitfy-kolaysis/assets/106275189/37aae1cf-db76-472e-8c3b-db4fd3b27101"/>
+<img alt="image" src="https://github.com/furkanyalcindag/comitfy-Kaya/assets/106275189/37aae1cf-db76-472e-8c3b-db4fd3b27101"/>
 
 Projemizi localhost:8069 Adresinden Başlatarak Geliştirmeye Başlayalım.
 
 
-# Kolaysis ile Windows'da Çalışmaya Başlama
+# Kaya ile Windows'da Çalışmaya Başlama
 
 Standart bir Windows kurulumu için aşağıdaki adımları izleyebilirsiniz.
 
@@ -125,7 +125,7 @@ Standart bir Windows kurulumu için aşağıdaki adımları izleyebilirsiniz.
 
 <a href="https://www.python.org/downloads/release/python-3100/">Buradan</a> Python'un 3.10 versiyonunu indirip installer ile kuruluma başlayın.
 
-![image](https://github.com/furkanyalcindag/comitfy-kolaysis/assets/20794065/293a9e6e-8156-4eb5-b503-20e8ff661872)
+![image](https://github.com/furkanyalcindag/comitfy-Kaya/assets/20794065/293a9e6e-8156-4eb5-b503-20e8ff661872)
 
 
 Burada bütün seçenekleri seçin, ardından kuruluma devam edin.Kurulum tamamlandıktan sonra ```python --version``` ve ```pip --version``` yazarak kurulumun başarılı bir şekilde tamamlandığından emin olun.
@@ -138,8 +138,8 @@ Varsayılan olarak PostgreSQL'de gelen kullanıcı postgres'dir. Yeni bir kullan
 -1- pgAdmin'i açın ve Servers'a çift tıklayın.
 - PostgreSQL<versiyonunuz> 'a tıklayın ve yukarıda bulunan araç çubuğundan Object sekmesine gelin.
 - Burada Create'e basıp Login/Group Role'e tıklayın.
-- Açılan General sekmesinde bulunan name kısmına yeni kullanıcı adınızı girin. (örnek;`kolaysis`)
-- Definition sekmesini açın ve kullanmak istediğiniz şifrenizi girin. (örnek;`kolaysis`)
+- Açılan General sekmesinde bulunan name kısmına yeni kullanıcı adınızı girin. (örnek;`Kaya`)
+- Definition sekmesini açın ve kullanmak istediğiniz şifrenizi girin. (örnek;`Kaya`)
 - Privileges sekmesini açın, Can Login? ve Superuser? butonlarını aktifleştirin. Ardından sağ alttan kaydedin.
 
 ### Dependency'leri yükleme
@@ -157,14 +157,14 @@ wkhtmltopdf'in Kurulum tamamlandıktan sonra denetim masasından Gelişmiş sist
 Projenin klasörünün içinde yer alan `odoo.conf` dosyasını açın, içerisinde yer alan `addons_path`'i projenin mevcut yoluna göre düzenleyin örneğin;
 ```
 [options]
-addons_path = C:\Users\osman\Desktop\comitfy-workspace\comitfy-kolaysis\addons,
-              C:\Users\osman\Desktop\comitfy-workspace\comitfy-kolaysis\odoo\addons,
-              C:\Users\osman\Desktop\comitfy-workspace\comitfy-kolaysis\odoo\custom_addons,
-db_user = kolaysis
-db_password = kolaysis
+addons_path = C:\Users\osman\Desktop\comitfy-workspace\comitfy-Kaya\addons,
+              C:\Users\osman\Desktop\comitfy-workspace\comitfy-Kaya\odoo\addons,
+              C:\Users\osman\Desktop\comitfy-workspace\comitfy-Kaya\odoo\custom_addons,
+db_user = Kaya
+db_password = Kaya
 ```
 ### Konfigürasyonları Ayarlayalım:
 
-![image](https://github.com/furkanyalcindag/comitfy-kolaysis/assets/20794065/c22211f1-0309-45f0-88b7-fdb5aa3b79e9)
+![image](https://github.com/furkanyalcindag/comitfy-Kaya/assets/20794065/c22211f1-0309-45f0-88b7-fdb5aa3b79e9)
 
 Projemizi localhost:8069 Adresinden Başlatarak Geliştirmeye Başlayalım.

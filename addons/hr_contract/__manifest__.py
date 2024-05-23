@@ -17,7 +17,7 @@ Add all information on the employee form to manage contracts.
 
 You can assign several contracts per employee.
     """,
-    'website': 'https://www.kolaysis.com',
+    'website': 'https://www.Kaya.com',
     'depends': ['hr'],
     'data': [
         'security/security.xml',

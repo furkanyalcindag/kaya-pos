@@ -8,7 +8,7 @@
     'sequence': 1006,
     'version': '1.0',
     'summary': 'Support live tracks: streaming, participation, youtube',
-    'website': 'https://www.kolaysis.com',
+    'website': 'https://www.Kaya.com',
     'depends': [
         'website_event_track',
     ],

@@ -8,7 +8,7 @@
     'sequence': 1007,
     'version': '1.0',
     'summary': 'Quiz and Meet on community route',
-    'website': 'https://www.kolaysis.com',
+    'website': 'https://www.Kaya.com',
     'depends': [
         'website_event_meet',
         'website_event_track_quiz',

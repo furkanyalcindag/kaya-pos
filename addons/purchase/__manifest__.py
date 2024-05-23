@@ -7,7 +7,7 @@
     'category': 'Inventory/Purchase',
     'sequence': 35,
     'summary': 'Purchase orders, tenders and agreements',
-    'website': 'https://www.kolaysis.com',
+    'website': 'https://www.Kaya.com',
     'depends': ['account'],
     'data': [
         'security/purchase_security.xml',

@@ -2,7 +2,7 @@
 {
     'name': 'Events Organization',
     'version': '1.8',
-    'website': 'https://www.kolaysis.com',
+    'website': 'https://www.Kaya.com',
     'category': 'Marketing/Events',
     'summary': 'Trainings, Conferences, Meetings, Exhibitions, Registrations',
     'description': """

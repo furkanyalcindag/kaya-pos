@@ -181,7 +181,7 @@ msgstr "Adı"
 #. module: iap
 #: model_terms:ir.ui.view,arch_db:iap.res_config_settings_view_form
 msgid "Odoo IAP"
-msgstr "Kolaysis IAP"
+msgstr "Kaya IAP"
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account_info__service_name

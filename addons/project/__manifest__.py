@@ -4,7 +4,7 @@
 {
     'name': 'Project',
     'version': '1.3',
-    'website': 'https://www.kolaysis.com',
+    'website': 'https://www.Kaya.com',
     'category': 'Services/Project',
     'sequence': 45,
     'summary': 'Organize and plan your projects',

@@ -2,7 +2,7 @@
 
 {
     'name': 'Australia - Accounting',
-    'website': 'https://www.kolaysis.com/documentation/17.0/applications/finance/fiscal_localizations/australia.html',
+    'website': 'https://www.Kaya.com/documentation/17.0/applications/finance/fiscal_localizations/australia.html',
     'icon': '/account/static/description/l10n.png',
     'countries': ['au'],
     'version': '1.1',

@@ -7,7 +7,7 @@
     'description': """
 Bridge module to add a new payment term - Days end of month on the
 """,
-    'website': 'https://www.kolaysis.com',
+    'website': 'https://www.Kaya.com',
     'depends': ['account'],
     'data': [
         'views/account_payment_term_views.xml',

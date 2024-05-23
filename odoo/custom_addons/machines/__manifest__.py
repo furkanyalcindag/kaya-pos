@@ -1,9 +1,9 @@
 {
     'name': 'Machines',
-    'author': "Kolaysis",
+    'author': "Kaya",
     'category': 'Manufacturing/Manufacturing',
     'summary': 'Makine Yönetimi',
-    'website': 'https://www.kolaysis.com',
+    'website': 'https://www.Kaya.com',
     'version': '17.0.0.1.0',
     'depends': ['base', 'hr'
                 ],

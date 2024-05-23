@@ -51,7 +51,7 @@
     ],
     'installable': True,
     'application': True,
-    'website': 'https://www.kolaysis.com',
+    'website': 'https://www.Kaya.com',
     'assets': {
 
         # In general, you DON'T NEED to declare new assets here, just put the

@@ -10,7 +10,7 @@
 Using this application you can manage Sales Teams with CRM and/or Sales
 =======================================================================
  """,
-    'website': 'https://www.kolaysis.com',
+    'website': 'https://www.Kaya.com',
     'depends': ['base', 'mail'],
     'data': [
         'security/sales_team_security.xml',

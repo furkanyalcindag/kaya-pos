@@ -95,7 +95,7 @@ msgstr ""
 #: code:addons/l10n_ke_edi_tremol/static/src/js/send_invoice.js:0
 #, python-format
 msgid "Error trying to connect to Odoo. Check your internet connection"
-msgstr "Kolaysis'e bağlanmaya çalışırken hata oluştu. İnternet bağlantınızı kontrol edin"
+msgstr "Kaya'e bağlanmaya çalışırken hata oluştu. İnternet bağlantınızı kontrol edin"
 
 #. module: l10n_ke_edi_tremol
 #. openerp-web

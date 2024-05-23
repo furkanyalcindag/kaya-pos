@@ -14243,7 +14243,7 @@ msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
 "<jobs@example.odoo.com>"
 msgstr ""
-"Eposta rumuzunun adı, ör. <kariyer@example.kolaysis.com> adresine gelen "
+"Eposta rumuzunun adı, ör. <kariyer@example.Kaya.com> adresine gelen "
 "epostaları yakalamak için 'kariyer'"
 
 #. module: account
@@ -16221,7 +16221,7 @@ msgstr "Bu banka hesabıyla ilgili yevmiyeyi adlandırmak için kullanılacak"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_tour_upload_bill
 msgid "With Odoo, you won't have to record bills manually"
-msgstr "Kolaysis ile faturaları manuel olarak kaydetmek zorunda kalmayacaksınız"
+msgstr "Kaya ile faturaları manuel olarak kaydetmek zorunda kalmayacaksınız"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_search
@@ -16281,7 +16281,7 @@ msgid ""
 "is the Odoo reference."
 msgstr ""
 "Her bir referans türü için farklı modeller seçebilirsiniz. Varsayılan "
-"seçenek Kolaysis referansıdır."
+"seçenek Kaya referansıdır."
 
 #. module: account
 #. odoo-python

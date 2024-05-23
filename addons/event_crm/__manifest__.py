@@ -5,7 +5,7 @@
     'name': 'Event CRM',
     'version': '1.0',
     'category': 'Marketing/Events',
-    'website': 'https://www.kolaysis.com',
+    'website': 'https://www.Kaya.com',
     'description': "Create leads from event registrations.",
     'depends': ['event', 'crm'],
     'data': [

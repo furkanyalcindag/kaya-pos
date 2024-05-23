@@ -158,7 +158,7 @@ msgid ""
 "Odoo's chat helps employees collaborate efficiently. I'm here to help you "
 "discover its features."
 msgstr ""
-"Kolaysis'in sohbeti, çalışanların verimli bir şekilde işbirliği yapmasına yardımcı olur. Özelliklerini keşfetmenize yardımcı olmak için buradayım."
+"Kaya'in sohbeti, çalışanların verimli bir şekilde işbirliği yapmasına yardımcı olur. Özelliklerini keşfetmenize yardımcı olmak için buradayım."
 
 
 #. module: mail_bot
@@ -260,9 +260,9 @@ msgid ""
 msgstr ""
 "Maalesef ben sadece bir botum 😞 Anlamıyorum! Ürünümüzü keşfetmek için "
 "yardıma ihtiyacınız varsa, lütfen <a "
-"href=\"https://www.kolaysis.com/\" "
+"href=\"https://www.Kaya.com/\" "
 "target=\"_blank\">belgelerimizi</a> veya <a "
-"href=\"https://www.kolaysis.com/slides\" target=\"_blank\">videolarımızı</a> "
+"href=\"https://www.Kaya.com/slides\" target=\"_blank\">videolarımızı</a> "
 "kontrol edin."
 
 #. module: mail_bot

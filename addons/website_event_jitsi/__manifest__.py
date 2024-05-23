@@ -7,7 +7,7 @@
     'sequence': 1002,
     'version': '1.0',
     'summary': 'Event / Jitsi',
-    'website': 'https://www.kolaysis.com',
+    'website': 'https://www.Kaya.com',
     'depends': [
         'website_event',
         'website_jitsi',

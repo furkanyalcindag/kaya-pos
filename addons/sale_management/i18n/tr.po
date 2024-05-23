@@ -606,7 +606,7 @@ msgstr ""
 #: model:digest.tip,name:sale_management.digest_tip_sale1_management_0
 #: model_terms:digest.tip,tip_description:sale_management.digest_tip_sale1_management_0
 msgid "Tip: Odoo supports configurable products"
-msgstr "İpucu: Kolaysis, yapılandırılabilir ürünleri destekler"
+msgstr "İpucu: Kaya, yapılandırılabilir ürünleri destekler"
 
 #. module: sale_management
 #: model:digest.tip,name:sale_management.digest_tip_sale_management_1

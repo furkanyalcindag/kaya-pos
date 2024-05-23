@@ -7,7 +7,7 @@
     'category': 'Human Resources/Employees',
     'sequence': 95,
     'summary': 'Centralize employee information',
-    'website': 'https://www.kolaysis.com',
+    'website': 'https://www.Kaya.com',
     'images': [
         'static/src/img/default_image.png',
     ],

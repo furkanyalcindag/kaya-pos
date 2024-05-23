@@ -5,7 +5,7 @@
     'sequence': 210,
     'summary': 'Chat with your website visitors',
     'category': 'Website/Live Chat',
-    'website': 'https://www.kolaysis.com',
+    'website': 'https://www.Kaya.com',
     'description':
         """
 Live Chat Support

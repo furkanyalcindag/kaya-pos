@@ -6,7 +6,7 @@
     'version': '1.0',
     'category': 'Productivity/Discuss',
     'summary': 'Add livechat support for KolayBot',
-    'website': 'https://www.kolaysis.com',
+    'website': 'https://www.Kaya.com',
     'depends': ['mail_bot', 'im_livechat'],
     'installable': True,
     'auto_install': True,

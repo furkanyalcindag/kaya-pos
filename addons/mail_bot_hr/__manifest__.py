@@ -3,7 +3,7 @@
     'name': "KolayBot - HR",
     'summary': """Bridge module between hr and mailbot.""",
     'description': """This module adds the KolayBot state and notifications in the user form modified by hr.""",
-    'website': "https://www.kolaysis.com/",
+    'website': "https://www.Kaya.com/",
     'category': 'Productivity/Discuss',
     'version': '1.0',
     'depends': ['mail_bot', 'hr'],

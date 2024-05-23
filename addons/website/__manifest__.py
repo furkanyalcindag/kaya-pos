@@ -6,7 +6,7 @@
     'category': 'Website/Website',
     'sequence': 20,
     'summary': 'Enterprise website builder',
-    'website': 'https://www.kolaysis.com',
+    'website': 'https://www.Kaya.com',
     'version': '1.0',
     'depends': [
         'digest',

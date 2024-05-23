@@ -5,7 +5,7 @@
     'countries': ['at'],
     'version': '3.1',
     'author': 'WT-IO-IT GmbH, Wolfgang Taferner (https://www.wt-io-it.at)',
-    'website': 'https://www.kolaysis.com/documentation/17.0/applications/finance/fiscal_localizations.html',
+    'website': 'https://www.Kaya.com/documentation/17.0/applications/finance/fiscal_localizations.html',
     'category': 'Accounting/Localizations/Account Charts',
     'summary': 'Austrian Standardized Charts & Tax',
     'description': """

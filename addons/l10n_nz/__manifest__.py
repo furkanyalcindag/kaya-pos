@@ -16,7 +16,7 @@ Also:
     - sets up New Zealand taxes.
     """,
     'author': 'Richard deMeester - Willow IT',
-    'website': 'https://www.kolaysis.com/documentation/17.0/applications/finance/fiscal_localizations.html',
+    'website': 'https://www.Kaya.com/documentation/17.0/applications/finance/fiscal_localizations.html',
     'depends': [
         'account',
     ],

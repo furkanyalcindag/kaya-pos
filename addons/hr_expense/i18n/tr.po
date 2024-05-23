@@ -657,7 +657,7 @@ msgid ""
 "Artificial Intelligence will fill the data automatically."
 msgstr ""
 "Masraf belgelerini ceplerinizde taşımayın. Belgenin fotoğrafını çekin ve "
-"Kolaysis sizin için dijitalleştirsin. OCR ve Yapay Zeka veriyi otomatik olarak "
+"Kaya sizin için dijitalleştirsin. OCR ve Yapay Zeka veriyi otomatik olarak "
 "dolduracaktır."
 
 #. module: hr_expense
@@ -1502,7 +1502,7 @@ msgstr "Teslimat hatası olan mesaj adedi"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register_no_user
 msgid "Odoo"
-msgstr "Kolaysis"
+msgstr "Kaya"
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.action_hr_expense_account
@@ -1699,7 +1699,7 @@ msgid ""
 "navigate."
 msgstr ""
 "Hazır? Manuel olarak kaydedebilir veya değişiklikleri buradan atabilirsiniz."
-" <em>Kaydetmenize gerek yok</em> - Kolaysis gezinirken sizin için herşeyi "
+" <em>Kaydetmenize gerek yok</em> - Kaya gezinirken sizin için herşeyi "
 "kurtaracak."
 
 #. module: hr_expense
@@ -2525,7 +2525,7 @@ msgstr "örn. NY seyahati"
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form
 msgid "e.g. domain.com"
-msgstr "örn. kolaysis.com"
+msgstr "örn. Kaya.com"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_refuse_reason

@@ -9,7 +9,7 @@
 Track equipment and maintenance requests""",
     'depends': ['mail'],
     'summary': 'Track equipment and manage maintenance requests',
-    'website': 'https://www.kolaysis.com',
+    'website': 'https://www.Kaya.com',
     'data': [
         'security/maintenance.xml',
         'security/ir.model.access.csv',

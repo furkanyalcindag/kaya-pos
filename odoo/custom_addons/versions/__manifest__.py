@@ -1,9 +1,9 @@
 {
     'name': 'Version',
-    'author': "Kolaysis",
+    'author': "Kaya",
     'category': '',
     'summary': 'Version Control',
-    'website': 'https://www.kolaysis.com',
+    'website': 'https://www.Kaya.com',
     'version': '17.0.0.1.0',
     'depends': ['base'
                 ],

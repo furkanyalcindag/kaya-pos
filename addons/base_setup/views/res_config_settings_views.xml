@@ -131,7 +131,7 @@
 
                     <block title="Progressive Web App" id="pwa_settings" groups="base.group_no_one">
                         <setting help="This name will be used for the application when Odoo is installed through the browser.">
-                            <field name="web_app_name" placeholder="Kolaysis"/>
+                            <field name="web_app_name" placeholder="Kaya"/>
                         </setting>
                     </block>
 

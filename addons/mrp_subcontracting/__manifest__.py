@@ -5,7 +5,7 @@
     'name': "MRP Subcontracting",
     'version': '0.1',
     'summary': "Subcontract Productions",
-    'website': 'https://www.kolaysis.com',
+    'website': 'https://www.Kaya.com',
     'category': 'Manufacturing/Manufacturing',
     'depends': ['mrp'],
     'data': [

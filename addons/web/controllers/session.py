@@ -75,7 +75,7 @@ class Session(http.Controller):
             'state': json.dumps({'d': request.db, 'u': ICP.get_param('web.base.url')}),
             'scope': 'userinfo',
         }
-        return 'https://www.kolaysis.com/contact/'
+        return 'https://www.Kaya.com/contact/'
 
     @http.route('/web/session/destroy', type='json', auth="user")
     def destroy(self):

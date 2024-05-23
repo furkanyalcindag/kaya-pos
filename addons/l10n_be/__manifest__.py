@@ -1,7 +1,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Belgium - Accounting',
-    'website': 'https://www.kolaysis.com/documentation/17.0/applications/finance/fiscal_localizations/belgium.html',
+    'website': 'https://www.Kaya.com/documentation/17.0/applications/finance/fiscal_localizations/belgium.html',
     'version': '2.0',
     'icon': '/account/static/description/l10n.png',
     'countries': ['be'],

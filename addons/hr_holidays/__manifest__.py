@@ -7,7 +7,7 @@
     'category': 'Human Resources/Time Off',
     'sequence': 85,
     'summary': 'Allocate PTOs and follow leaves requests',
-    'website': 'https://www.kolaysis.com',
+    'website': 'https://www.Kaya.com',
     'description': """
 Manage time off requests and allocations
 =====================================

@@ -1049,7 +1049,7 @@ msgstr "Genel ortağa hiçbir belirteç atanamaz."
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_provider__module_to_buy
 msgid "Odoo Enterprise Module"
-msgstr "Kolaysis İşletme Modül"
+msgstr "Kaya İşletme Modül"
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_transaction__operation__offline

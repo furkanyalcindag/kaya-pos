@@ -868,7 +868,7 @@ msgstr "Not"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_record_sidebar
 msgid "Odoo Logo"
-msgstr "Kolaysis Logo"
+msgstr "Kaya Logo"
 
 #. module: portal
 #. odoo-python

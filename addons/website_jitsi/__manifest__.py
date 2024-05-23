@@ -7,7 +7,7 @@
     'category': 'Hidden',
     'version': '1.0',
     "summary": "Create Jitsi room on website.",
-    'website': 'https://www.kolaysis.com',
+    'website': 'https://www.Kaya.com',
     "description": "Create Jitsi room on website.",
     "depends": [
         "website"

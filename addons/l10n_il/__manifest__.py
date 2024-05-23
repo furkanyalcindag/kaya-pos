@@ -14,7 +14,7 @@ This module consists of:
  - Taxes and tax report
  - Multiple Fiscal positions
  """,
-    'website': 'https://www.kolaysis.com/documentation/17.0/applications/finance/fiscal_localizations.html',
+    'website': 'https://www.Kaya.com/documentation/17.0/applications/finance/fiscal_localizations.html',
     'depends': [
         'account',
     ],

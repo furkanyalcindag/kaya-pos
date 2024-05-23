@@ -130,7 +130,7 @@ msgid ""
 "API Keys allow your users to access Odoo with external tools when multi-"
 "factor authentication is enabled."
 msgstr ""
-"API Anahtarları, çok faktörlü kimlik doğrulama etkinleştirildiğinde kullanıcılarınızın Kolaysis'e harici araçlarla "
+"API Anahtarları, çok faktörlü kimlik doğrulama etkinleştirildiğinde kullanıcılarınızın Kaya'e harici araçlarla "
 "erişmesini sağlar."
 
 #. module: base_setup
@@ -549,7 +549,7 @@ msgstr ""
 msgid ""
 "This name will be used for the application when Odoo is installed through "
 "the browser."
-msgstr "Bu ad, Kolaysis tarayıcı üzerinden yüklendiğinde uygulama için "
+msgstr "Bu ad, Kaya tarayıcı üzerinden yüklendiğinde uygulama için "
 "kullanılacaktır."
 
 #. module: base_setup

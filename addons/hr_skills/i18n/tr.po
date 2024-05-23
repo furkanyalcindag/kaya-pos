@@ -927,12 +927,12 @@ msgstr ""
 #. module: hr_skills
 #: model_terms:ir.ui.view,arch_db:hr_skills.report_employee_cv_main_panel
 msgid "Odoo India pvt. Ltd"
-msgstr "Kolaysis Türkiye Ltd."
+msgstr "Kaya Türkiye Ltd."
 
 #. module: hr_skills
 #: model:hr.resume.line,name:hr_skills.employee_resume_line_admin_4
 msgid "Odoo SA"
-msgstr "Kolaysis A.S"
+msgstr "Kaya A.S"
 
 #. module: hr_skills
 #. odoo-javascript
@@ -1540,7 +1540,7 @@ msgstr "Kütüphanemizdeki becerileri çalışan profiline ekleyebilirsiniz."
 #. module: hr_skills
 #: model_terms:ir.ui.view,arch_db:hr_skills.report_employee_cv_sidepanel
 msgid "demo@email.com"
-msgstr "demo@kolaysis.com"
+msgstr "demo@Kaya.com"
 
 #. module: hr_skills
 #: model_terms:ir.ui.view,arch_db:hr_skills.hr_employee_skill_type_view_form
@@ -1550,9 +1550,9 @@ msgstr "örn. Diller"
 #. module: hr_skills
 #: model_terms:ir.ui.view,arch_db:hr_skills.resume_line_view_form
 msgid "e.g. Odoo Inc."
-msgstr "örn. Kolaysis Inc."
+msgstr "örn. Kaya Inc."
 
 #. module: hr_skills
 #: model_terms:ir.ui.view,arch_db:hr_skills.report_employee_cv_sidepanel
 msgid "www.demo.com"
-msgstr "www.kolaysis.com"
+msgstr "www.Kaya.com"

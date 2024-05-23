@@ -2675,7 +2675,7 @@ msgid ""
 "If this checkbox is ticked, Odoo will automatically print the allocation "
 "report labels of a MO when it is done."
 msgstr ""
-"Bu onay kutusu işaretlenirse, Kolaysis bir Üretim Emri'nin tahsis raporu etiketlerini "
+"Bu onay kutusu işaretlenirse, Kaya bir Üretim Emri'nin tahsis raporu etiketlerini "
 "tamamlandığında otomatik olarak yazdıracaktır."
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_mrp_reception_report
@@ -2683,7 +2683,7 @@ msgid ""
 "If this checkbox is ticked, Odoo will automatically print the allocation "
 "report of a MO when it is done and has assigned moves."
 msgstr ""
-"Bu onay kutusu işaretlenirse, Kolaysis bir Üretim Emri'nin tahsis raporu tamamlandığında ve hamleler atandığında "
+"Bu onay kutusu işaretlenirse, Kaya bir Üretim Emri'nin tahsis raporu tamamlandığında ve hamleler atandığında "
 "otomatik olarak yazdıracaktır."
 
 #. module: mrp
@@ -2692,7 +2692,7 @@ msgid ""
 "If this checkbox is ticked, Odoo will automatically print the lot/SN label "
 "of a MO when it is done."
 msgstr ""
-"Bu onay kutusu işaretlenirse, Kolaysis bir Üretim Emri tamamlandığında lot/SN etiketini"
+"Bu onay kutusu işaretlenirse, Kaya bir Üretim Emri tamamlandığında lot/SN etiketini"
 " otomatik olarak yazdıracaktır."
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_done_mrp_product_labels
@@ -2700,7 +2700,7 @@ msgid ""
 "If this checkbox is ticked, Odoo will automatically print the product labels"
 " of a MO when it is done."
 msgstr ""
-"Bu onay kutusu işaretlenirse, Kolaysis bir Üretim Emri tamamlandığında ürün etiketlerini "
+"Bu onay kutusu işaretlenirse, Kaya bir Üretim Emri tamamlandığında ürün etiketlerini "
 "otomatik olarak yazdıracaktır."
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_stock_picking_type__auto_print_done_production_order
@@ -2708,7 +2708,7 @@ msgid ""
 "If this checkbox is ticked, Odoo will automatically print the production "
 "order of a MO when it is done."
 msgstr ""
-"Bu onay kutusu işaretlenirse, Kolaysis bir Üretim Emri tamamlandığında ürün etiketlerini "
+"Bu onay kutusu işaretlenirse, Kaya bir Üretim Emri tamamlandığında ürün etiketlerini "
 "otomatik olarak yazdıracaktır."
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_document__image_height
@@ -3789,7 +3789,7 @@ msgid ""
 "                                install the IoT App on a computer that is on the same local network as the\n"
 "                                barcode operator and configure the routing of the reports."
 msgstr ""
-"Kolaysis varsayılan olarak bir PDF önizlemesi açar. Anında yazdırmak istiyorsanız IoT \n"
+"Kaya varsayılan olarak bir PDF önizlemesi açar. Anında yazdırmak istiyorsanız IoT \n"
 " Uygulamasını barkod operatörü ile aynı yerel ağda bulunan bir bilgisayara yükleyin ve raporların yönlendirmesini yapılandırın."
 
 #. module: mrp
@@ -6502,7 +6502,7 @@ msgid ""
 "perfectly integrated into the process. Workers can trigger feedback loops, "
 "maintenance alerts, scrap products, etc."
 msgstr ""
-"Kolaysis iş merkezi kontrol paneliyle, çalışanınız mağazada iş emirlerini "
+"Kaya iş merkezi kontrol paneliyle, çalışanınız mağazada iş emirlerini "
 "başlatabilir ve çalışma sayfasındaki talimatları takip edebilir. Kalite "
 "testleri sürece mükemmel şekilde entegre edilmiştir. Çalışanlar geri "
 "bildirim döngülerini, bakım alarmlarını, hurda ürünlerini vs. "
