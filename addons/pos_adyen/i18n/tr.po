@@ -119,7 +119,7 @@ msgstr ""
 #: code:addons/pos_adyen/models/pos_payment_method.py:0
 #, python-format
 msgid "Invalid Adyen request"
-msgstr ""
+msgstr "Geçersiz Adyen talebi"
 
 #. module: pos_adyen
 #. odoo-javascript
