@@ -32,6 +32,11 @@
     font-size: 75%;
 }
 
+.pos-receipt .pos-javdes-header {
+    text-align: center;
+    font-size: 75% !important;
+}
+
 .pos-receipt .pos-receipt-order-data {
     text-align: center;
     font-size: 75%;
@@ -41,6 +46,7 @@
     font-size: 125%;
     padding-left: 6em;
 }
+
 
 .pos-receipt .pos-receipt-title {
     font-weight: bold;

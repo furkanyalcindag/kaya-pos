@@ -11,6 +11,7 @@ export class ReceiptHeader extends Component {
                 company: Object,
                 header: { type: [String, { value: false }], optional: true },
                 cashier: { type: String, optional: true },
+                pointOfSale: { type: String, optional: true },
                 "*": true,
             },
         },

@@ -5,6 +5,11 @@
         <div class="products-widget d-flex flex-column flex-grow-1 overflow-auto" t-ref="products-widget">
             <t t-set="showCategoryImages" t-value="getShowCategoryImages()" />
             <div class="products-widget-control d-flex bg-view shadow-sm justify-content-between" t-att-class="{ 'h-12': showCategoryImages }">
+<!--                <CategorySelector
+                    categories="getCategories()"
+                    onClick="(id) => this.pos.setSelectedCategoryId(id)"
+                    showImage="showCategoryImages"
+                />-->
                 <Input tModel="[pos, 'searchProductWord']"
                     class="'p-1 custom-input-width'"
                     isSmall="ui.isSmall"
@@ -19,6 +24,7 @@
                             class="pos.productViewMode"
                             name="product.display_name"
                             productId="product.id"
+                            productBarcode="product.barcode"
                             price="product.getFormattedUnitPrice()"
                             imageUrl="product.getImageUrl()"
                             onClick="() =>this.pos.addProductToCurrentOrder(product)"

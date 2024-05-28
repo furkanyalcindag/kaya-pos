@@ -1951,6 +1951,7 @@ export class PosStore extends Reactive {
             company: this.company,
             cashier: this.get_cashier()?.name,
             header: this.config.receipt_header,
+            pointOfSale: this.config.name
         };
     }
 

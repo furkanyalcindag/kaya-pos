@@ -183,7 +183,7 @@
                             </div>
                         </div>
                     </t>
-                    <CenteredIcon t-else="" icon="'fa-shopping-cart fa-4x'" text="'Select an order'" class="'bg-100'"/>
+                    <CenteredIcon t-else="" icon="'fa-shopping-cart fa-4x'" text="'Bir sipariş seçin'" class="'bg-100'"/>
                 </div>
             </div>
         </div>

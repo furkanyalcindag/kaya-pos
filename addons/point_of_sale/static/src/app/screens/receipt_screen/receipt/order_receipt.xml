@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templates id="template" xml:space="preserve">
+    <!-- FİŞ -->
     <t t-name="point_of_sale.OrderReceipt">
         <div class="pos-receipt">
             <ReceiptHeader data="props.data.headerData" />
@@ -27,7 +28,7 @@
             <div class="pos-receipt-right-align">--------</div>
             <br/>
             <div class="pos-receipt-amount">
-                TOTAL
+                TOPLAM:
                 <span t-esc="props.formatCurrency(props.data.amount_total)" class="pos-receipt-right-align"/>
             </div>
             <t t-if="props.data.rounding_applied">
@@ -45,12 +46,12 @@
             <!-- Payment Lines -->
 
             <div class="paymentlines" t-foreach="props.data.paymentlines" t-as="line" t-key="line_index">
-                <t t-esc="line.name" />
-                <span t-esc="props.formatCurrency(line.amount, false)" class="pos-receipt-right-align"/>
+                ÖDEME -> <t t-esc="line.name" />
+               <span t-esc="props.formatCurrency(line.amount, false)" class="pos-receipt-right-align"/>
             </div>
 
             <div class="pos-receipt-amount receipt-change mt-2">
-                CHANGE
+                PARA ÜSTÜ:
                 <span t-esc="props.formatCurrency(props.data.change)" class="pos-receipt-right-align"/>
             </div>
 
@@ -62,7 +63,7 @@
                     <span t-esc="props.formatCurrency(props.data.total_discount)" class="pos-receipt-right-align"/>
                 </div>
             </t>
-            <div t-if="props.data.tax_details.length > 0" class="pos-receipt-taxes">
+<!--            <div t-if="props.data.tax_details.length > 0" class="pos-receipt-taxes">
                 <span />
                 <span>VAT%</span>
                 <span>VAT</span>
@@ -82,7 +83,7 @@
                     <span t-esc="props.formatCurrency(props.data.total_without_tax, false)" />
                     <span t-esc="props.formatCurrency(props.data.amount_total, false)" />
                 </t>
-            </div>
+            </div>-->
 
             <div class="before-footer" />
 
@@ -133,8 +134,8 @@
 
             <br/>
             <div class="pos-receipt-order-data">
-                <div t-esc="props.data.name" />
                 <div t-esc="props.data.date" />
+                <span>****TEŞEKKÜR EDERİZ****</span>
             </div>
         </div>
     </t>

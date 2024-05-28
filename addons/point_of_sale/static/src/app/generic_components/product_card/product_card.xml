@@ -18,7 +18,10 @@
                 <div class="overflow-hidden lh-sm fw-bolder product-name"
                     t-att-class="{'no-image': !props.imageUrl}" 
                     t-attf-id="article_product_{{props.productId}}"
-                    t-esc="props.name" />
+                    t-esc="props.name"
+                />
+            <div class="overflow-hidden lh-sm fw-bolder product-name"
+                     t-esc="props.productBarcode ? 'BARKOD: ' + props.productBarcode : 'BARKOD YOKTUR!'"/>
                 <span t-if="props.price" class="price-tag text-primary py-1 fw-bolder"
                     t-esc="props.price" />
             </div>
