@@ -1544,7 +1544,7 @@
 
         <record id="action_account_moves_journal_sales" model="ir.actions.act_window">
             <field name="context">{'journal_type':'sales', 'search_default_group_by_move': 1, 'search_default_posted':1, 'search_default_sales':1, 'expand': 1}</field>
-            <field name="name">Sales</field>
+            <field name="name">Satış</field>
             <field name="res_model">account.move.line</field>
             <field name="domain">[('display_type', 'not in', ('line_section', 'line_note'))]</field>
             <field name="view_id" ref="view_move_line_tree_grouped_sales_purchases"/>
@@ -1553,7 +1553,7 @@
 
         <record id="action_account_moves_journal_purchase" model="ir.actions.act_window">
             <field name="context">{'journal_type':'purchase', 'search_default_group_by_move': 1, 'search_default_posted':1, 'search_default_purchases':1, 'expand': 1}</field>
-            <field name="name">Purchases</field>
+            <field name="name">Satın Almalar</field>
             <field name="res_model">account.move.line</field>
             <field name="domain">[('display_type', 'not in', ('line_section', 'line_note'))]</field>
             <field name="view_id" ref="view_move_line_tree_grouped_sales_purchases"/>
@@ -1562,7 +1562,7 @@
 
         <record id="action_account_moves_journal_bank_cash" model="ir.actions.act_window">
             <field name="context">{'journal_type':'bank', 'search_default_group_by_move': 1, 'search_default_posted':1, 'search_default_bank':1, 'search_default_cash':1, 'expand': 1}</field>
-            <field name="name">Bank and Cash</field>
+            <field name="name">Banka ve Kasa</field>
             <field name="res_model">account.move.line</field>
             <field name="domain">[('display_type', 'not in', ('line_section', 'line_note'))]</field>
             <field name="view_id" ref="view_move_line_tree_grouped_bank_cash"/>
@@ -1571,7 +1571,7 @@
 
         <record id="action_account_moves_journal_misc" model="ir.actions.act_window">
             <field name="context">{'journal_type':'general', 'search_default_group_by_move': 1, 'search_default_posted':1, 'search_default_misc_filter':1, 'expand': 1}</field>
-            <field name="name">Miscellaneous</field>
+            <field name="name">Muhtelif</field>
             <field name="res_model">account.move.line</field>
             <field name="domain">[('display_type', 'not in', ('line_section', 'line_note'))]</field>
             <field name="view_id" ref="view_move_line_tree_grouped_misc"/>
@@ -1580,7 +1580,7 @@
 
         <record id="action_account_moves_ledger_partner" model="ir.actions.act_window">
             <field name="context">{'journal_type':'general', 'search_default_group_by_partner': 1, 'search_default_posted':1, 'search_default_trade_payable':1, 'search_default_trade_receivable':1, 'search_default_unreconciled':1}</field>
-            <field name="name">Partner Ledger</field>
+            <field name="name">İş Ortağı Defteri</field>
             <field name="res_model">account.move.line</field>
             <field name="domain">[('display_type', 'not in', ('line_section', 'line_note'))]</field>
             <field name="view_id" ref="view_move_line_tree_grouped_partner"/>
@@ -1694,7 +1694,7 @@
         </record>
 
         <record id="action_open_sale_payment_items" model="ir.actions.act_window">
-            <field name="name">Customer Amounts to Settle</field>
+            <field name="name">Uzlaşılacak Müşteri Tutarları</field>
             <field name="res_model">account.move.line</field>
             <field name="view_mode">tree</field>
             <field name="view_id" ref="view_move_line_payment_tree"/>
@@ -1702,7 +1702,7 @@
             <field name="domain">[('parent_state', '=', 'posted'), ('amount_residual', '&lt;', 0), ('account_id.reconcile', '=', True), ('journal_id.type', '=', 'sale')]</field>
             <field name="help" type="html">
                 <p class="o_view_nocontent_smiling_face">
-                    Amounts to settle
+                    Uzlaştırılacak tutarlar
                 </p><p>
                     Cool, it looks like you don't have any customer credit notes to pay.
                 </p>
@@ -1710,7 +1710,7 @@
         </record>
 
         <record id="action_open_payment_items" model="ir.actions.act_window">
-            <field name="name">Amounts to Settle</field>
+            <field name="name">Uzlaştırılacak tutarlar</field>
             <field name="res_model">account.move.line</field>
             <field name="view_mode">tree</field>
             <field name="view_id" ref="view_move_line_payment_tree"/>
@@ -1718,9 +1718,9 @@
             <field name="domain">[('parent_state', '=', 'posted'), ('amount_residual', '&lt;', 0), ('account_id.reconcile', '=', True), ('journal_id.type', '=', 'purchase')]</field>
             <field name="help" type="html">
                 <p class="o_view_nocontent_smiling_face">
-                    Amounts to settle
+                    Uzlaştırılacak tutarlar
                 </p><p>
-                    Cool, it looks like you don't have any vendor bills to pay.
+                    Harika, görünüşe göre ödemeniz gereken satıcı faturası yok.
                 </p>
             </field>
         </record>
@@ -1735,16 +1735,15 @@
             <field name="context">{'default_move_type': 'out_receipt'}</field>
             <field name="help" type="html">
               <p class="o_view_nocontent_smiling_face">
-                Create a new sales receipt
+                Yeni bir satış makbuzu oluşturun
               </p><p>
-                When the sale receipt is confirmed, you can record the customer
-                payment related to this sales receipt.
+                 Satış fişi onaylandığında, bu satış fişine ilişkin müşteri ödemesini kaydedebilirsiniz.
               </p>
             </field>
         </record>
 
         <record id="action_move_in_receipt_type" model="ir.actions.act_window">
-            <field name="name">Receipts</field>
+            <field name="name">Makbuzlar</field>
             <field name="res_model">account.move</field>
             <field name="view_mode">tree,kanban,form,activity</field>
             <field name="view_id" ref="view_in_invoice_receipt_tree"/>
@@ -1753,16 +1752,15 @@
             <field name="context">{'default_move_type': 'in_receipt', 'display_account_trust': True}</field>
             <field name="help" type="html">
               <p class="o_view_nocontent_smiling_face">
-                Register a new purchase receipt
+               Yeni bir satın alma makbuzu kaydedin
               </p><p>
-                When the purchase receipt is confirmed, you can record the
-                vendor payment related to this purchase receipt.
+                Satın alma makbuzu onaylandığında, bu satın alma makbuzuyla ilgili satıcı ödemesini kaydedebilirsiniz.
               </p>
             </field>
         </record>
 
         <record id="action_move_line_form" model="ir.actions.act_window">
-            <field name="name">Entries</field>
+            <field name="name">Girişler</field>
             <field name="res_model">account.move</field>
             <field name="view_id" ref="view_move_tree"/>
             <field name="search_view_id" ref="view_account_move_filter"/>
