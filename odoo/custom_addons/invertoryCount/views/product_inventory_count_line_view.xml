@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
     <record id="product_inventory_count_line_form" model="ir.ui.view">
-        <field name="name">product inventory count form</field>
+        <field name="name">product inventory count tree</field>
         <field name="model">product.inventory.count.line</field>
         <field name="arch" type="xml">
             <tree>
                 <field string="Ürün" name="product_id"/>
-                <field string="Sayım Bilgisi" name="inventory_count_id"/>
                 <field string="Mevcut Stok" name="initial_quantity"/>
                 <field string="Sayım Stoğu" name="counted_quantity"/>
                 <field string="Stok Farkı" name="difference"/>
@@ -16,14 +15,13 @@
 
     </record>
     <record id="product_inventory_count_line_view" model="ir.ui.view">
-        <field name="name">product.inventory.count.line</field>
+        <field name="name">product inventory count form</field>
         <field name="model">product.inventory.count.line</field>
         <field name="arch" type="xml">
             <form>
                 <sheet>
                     <group>
                         <field string="Ürün" name="product_id"/>
-                        <field string="Sayım Bilgisi" name="inventory_count_id"/>
                         <field string="Mevcut Stok" name="initial_quantity"/>
                         <field string="Sayım Stoğu" name="counted_quantity"/>
                         <field string="Stok Farkı" name="difference"/>

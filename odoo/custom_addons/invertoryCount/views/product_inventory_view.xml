@@ -19,17 +19,27 @@
         <field name="model">product.inventory.count</field>
         <field name="arch" type="xml">
             <form string="Sayım Bilgileri">
-                <header>
-                    <button name="view_inventory_lines"
-                            string="Stok Sayım Bilgileri"
-                            type="object"
-                            icon="fa-list"/>  <!-- İsteğe bağlı: FontAwesome ikonu -->
-                </header>
+<!--                <header>-->
+<!--                    <button name="view_inventory_lines"-->
+<!--                            string="Stok Sayım Bilgileri"-->
+<!--                            type="object"-->
+<!--                            icon="fa-list"/>  &lt;!&ndash; İsteğe bağlı: FontAwesome ikonu &ndash;&gt;-->
+<!--                </header>-->
                 <sheet>
                     <group>
-                        <field string="Sayım Açıklaması" name="name"/>
-                        <field string="Sayım Tarihi" name="date"/>
-                        <field string="Sayım Konumu" name="stock_location_id"/>
+                        <field string="Açıklama" name="name"/>
+                        <field string="Tarih" name="date"/>
+                        <field string="Konum" name="stock_location_id"/>
+                        <field string="Stok Sayımı" name="lines" widget="many2one_list" invisible="not lines">
+                            <tree editable="bottom" create="false" delete="false">
+                                <field readonly="1" string="Ürün" name="product_id"/>
+                                <field readonly="1" string="Mevcut Stok" name="initial_quantity"/>
+                                <field string="Sayım Stoğu" name="counted_quantity"/>
+                                <field string="Stok Farkı" name="difference"/>
+                                <!-- Diğer gerekli alanlar -->
+                            </tree>
+                        </field>
+
                     </group>
                 </sheet>
             </form>
@@ -40,23 +50,23 @@
         <field name="model">product.inventory.count.line</field>
         <field name="arch" type="xml">
             <tree>
-                <field  name="product_id" string="Ürün"/>
-                <field  name="initial_quantity" string="Mevcut Stok"/>
-                <field  name="counted_quantity" string="Sayım Sonrası Stok"/>
-                <field  name="difference" string="Stok Farkı"/>
+                <field name="product_id" string="Ürün"/>
+                <field readonly="1" name="initial_quantity" string="Mevcut Stok"/>
+                <field name="counted_quantity" string="Sayım Sonrası Stok"/>
+                <field name="difference" string="Stok Farkı"/>
 
                 <!-- Diğer gerekli alanlar -->
             </tree>
         </field>
     </record>
 
-
-    <record id="action_product_inventory_count_line" model="ir.actions.act_window">
-        <field name="name">Product Inventory Count Lines</field>
-        <field name="res_model">product.inventory.count.line</field>
-        <field name="view_mode">tree,form</field>
-        <field name="context">{'search_default_inventory_count_id': active_id}</field>
-    </record>
+<!-- yukarıdaki button Stok Sayım Bilgileri tıklandığında yeni bir sayfada lines alanlarının tree görünümünü oluşturma -->
+<!--    <record id="action_product_inventory_count_line" model="ir.actions.act_window">-->
+<!--        <field name="name">Product Inventory Count Lines</field>-->
+<!--        <field name="res_model">product.inventory.count.line</field>-->
+<!--        <field name="view_mode">tree,form</field>-->
+<!--        <field name="context">{'search_default_inventory_count_id': active_id}</field>-->
+<!--    </record>-->
 
     <!-- Actions -->
     <record id="product_inventory_count_action" model="ir.actions.act_window">
@@ -67,8 +77,6 @@
 
 
     <!-- Menu Items -->
-
-
 
 
 </odoo>
