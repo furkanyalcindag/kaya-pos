@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="product_inventory_count_line_form" model="ir.ui.view">
+        <field name="name">product inventory count tree</field>
+        <field name="model">product.inventory.count.line</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field string="Ürün" name="product_id"/>
+                <field string="Mevcut Stok" name="initial_quantity"/>
+                <field string="Sayım Stoğu" name="counted_quantity"/>
+                <field string="Stok Farkı" name="difference"/>
+
+            </tree>
+        </field>
+
+    </record>
+    <record id="product_inventory_count_line_view" model="ir.ui.view">
+        <field name="name">product inventory count form</field>
+        <field name="model">product.inventory.count.line</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field string="Ürün" name="product_id"/>
+                        <field string="Mevcut Stok" name="initial_quantity"/>
+                        <field string="Sayım Stoğu" name="counted_quantity"/>
+                        <field string="Stok Farkı" name="difference"/>
+                        <!-- Diğer alanları ekleyin -->
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+
+    <record id="product_inventory_count_line_action" model="ir.actions.act_window">
+        <field name="name">Product Inventory Count Line</field>
+        <field name="res_model">product.inventory.count.line</field>
+        <field name="view_mode">tree,form</field>
+
+    </record>
+
+    <menuitem
+            id="product_inventory_count_line_menu_item"
+            name="Ürün Stok Sayım Bilgileri"
+            parent="product_inventory_count_root_menu"
+            action="product_inventory_count_line_action"
+    />
+
+</odoo>

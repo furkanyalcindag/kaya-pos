@@ -1,0 +1,7 @@
+<odoo>
+    <menuitem
+            id="product_inventory_count_root_menu"
+            name="Stok Sayım Yönetimi"
+            action="product_inventory_count_action"/>
+
+</odoo>
