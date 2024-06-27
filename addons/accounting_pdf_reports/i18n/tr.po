@@ -1,0 +1,1190 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* accounting_pdf_reports
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-15 06:34+0000\n"
+"PO-Revision-Date: 2022-04-15 06:34+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+msgid ": General ledger"
+msgstr ": Büyük Defter"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid ": Trial Balance"
+msgstr ": Geçici mizan\n"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+msgid "<span>Not due</span>"
+msgstr "<span>Vadesi gelmedi</span>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+msgid "<strong>Analytic Accounts:</strong>"
+msgstr "<strong>Analitik Hesaplar:</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_tax
+msgid "<strong>Company:</strong>"
+msgstr "<strong>Şirket:</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_financial
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_tax
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "<strong>Date from :</strong>"
+msgstr "<strong>Tarihinden İtibaren :</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_financial
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_tax
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "<strong>Date to :</strong>"
+msgstr "<strong>Tarih İçin:</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "<strong>Display Account:</strong>"
+msgstr "<strong>Görüntü Hesabı:</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+msgid "<strong>Display Account</strong>"
+msgstr "<strong>Görüntü Hesabı:</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+msgid "<strong>Entries Sorted By:</strong>"
+msgstr "<strong>Girişler Şuna Göre Sıralanmıştır:</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+msgid "<strong>Journal:</strong>"
+msgstr ""
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+msgid "<strong>Journals:</strong>"
+msgstr "<strong>Yevmiyeler:</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+msgid "<strong>Partner's:</strong>"
+msgstr "<strong>Ortağın:</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+msgid "<strong>Period Length (days)</strong>"
+msgstr "<strong>Dönem Uzunluğu (gün)</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_tax
+msgid "<strong>Purchase</strong>"
+msgstr "<strong>Satın Alma</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+msgid "<strong>Sorted By:</strong>"
+msgstr "<strong>Sıralama Ölçütü:</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+msgid "<strong>Start Date:</strong>"
+msgstr "<strong>Başlangıç Tarihi:</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_financial
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_tax
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "<strong>Target Moves:</strong>"
+msgstr "<strong>Hedef Hareketleri:</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+msgid "<strong>Total</strong>"
+msgstr "<strong>Toplam</strong>"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal_entries
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "Account"
+msgstr "Hesap"
+
+#. module: accounting_pdf_reports
+#: model:ir.model,name:accounting_pdf_reports.model_account_aged_trial_balance
+msgid "Account Aged Trial balance Report"
+msgstr "Hesap Eski Deneme bakiyesi Raporu\n"
+
+#. module: accounting_pdf_reports
+#: model:ir.model,name:accounting_pdf_reports.model_account_common_account_report
+msgid "Account Common Account Report"
+msgstr "Ortak Hesap Raporu"
+
+#. module: accounting_pdf_reports
+#: model:ir.model,name:accounting_pdf_reports.model_account_common_partner_report
+msgid "Account Common Partner Report"
+msgstr "Hesap Ortakları Raporu"
+
+#. module: accounting_pdf_reports
+#: model:ir.model,name:accounting_pdf_reports.model_account_report_partner_ledger
+msgid "Account Partner Ledger"
+msgstr "Hesap Ortağı Defteri"
+
+#. module: accounting_pdf_reports
+#: model:ir.model,name:accounting_pdf_reports.model_account_print_journal
+msgid "Account Print Journal"
+msgstr "Yevmiye Hesap Yazdırma"
+
+#. module: accounting_pdf_reports
+#: model:ir.model,name:accounting_pdf_reports.model_account_financial_report
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.view_account_financial_report_form
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.view_account_financial_report_search
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.view_account_financial_report_tree
+msgid "Account Report"
+msgstr "Hesap Raporu"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__account_report_id
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_account_reports
+msgid "Account Reports"
+msgstr "Hesap Raporları"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+msgid "Account Total"
+msgstr "Hesap Toplamı"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__type__account_type
+msgid "Account Type"
+msgstr "Hesap Türü"
+
+#. module: accounting_pdf_reports
+#: model:ir.model,name:accounting_pdf_reports.model_accounting_report
+msgid "Accounting Report"
+msgstr "Muhasebe Raporu"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__account_ids
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__account_ids
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__account_ids
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__account_ids
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__type__accounts
+msgid "Accounts"
+msgstr "Hesaplar"
+
+#. module: accounting_pdf_reports
+#: model:ir.actions.act_window,name:accounting_pdf_reports.action_account_aged_balance_view
+#: model:ir.actions.report,name:accounting_pdf_reports.action_report_aged_partner_balance
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_aged_trial_balance
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+msgid "Aged Partner Balance"
+msgstr "Eski İş Ortağı Bakiyesi\n"
+
+#. module: accounting_pdf_reports
+#: model:ir.model,name:accounting_pdf_reports.model_report_accounting_pdf_reports_report_agedpartnerbalance
+msgid "Aged Partner Balance Report"
+msgstr "Yaşlı İş Ortağı Bakiyesi Raporu\n"
+
+#. module: accounting_pdf_reports
+#: model:ir.actions.act_window,name:accounting_pdf_reports.action_account_aged_payable
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_aged_payable
+msgid "Aged Payable"
+msgstr "Yıllanmış Borç"
+
+#. module: accounting_pdf_reports
+#: model:ir.actions.act_window,name:accounting_pdf_reports.action_account_aged_receivable
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_aged_receivable
+msgid "Aged Receivable"
+msgstr "Yaşlı Alacak\n"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_balance_report__display_account__all
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_common_account_report__display_account__all
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_report_general_ledger__display_account__all
+msgid "All"
+msgstr "Tümü"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_financial
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_tax
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "All Entries"
+msgstr "Tüm Girişler"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_financial
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_tax
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "All Posted Entries"
+msgstr "Yayınlanan Tüm Girişler"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "All accounts"
+msgstr "Tüm hesaplar"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+msgid "All accounts'"
+msgstr "Tüm hesaplar'"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal_entries
+msgid "Analytic Account"
+msgstr "Analitik Hesap"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__analytic_account_ids
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__analytic_account_ids
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__analytic_account_ids
+msgid "Analytic Accounts"
+msgstr "Analitik Hesaplar"
+
+#. module: accounting_pdf_reports
+#: model:account.financial.report,name:accounting_pdf_reports.account_financial_report_assets0
+msgid "Assets"
+msgstr "Varlıklar"
+
+#. module: accounting_pdf_reports
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_finance_audit_reports
+msgid "Audit Reports"
+msgstr "Denetim Raporları\n"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__style_overwrite__0
+msgid "Automatic formatting"
+msgstr "Otomatik biçimlendirme"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_financial
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "Balance"
+msgstr "Denge"
+
+#. module: accounting_pdf_reports
+#: model:account.financial.report,name:accounting_pdf_reports.account_financial_report_balancesheet0
+#: model:ir.actions.act_window,name:accounting_pdf_reports.action_account_report_bs
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_account_report_bs
+msgid "Balance Sheet"
+msgstr "Bilanço"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+msgid "Base Amount"
+msgstr "Baz Tutar"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.account_aged_balance_view
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.accounting_tax_report_view
+msgid "Cancel"
+msgstr "İptal"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__children_ids
+msgid "Children"
+msgstr "Çocuk"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.view_account_financial_report_form
+msgid "Childrens"
+msgstr "Çocuklar"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "Code"
+msgstr "Kod"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__label_filter
+msgid "Column Label"
+msgstr "Sütun Etiketi"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__company_id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__company_id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__company_id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report__company_id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal__company_id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__company_id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__company_id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_tax_report_wizard__company_id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__company_id
+msgid "Company"
+msgstr "Şirket"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.accounting_report_view
+msgid "Comparison"
+msgstr "Karşılaştırma"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__create_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__create_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__create_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report__create_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__create_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal__create_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__create_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__create_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_tax_report_wizard__create_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__create_uid
+msgid "Created by"
+msgstr "Oluşturan"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__create_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__create_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__create_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report__create_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__create_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal__create_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__create_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__create_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_tax_report_wizard__create_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__create_date
+msgid "Created on"
+msgstr "Oluşturulma"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_financial
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal_entries
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "Credit"
+msgstr "Kredi"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+msgid "Currency"
+msgstr "Para Birimi"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_print_journal__sort_selection__date
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_report_general_ledger__sortby__sort_date
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__accounting_report__filter_cmp__filter_date
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal_entries
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+msgid "Date"
+msgstr "Tarih"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_tax_report_wizard__date_from
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__date_from_cmp
+msgid "Date From"
+msgstr "Tarih Başlangıç"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_tax_report_wizard__date_to
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__date_to_cmp
+msgid "Date To"
+msgstr "Tarih Kime"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal_entries
+msgid "Date:"
+msgstr "Tarih:"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.accounting_report_view
+msgid "Dates"
+msgstr "Tarihler"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_financial
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal_entries
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "Debit"
+msgstr "Borç"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__display_account
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__display_account
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__display_account
+msgid "Display Accounts"
+msgstr "Hesapları Göster"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__debit_credit
+msgid "Display Debit/Credit Columns"
+msgstr "Borç/Kredi Sütunlarını Görüntüleme"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__display_name
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__display_name
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__display_name
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report__display_name
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__display_name
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal__display_name
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__display_name
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__display_name
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_tax_report_wizard__display_name
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__display_name
+msgid "Display Name"
+msgstr "Görünüm Adı"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__display_detail__detail_flat
+msgid "Display children flat"
+msgstr "Çocukları düz gösterin"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__display_detail__detail_with_hierarchy
+msgid "Display children with hierarchy"
+msgstr "Çocukları hiyerarşi ile gösterme"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__display_detail
+msgid "Display details"
+msgstr "Ayrıntıları göster"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.res_config_settings_view_form
+msgid "Drill Down Reports"
+msgstr "Raporları İncele"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.res_config_settings_view_form
+msgid "Dynamic Accounting Reports"
+msgstr "Dinamik Muhasebe Raporları"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__enable_filter
+msgid "Enable Comparison"
+msgstr "Karşılaştırmayı Etkinleştir"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__date_to
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__date_to
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__date_to
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report__date_to
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal__date_to
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__date_to
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__date_to
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__date_to
+msgid "End Date"
+msgstr "Bitiş Tarihi"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.res_config_settings_view_form
+msgid "Enhanced Financial Reports"
+msgstr "Geliştirilmiş Finansal Raporlar"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal__sort_selection
+msgid "Entries Sorted by"
+msgstr "Kayıtları Sıralama"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+msgid "Entry Label"
+msgstr ""
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.res_config_settings_view_form
+msgid "Excel Reports"
+msgstr "Giriş Etiketi"
+
+#. module: accounting_pdf_reports
+#: model:account.financial.report,name:accounting_pdf_reports.account_financial_report_expense0
+msgid "Expense"
+msgstr "Giderler"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__filter_cmp
+msgid "Filter by"
+msgstr "Göre filtrele"
+
+#. module: accounting_pdf_reports
+#: model:ir.actions.report,name:accounting_pdf_reports.action_report_financial
+msgid "Financial Report"
+msgstr "Finansal Rapor"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__style_overwrite
+msgid "Financial Report Style"
+msgstr "Finansal Rapor Stili"
+
+#. module: accounting_pdf_reports
+#: model:ir.actions.act_window,name:accounting_pdf_reports.action_account_financial_report_tree
+#: model:ir.model,name:accounting_pdf_reports.model_report_accounting_pdf_reports_report_financial
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_finance_legal_statement
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_finance_reports_settings
+msgid "Financial Reports"
+msgstr "Finansal raporlar\n"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.res_config_settings_view_form
+msgid "Financial Reports in Excel"
+msgstr "Finansal raporlar Excel"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,help:accounting_pdf_reports.field_account_financial_report__sign
+msgid ""
+"For accounts that are typically more debited than credited and that you "
+"would like to print as negative amounts in your reports, you should reverse "
+"the sign of the balance; e.g.: Expense account. The same applies for "
+"accounts that are typically more credited than debited and that you would "
+"like to print as positive amounts in your reports; e.g.: Income account."
+msgstr ""
+"Genellikle alacaktan daha fazla borçlandırılan hesaplar için ve sizin "
+"raporlarınızda negatif tutarlar olarak yazdırmak istiyorsanız, "
+"bakiyenin işareti; örn: Gider hesabı. Aynı şey "
+"genellikle borçtan daha fazla alacaklı olan ve sizin "
+"raporlarınızda pozitif tutarlar olarak yazdırmak gibi; örn: Gelir hesabı."
+
+#. module: accounting_pdf_reports
+#: code:addons/accounting_pdf_reports/report/report_aged_partner.py:0
+#: code:addons/accounting_pdf_reports/report/report_financial.py:0
+#: code:addons/accounting_pdf_reports/report/report_general_ledger.py:0
+#: code:addons/accounting_pdf_reports/report/report_journal.py:0
+#: code:addons/accounting_pdf_reports/report/report_partner_ledger.py:0
+#: code:addons/accounting_pdf_reports/report/report_tax.py:0
+#: code:addons/accounting_pdf_reports/report/report_trial_balance.py:0
+#, python-format
+msgid "Form content is missing, this report cannot be printed."
+msgstr "Form içeriği eksik, bu rapor yazdırılamaz."
+
+#. module: accounting_pdf_reports
+#: model:ir.actions.act_window,name:accounting_pdf_reports.action_account_general_ledger_menu
+#: model:ir.actions.report,name:accounting_pdf_reports.action_report_general_ledger
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_general_ledger
+msgid "General Ledger"
+msgstr "Büyük Defter"
+
+#. module: accounting_pdf_reports
+#: model:ir.model,name:accounting_pdf_reports.model_account_report_general_ledger
+#: model:ir.model,name:accounting_pdf_reports.model_report_accounting_pdf_reports_report_general_ledger
+msgid "General Ledger Report"
+msgstr "Büyük Defter Raporu"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.view_account_financial_report_search
+msgid "Group By"
+msgstr "Grup Tarafından"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report__id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal__id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_tax_report_wizard__id
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__id
+msgid "ID"
+msgstr "ID"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,help:accounting_pdf_reports.field_account_report_general_ledger__initial_balance
+msgid ""
+"If you selected date, this field allow you to add a row to display the "
+"amount of debit/credit/balance that precedes the filter you've set."
+msgstr ""
+"Tarih'i seçtiyseniz, bu alan tarihin görüntüleneceği bir satır eklemenizi sağlar."
+"belirlediğiniz filtreden önce gelen borç/alacak/bakiye miktarı."
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__initial_balance
+msgid "Include Initial Balances"
+msgstr "Başlangıç Bakiyelerini Dahil Et"
+
+#. module: accounting_pdf_reports
+#: model:account.financial.report,name:accounting_pdf_reports.account_financial_report_income0
+msgid "Income"
+msgstr "Gelir"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,help:accounting_pdf_reports.field_account_report_partner_ledger__amount_currency
+msgid ""
+"It adds the currency column on report if the currency differs from the "
+"company currency."
+msgstr ""
+"Para biriminin para biriminden farklı olması durumunda rapora para birimi sütununu ekler."
+"şirket para birimi."
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__style_overwrite__5
+msgid "Italic Text (smaller)"
+msgstr "İtalik Metin (daha küçük)"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+msgid "JRNL"
+msgstr "JRNL"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+msgid "Journal"
+msgstr "Yevmiye"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_report_general_ledger__sortby__sort_journal_partner
+msgid "Journal & Partner"
+msgstr "Yevmiye & Ortak"
+
+#. module: accounting_pdf_reports
+#: model:ir.model,name:accounting_pdf_reports.model_report_accounting_pdf_reports_report_journal
+msgid "Journal Audit Report"
+msgstr "Yevmiye Defteri Denetim Raporu"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_print_journal__sort_selection__move_name
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+msgid "Journal Entry Number"
+msgstr "Yevmiye Kayıt Numarası"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+msgid "Journal and Partner"
+msgstr "Yevmiye ve Ortak"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal_entries
+msgid "Journal:"
+msgstr "Yevmiye:"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__journal_ids
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__journal_ids
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__journal_ids
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report__journal_ids
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal__journal_ids
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__journal_ids
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__journal_ids
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_tax_report_wizard__journal_ids
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__journal_ids
+msgid "Journals"
+msgstr "Yevmiyeler"
+
+#. module: accounting_pdf_reports
+#: model:ir.actions.act_window,name:accounting_pdf_reports.action_account_print_journal_menu
+#: model:ir.actions.report,name:accounting_pdf_reports.action_report_journal
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_print_journal
+msgid "Journals Audit"
+msgstr "Yevmiye Denetimi"
+
+#. module: accounting_pdf_reports
+#: model:ir.actions.report,name:accounting_pdf_reports.action_report_journal_entries
+msgid "Journals Entries"
+msgstr "Yevmiye Girişleri"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal_entries
+msgid "Label"
+msgstr "Etiket"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance____last_update
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report____last_update
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report____last_update
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report____last_update
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report____last_update
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal____last_update
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger____last_update
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger____last_update
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_tax_report_wizard____last_update
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report____last_update
+msgid "Last Modified on"
+msgstr "Son Düzenleme"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__write_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__write_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__write_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report__write_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__write_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal__write_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__write_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__write_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_tax_report_wizard__write_uid
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__write_uid
+msgid "Last Updated by"
+msgstr "Son Güncelleyen"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__write_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__write_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__write_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report__write_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__write_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal__write_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__write_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__write_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_tax_report_wizard__write_date
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__write_date
+msgid "Last Updated on"
+msgstr "Son Güncelleme"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__level
+msgid "Level"
+msgstr "Seviye"
+
+#. module: accounting_pdf_reports
+#: model:account.financial.report,name:accounting_pdf_reports.account_financial_report_liability0
+#: model:account.financial.report,name:accounting_pdf_reports.account_financial_report_liabilitysum0
+msgid "Liability"
+msgstr "Sorumluluk"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__style_overwrite__1
+msgid "Main Title 1 (bold, underlined)"
+msgstr "Ana Başlık 1 (kalın, altı çizili)"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+msgid "Move"
+msgstr "Hareket"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_financial
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+msgid "Name"
+msgstr "İsim"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_tax
+msgid "Net"
+msgstr "Net"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__accounting_report__filter_cmp__filter_no
+msgid "No Filters"
+msgstr "Filtre Yok"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__display_detail__no_detail
+msgid "No detail"
+msgstr "Detay yok"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__style_overwrite__4
+msgid "Normal Text"
+msgstr "Normal Metin"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__parent_id
+msgid "Parent"
+msgstr "Ebeveyn"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.view_account_financial_report_search
+msgid "Parent Report"
+msgstr "Ebeveyn Raporu"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal_entries
+msgid "Partner"
+msgstr "Ortak"
+
+#. module: accounting_pdf_reports
+#: model:ir.actions.act_window,name:accounting_pdf_reports.action_account_partner_ledger_menu
+#: model:ir.actions.report,name:accounting_pdf_reports.action_report_partnerledger
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_partner_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+msgid "Partner Ledger"
+msgstr "İş Ortağı Defteri"
+
+#. module: accounting_pdf_reports
+#: model:ir.model,name:accounting_pdf_reports.model_report_accounting_pdf_reports_report_partnerledger
+msgid "Partner Ledger Report"
+msgstr "Ortak Defter Raporu"
+
+#. module: accounting_pdf_reports
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_finance_partner_reports
+msgid "Partner Reports"
+msgstr "Ortak Raporları"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__result_selection
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report__result_selection
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__result_selection
+msgid "Partner's"
+msgstr "Ortağın"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal_entries
+msgid "Partner:"
+msgstr "Ortak:"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__partner_ids
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__partner_ids
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__partner_ids
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report__partner_ids
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__partner_ids
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__partner_ids
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+msgid "Partners"
+msgstr "Ortaklar"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_aged_trial_balance__result_selection__supplier
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_common_partner_report__result_selection__supplier
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_report_partner_ledger__result_selection__supplier
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+msgid "Payable Accounts"
+msgstr "Ödenecek Hesaplar"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__period_length
+msgid "Period Length (days)"
+msgstr "Dönem Uzunluğu (gün)"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__sign__1
+msgid "Preserve balance sign"
+msgstr "Dengeyi koru işareti"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.res_config_settings_view_form
+msgid "Preview financial reports without downloading"
+msgstr "Finansal raporları indirmeden önizleyin"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.account_aged_balance_view
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.accounting_tax_report_view
+msgid "Print"
+msgstr "Yazdır"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,help:accounting_pdf_reports.field_account_print_journal__amount_currency
+msgid ""
+"Print Report with the currency column if the currency differs from the "
+"company currency."
+msgstr ""
+"Eğer para birimi, şirket para biriminden farklıysa Raporu para birimi "
+"sütununu içerecek şekilde yazdırın."
+
+#. module: accounting_pdf_reports
+#: model:account.financial.report,name:accounting_pdf_reports.account_financial_report_profitloss_toreport0
+msgid "Profit (Loss) to report"
+msgstr "Raporlanacak Kâr (Zarar)"
+
+#. module: accounting_pdf_reports
+#: model:account.financial.report,name:accounting_pdf_reports.account_financial_report_profitandloss0
+#: model:ir.actions.act_window,name:accounting_pdf_reports.action_account_report_pl
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_account_report_pl
+msgid "Profit and Loss"
+msgstr "kâr ve zarar"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_aged_trial_balance__result_selection__customer
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_common_partner_report__result_selection__customer
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_report_partner_ledger__result_selection__customer
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+msgid "Receivable Accounts"
+msgstr "Alacak Hesapları"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_aged_trial_balance__result_selection__customer_supplier
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_common_partner_report__result_selection__customer_supplier
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_report_partner_ledger__result_selection__customer_supplier
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+msgid "Receivable and Payable Accounts"
+msgstr "Alacak ve Borç Hesapları"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__reconciled
+msgid "Reconciled Entries"
+msgstr "Uzlaştırılmış Girişler"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_partnerledger
+msgid "Ref"
+msgstr "Ref"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal_entries
+msgid "Reference:"
+msgstr "Referans:"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.view_account_financial_report_form
+msgid "Report"
+msgstr "Rapor"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__name
+msgid "Report Name"
+msgstr "Rapor Adı"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.account_aged_balance_view
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.accounting_tax_report_view
+msgid "Report Options"
+msgstr "Rapor Seçenekleri"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.view_account_financial_report_search
+msgid "Report Type"
+msgstr "Rapor Türü"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__account_report_id
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__type__account_report
+msgid "Report Value"
+msgstr "Rapor Değeri"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.view_account_financial_report_search
+msgid "Reports"
+msgstr "Raporlar"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__sign__-1
+msgid "Reverse balance sign"
+msgstr "Ters bakiye işareti"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_tax
+msgid "Sale"
+msgstr "Satış"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__sequence
+msgid "Sequence"
+msgstr "Sıra"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__sign
+msgid "Sign on Reports"
+msgstr "Raporları imzalayın"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__style_overwrite__6
+msgid "Smallest Text"
+msgstr "En Küçük Metin"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__sortby
+msgid "Sort by"
+msgstr "Göre sırala"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__date_from
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__date_from
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__date_from
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report__date_from
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal__date_from
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__date_from
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__date_from
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__date_from
+msgid "Start Date"
+msgstr "Başlama Tarihi"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_aged_trial_balance__target_move
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_balance_report__target_move
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_account_report__target_move
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_common_partner_report__target_move
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal__target_move
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_general_ledger__target_move
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__target_move
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_tax_report_wizard__target_move
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_accounting_report__target_move
+msgid "Target Moves"
+msgstr "Hedef Hareketler"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_tax
+msgid "Tax"
+msgstr "Vergi"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+msgid "Tax Amount"
+msgstr "Vergi Tutarı"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_journal
+msgid "Tax Declaration"
+msgstr "Vergi Beyannamesi"
+
+#. module: accounting_pdf_reports
+#: model:ir.actions.report,name:accounting_pdf_reports.action_report_account_tax
+#: model:ir.model,name:accounting_pdf_reports.model_account_tax_report_wizard
+#: model:ir.model,name:accounting_pdf_reports.model_report_accounting_pdf_reports_report_tax
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_account_report
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_tax
+msgid "Tax Report"
+msgstr "Vergi Rapor"
+
+#. module: accounting_pdf_reports
+#: model:ir.actions.act_window,name:accounting_pdf_reports.action_account_tax_report
+msgid "Tax Reports"
+msgstr "Vergi Raporları"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,help:accounting_pdf_reports.field_accounting_report__label_filter
+msgid ""
+"This label will be displayed on report to show the balance computed for the "
+"given comparison filter."
+msgstr ""
+"Bu etiket,  için hesaplanan bakiyeyi göstermek üzere raporda görüntülenecektir."
+"verilen karşılaştırma filtresi."
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,help:accounting_pdf_reports.field_accounting_report__debit_credit
+msgid ""
+"This option allows you to get more details about the way your balances are "
+"computed. Because it is space consuming, we do not allow to use it while "
+"doing a comparison."
+msgstr ""
+"Bu seçenek, bakiyelerinizin nasıl olduğu hakkında daha fazla ayrıntı almanızı sağlar"
+"hesaplandı. Yer kapladığı için, "
+"karşılaştırma yapmak."
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__style_overwrite__2
+msgid "Title 2 (bold)"
+msgstr "Başlık 2 (kalın)"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__style_overwrite__3
+msgid "Title 3 (bold, smaller)"
+msgstr "Başlık 3 (kalın, küçük)"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_agedpartnerbalance
+msgid "Total"
+msgstr "Toplam"
+
+#. module: accounting_pdf_reports
+#: model:ir.actions.act_window,name:accounting_pdf_reports.action_account_balance_menu
+#: model:ir.actions.report,name:accounting_pdf_reports.action_report_trial_balance
+#: model:ir.ui.menu,name:accounting_pdf_reports.menu_general_balance_report
+msgid "Trial Balance"
+msgstr "Geçici mizan\n"
+
+#. module: accounting_pdf_reports
+#: model:ir.model,name:accounting_pdf_reports.model_account_balance_report
+#: model:ir.model,name:accounting_pdf_reports.model_report_accounting_pdf_reports_report_trialbalance
+msgid "Trial Balance Report"
+msgstr "Geçici mizan Rapor\n"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_financial_report__type
+msgid "Type"
+msgstr "Tür"
+
+#. module: accounting_pdf_reports
+#: code:addons/accounting_pdf_reports/report/report_aged_partner.py:0
+#, python-format
+msgid "Unknown Partner"
+msgstr "Bilinmeyen Ortak"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_financial_report__type__sum
+msgid "View"
+msgstr "Görünüm"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_print_journal__amount_currency
+#: model:ir.model.fields,field_description:accounting_pdf_reports.field_account_report_partner_ledger__amount_currency
+msgid "With Currency"
+msgstr "Para Birimi ile"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_balance_report__display_account__not_zero
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_common_account_report__display_account__not_zero
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_report_general_ledger__display_account__not_zero
+msgid "With balance is not equal to 0"
+msgstr "Bakiye 0'a eşit olmadığında"
+
+#. module: accounting_pdf_reports
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "With balance not equal to zero"
+msgstr "Bakiye sıfıra eşit değilken"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_balance_report__display_account__movement
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_common_account_report__display_account__movement
+#: model:ir.model.fields.selection,name:accounting_pdf_reports.selection__account_report_general_ledger__display_account__movement
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:accounting_pdf_reports.report_trialbalance
+msgid "With movements"
+msgstr "Hareketlerle"
+
+#. module: accounting_pdf_reports
+#: model:ir.model.fields,help:accounting_pdf_reports.field_account_financial_report__style_overwrite
+msgid ""
+"You can set up here the format you want this record to be displayed. If you "
+"leave the automatic formatting, it will be computed based on the financial "
+"reports hierarchy (auto-computed field 'level')."
+msgstr ""
+"Bu kaydın görüntülenmesini istediğiniz biçimi burada ayarlayabilirsiniz. Eğer "
+"otomatik biçimlendirmeyi bırakırsanız, finansal "
+"hiyerarşiyi raporlar (otomatik hesaplanan alan ‘düzeyi’)."
+
+#. module: accounting_pdf_reports
+#: code:addons/accounting_pdf_reports/wizard/account_general_ledger.py:0
+#, python-format
+msgid "You must define a Start Date"
+msgstr "Bir Başlangıç Tarihi tanımlamalısınız"
+
+#. module: accounting_pdf_reports
+#: code:addons/accounting_pdf_reports/wizard/aged_partner.py:0
+#, python-format
+msgid "You must set a period length greater than 0."
+msgstr "0'dan büyük bir periyot uzunluğu ayarlamalısınız."
+
+#. module: accounting_pdf_reports
+#: code:addons/accounting_pdf_reports/wizard/aged_partner.py:0
+#, python-format
+msgid "You must set a start date."
+msgstr "Bir başlangıç tarihi belirlemelisiniz."
