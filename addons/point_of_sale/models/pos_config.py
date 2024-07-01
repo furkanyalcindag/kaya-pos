@@ -702,7 +702,7 @@ class PosConfig(models.Model):
         domain = [
             *self.env['product.product']._check_company_domain(self.company_id),
             ('available_in_pos', '=', True),
-            ('sale_ok', '=', True),
+            ('sale_ok', '=', True),('qty_available', '>', 0)
         ]
         if self.limit_categories and self.iface_available_categ_ids:
             domain.append(('pos_categ_ids', 'in', self.iface_available_categ_ids.ids))
