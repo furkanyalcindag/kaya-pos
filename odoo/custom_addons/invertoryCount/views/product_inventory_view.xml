@@ -69,7 +69,7 @@
 <!--    </record>-->
 
     <!-- Actions -->
-    <record id="product_inventory_count_action" model="ir.actions.act_window">
+    <record id="product_inventory_action" model="ir.actions.act_window">
         <field name="name">Product Inventory Count</field>
         <field name="res_model">product.inventory.count</field>
         <field name="view_mode">tree,form</field>
