@@ -11,6 +11,6 @@
         'views/product_inventory_view.xml',
         'views/product_inventory_count_line_view.xml',
     ],
-
+    'images': ['static/description/icon.png'],
     'application': True,
 }
