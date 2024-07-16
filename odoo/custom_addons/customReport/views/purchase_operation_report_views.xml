@@ -1,0 +1,51 @@
+<odoo>
+    <record id="purchase_operation_report_form" model="ir.ui.view">
+        <field name="name">purchase operation report tree</field>
+        <field name="model">purchase.operation.report</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field string="Şirket" name="company_id" widget="many2one_list" >
+                    <tree editable="bottom" create="false" delete="false">
+                        <field readonly="1" string="Şirket" name="name"/>
+                        <!-- Diğer gerekli alanlar -->
+                    </tree>
+                </field>
+
+            </tree>
+        </field>
+
+    </record>
+    <record id="view_purchase_operation_report_form" model="ir.ui.view">
+        <field name="name">purchase.operation.report.form</field>
+        <field name="model">purchase.operation.report</field>
+        <field name="arch" type="xml">
+            <form string="Alım Operasyon Raporu">
+                <sheet>
+                    <group>
+                        <field name="company_id" required="1" options="{'no_create': True}"/>
+                    </group>
+                    <button style="float: right;" class="btn-primary" string="Rapor Oluştur" type="object"
+                            name="action_download_report"
+                            context="{'company_id': company_id}"/>
+
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+
+    <record id="action_purchase_operation" model="ir.actions.act_window">
+        <field name="name">Mal Kabul Raporu</field>
+        <field name="res_model">purchase.operation.report</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem
+            id="purchase_report_menu_item"
+            name="Mal Alım Tutanağı"
+            parent="custom_report_root_menu"
+            action="action_purchase_operation"
+    />
+
+
+</odoo>

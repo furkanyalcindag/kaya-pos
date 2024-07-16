@@ -1,0 +1,11 @@
+<odoo>
+
+    <record id="report_purchase" model="ir.actions.report">
+        <field name="name">Purchase Report</field>
+        <field name="model">purchase.operation.report</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_file">customReport.purchase_report_template</field>
+        <field name="report_name">customReport.purchase_report_template</field>
+
+    </record>
+</odoo>

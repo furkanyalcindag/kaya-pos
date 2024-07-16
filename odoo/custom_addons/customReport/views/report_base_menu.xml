@@ -1,0 +1,7 @@
+<odoo>
+    <menuitem
+            id="custom_report_root_menu"
+            name="Raporlama"
+           />
+
+</odoo>

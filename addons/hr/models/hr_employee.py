@@ -146,7 +146,10 @@ class HrEmployeePrivate(models.Model):
         ('barcode_uniq', 'unique (barcode)', "The Badge ID must be unique, this one is already assigned to another employee."),
         ('user_uniq', 'unique (user_id, company_id)', "A user cannot be linked to multiple employees in the same company.")
     ]
-
+    @api.model
+    def get_department_employees(self, department_name):
+        employees = self.search([('department_id.name', '=', department_name)])
+        return employees
     @api.depends('name', 'user_id.avatar_1920', 'image_1920')
     def _compute_avatar_1920(self):
         super()._compute_avatar_1920()
