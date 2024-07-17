@@ -14,25 +14,43 @@
                         </h5>
                     </div>
                     <p>SIRA NO:</p>
-                    <table class="table">
-                        <thead>
+                    <table class="table" style="border-collapse: collapse; width: 100%;">
+                        <style>
+                            table {
+                            border-collapse: collapse;
+                            }
+
+                            th, td {
+                            border: 1px solid black;
+                            padding: 5px;
+                            text-align: center;
+                            }
+                        </style>
+                        <thead style="text-align: center;">
 
                             <tr>
-                                <th>Sıra No</th>
-                                <th>Tarihi</th>
-                                <th>No</th>
-                                <th>Malın Cinsi</th>
-                                <th>Miktarı</th>
-                                <th>Ölçü</th>
-                                <th>Alış Fiyatı (TL)</th>
-                                <th>Alış Tutarı (TL)</th>
-                                <th>Satış Fiyatı (TL)</th>
-                                <th>Satış Tutarı (TL)</th>
-                                <th>Cinsi</th>
-                                <th>Miktarı</th>
+                                <th rowspan="2">Sıra</th>
+                                <th colspan="2">FATURANIN</th>
+                                <th rowspan="2">MALIN CİNSİ</th>
+                                <th rowspan="2">MİKTARI</th>
+                                <th rowspan="2">ÖLÇÜ</th>
+                                <th colspan="2">ALIŞ</th>
+                                <th colspan="2">SATIŞ</th>
+                                <th colspan="2">KAPLAR</th>
                             </tr>
+                            <tr>
+                                <th>TARİHİ</th>
+                                <th>No.</th>
+                                <th>FİYATI</th>
+                                <th>TUTARI</th>
+                                <th>FİYATI</th>
+                                <th>TUTARI</th>
+                                <th>CİNSİ</th>
+                                <th>MİKTARI</th>
+                            </tr>
+
                         </thead>
-                        <tbody>
+                        <tbody style="text-align: center;">
                             <t t-set="counter" t-value="0"/>
                             <t t-foreach="json.loads(docs.report_data)" t-as="record">
                                 <t t-foreach="record['products']" t-as="product" t-as-index="index">
@@ -80,92 +98,82 @@
                             </t>
 
                         </tbody>
-                        <tfoot>
-                            <hr/>
-                            <tr>
-                                <td colspan="12">
-                                    <div style="display: flex; justify-content: center;">
-
-                                        Yukarıda cinsi,miktarı, alış fiyatı ve tutarı ile satış fiyatı ve tutarı yazılı
-                                        <t t-esc="counter"/>
-                                        kalem malı sayarak teslim aldım.
-
-                                    </div>
-                                    <strong>
-                                        <t t-esc="docs.current_date"/>
-                                    </strong>
-
-                                    <div id="heyet" class="row">
-                                        <div class="col-3">
-
-                                        </div>
-                                        <div class="col-3">
-                                            <span>TESLİM EDEN</span>
-                                        </div>
-                                        <div class="col-3">
-                                            <span>TESLİM ALAN</span>
-                                        </div>
-                                        <div class="col-3">
-                                            <span>KANTİN BAŞKANI</span>
-                                        </div>
-
-                                    </div>
-                                    <div class="row">
-                                        <p>İMZASI :</p>
-                                    </div>
-
-                                    <span>
-                                        <t t-set="department_name" t-value="'Satın Alma'"/>
-                                        <t t-set="employees"
-                                           t-value="request.env['hr.employee'].get_department_employees(department_name)"/>
-                                        <t t-if="employees">
-                                            <div id="employee" class="row">
-                                                <div class="col-3">
-                                                    <span>Adı,Soyadı :</span>
-                                                </div>
-                                                <t t-foreach="employees" t-as="employee">
-
-                                                    <div class="col-3">
-                                                        <span>
-                                                            <t t-esc="employee.name"/>
-                                                        </span>
-                                                    </div>
-
-
-                                                    <!-- Diğer bilgileri buraya ekleyebilirsiniz -->
-                                                </t>
-
-                                                <div class="row">
-                                                    <div class="col-3">
-                                                        <span>Sınıf ve Rütbesi :</span>
-                                                    </div>
-                                                    <t t-foreach="employees" t-as="employee">
-
-                                                        <div class="col-3">
-                                                            <t t-if="employee.job_title">
-                                                                <strong>
-                                                                    <t t-esc="employee.job_title"/>
-                                                                </strong>
-                                                            </t>
-                                                        </div>
-
-
-                                                        <!-- Diğer bilgileri buraya ekleyebilirsiniz -->
-                                                    </t>
-                                                </div>
-
-                                            </div>
-
-                                        </t>
-                                    </span>
-                                    <span>Sicil NO.:</span>
-
-                                </td>
-                            </tr>
-
-
-                        </tfoot>
                     </table>
+
+                    <div style="display: flex; justify-content: center;">
+
+                        Yukarıda cinsi,miktarı, alış fiyatı ve tutarı ile satış fiyatı ve tutarı yazılı
+                        <t t-esc="counter"/>
+                        kalem malı sayarak teslim aldım.
+
+                    </div>
+                    <hr/>
+                    <div id="heyet" class="row">
+                        <div class="col-3">
+
+                        </div>
+                        <div class="col-3">
+                            <span>TESLİM EDEN</span>
+                        </div>
+                        <div class="col-3">
+                            <span>TESLİM ALAN</span>
+                        </div>
+                        <div class="col-3">
+                            <span>KANTİN BAŞKANI</span>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <p>İMZASI :</p>
+                    </div>
+
+                    <span>
+                        <t t-set="department_name" t-value="'Satın Alma'"/>
+                        <t t-set="employees"
+                           t-value="request.env['hr.employee'].get_department_employees(department_name)"/>
+                        <t t-if="employees">
+                            <div id="employee" class="row">
+                                <div class="col-3">
+                                    <span>Adı,Soyadı :</span>
+                                </div>
+                                <t t-foreach="employees" t-as="employee">
+
+                                    <div class="col-3">
+                                        <span>
+                                            <t t-esc="employee.name"/>
+                                        </span>
+                                    </div>
+
+
+                                    <!-- Diğer bilgileri buraya ekleyebilirsiniz -->
+                                </t>
+
+                                <div class="row">
+                                    <div class="col-3">
+                                        <span>Sınıf ve Rütbesi :</span>
+                                    </div>
+                                    <t t-foreach="employees" t-as="employee">
+
+                                        <div class="col-3">
+                                            <t t-if="employee.job_title">
+                                                <strong>
+                                                    <t t-esc="employee.job_title"/>
+                                                </strong>
+                                            </t>
+                                        </div>
+
+
+                                        <!-- Diğer bilgileri buraya ekleyebilirsiniz -->
+                                    </t>
+                                </div>
+
+                            </div>
+
+                        </t>
+                    </span>
+                    <span>Sicil NO.:</span>
+
+
                 </div>
             </t>
         </t>
