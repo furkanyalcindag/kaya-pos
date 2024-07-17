@@ -105,7 +105,7 @@
                                         <t t-if="employees">
                                             <div id="employee" class="row">
                                                 <div class="col-2">
-                                                    <span>Adı ve Soyadı</span>
+                                                    <span>Adı ve Soyadı :</span>
                                                 </div>
                                                 <t t-foreach="employees" t-as="employee">
 
@@ -121,7 +121,7 @@
                                                 <br/>
                                                 <div class="row">
                                                     <div class="col-2">
-                                                        <span>Sınıfı ve Rütbesi</span>
+                                                        <span>Sınıfı ve Rütbesi :</span>
                                                     </div>
                                                     <t t-foreach="employees" t-as="employee">
 
@@ -142,7 +142,7 @@
 
                                         </t>
                                     </span>
-                                    <span>Sicil Numarası</span>
+                                    <span>Sicil Numarası :</span>
                                     <div style="display: flex; justify-content: center;">
                                         <p>ONAY</p>
                                     </div>

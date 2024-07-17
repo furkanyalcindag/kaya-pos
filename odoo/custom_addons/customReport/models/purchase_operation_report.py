@@ -61,6 +61,7 @@ class PurchaseOperationReport(models.Model):
         else:
             report = self.env['purchase.operation.report'].create({
                 'report_data': json.dumps(report_data),
+                'current_date': date.today()
             })
 
         return self.env.ref('customReport.report_purchase').report_action(report)

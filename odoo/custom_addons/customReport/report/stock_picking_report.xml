@@ -1,0 +1,173 @@
+<odoo>
+    <template id="report_stock_picking_template">
+        <t t-call="web.html_container">
+            <t t-call="web.external_layout">
+                <div class="page">
+                    <div style="display: flex; justify-content: center;">
+                        <h5>
+                            <t t-if="docs.company_id.parent_id">
+                                <t t-esc="docs.company_id.parent_id.name"/>
+                                KANTİNİ
+                            </t>
+                            <t t-esc="docs.company_id.name"/>
+                            REYONU(ŞUBESİ) NE AİT MAL GİRİŞ(ÇIKIŞ)/İÇ DAĞITIM BELGESİ
+                        </h5>
+                    </div>
+                    <p>SIRA NO:</p>
+                    <table class="table">
+                        <thead>
+
+                            <tr>
+                                <th>Sıra No</th>
+                                <th>Tarihi</th>
+                                <th>No</th>
+                                <th>Malın Cinsi</th>
+                                <th>Miktarı</th>
+                                <th>Ölçü</th>
+                                <th>Alış Fiyatı (TL)</th>
+                                <th>Alış Tutarı (TL)</th>
+                                <th>Satış Fiyatı (TL)</th>
+                                <th>Satış Tutarı (TL)</th>
+                                <th>Cinsi</th>
+                                <th>Miktarı</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <t t-set="counter" t-value="0"/>
+                            <t t-foreach="json.loads(docs.report_data)" t-as="record">
+                                <t t-foreach="record['products']" t-as="product" t-as-index="index">
+                                    <tr>
+                                        <td>
+                                            <t t-esc="counter + 1"/>
+                                            <t t-set="counter" t-value="counter + 1"/>
+                                        </td>
+                                        <td>
+                                            <t t-esc="product['invoice_date']"/>
+                                        </td>
+                                        <td>
+                                            <t t-esc="product['invoice_number']"/>
+                                        </td>
+                                        <td>
+                                            <t t-esc="product['type']"/>
+                                        </td>
+                                        <td>
+                                            <t t-esc="product['qty']"/>
+                                        </td>
+                                        <td>
+                                            <t t-esc="product['uom']"/>
+                                        </td>
+                                        <td>
+                                            <t t-esc="product['purchase_price']"/>
+                                        </td>
+                                        <td>
+                                            <t t-esc="product['purchase_total']"/>
+                                        </td>
+                                        <td>
+                                            <t t-esc="product['sale_price']"/>
+                                        </td>
+                                        <td>
+                                            <t t-esc="product['sale_total']"/>
+                                        </td>
+                                        <td>---</td>
+                                        <td>---</td>
+                                        <!--                                    <td>-->
+                                        <!--                                        <t t-esc="product['partner_ref']"/>-->
+                                        <!--                                    </td>-->
+
+                                    </tr>
+
+                                </t>
+                            </t>
+
+                        </tbody>
+                        <tfoot>
+                            <hr/>
+                            <tr>
+                                <td colspan="12">
+                                    <div style="display: flex; justify-content: center;">
+
+                                        Yukarıda cinsi,miktarı, alış fiyatı ve tutarı ile satış fiyatı ve tutarı yazılı
+                                        <t t-esc="counter"/>
+                                        kalem malı sayarak teslim aldım.
+
+                                    </div>
+                                    <strong>
+                                        <t t-esc="docs.current_date"/>
+                                    </strong>
+
+                                    <div id="heyet" class="row">
+                                        <div class="col-3">
+
+                                        </div>
+                                        <div class="col-3">
+                                            <span>TESLİM EDEN</span>
+                                        </div>
+                                        <div class="col-3">
+                                            <span>TESLİM ALAN</span>
+                                        </div>
+                                        <div class="col-3">
+                                            <span>KANTİN BAŞKANI</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <p>İMZASI :</p>
+                                    </div>
+
+                                    <span>
+                                        <t t-set="department_name" t-value="'Satın Alma'"/>
+                                        <t t-set="employees"
+                                           t-value="request.env['hr.employee'].get_department_employees(department_name)"/>
+                                        <t t-if="employees">
+                                            <div id="employee" class="row">
+                                                <div class="col-3">
+                                                    <span>Adı,Soyadı :</span>
+                                                </div>
+                                                <t t-foreach="employees" t-as="employee">
+
+                                                    <div class="col-3">
+                                                        <span>
+                                                            <t t-esc="employee.name"/>
+                                                        </span>
+                                                    </div>
+
+
+                                                    <!-- Diğer bilgileri buraya ekleyebilirsiniz -->
+                                                </t>
+
+                                                <div class="row">
+                                                    <div class="col-3">
+                                                        <span>Sınıf ve Rütbesi :</span>
+                                                    </div>
+                                                    <t t-foreach="employees" t-as="employee">
+
+                                                        <div class="col-3">
+                                                            <t t-if="employee.job_title">
+                                                                <strong>
+                                                                    <t t-esc="employee.job_title"/>
+                                                                </strong>
+                                                            </t>
+                                                        </div>
+
+
+                                                        <!-- Diğer bilgileri buraya ekleyebilirsiniz -->
+                                                    </t>
+                                                </div>
+
+                                            </div>
+
+                                        </t>
+                                    </span>
+                                    <span>Sicil NO.:</span>
+
+                                </td>
+                            </tr>
+
+
+                        </tfoot>
+                    </table>
+                </div>
+            </t>
+        </t>
+    </template>
+</odoo>
