@@ -117,6 +117,14 @@ class PurchaseOrderLine(models.Model):
             self.profit_margin = 0.0
 
 
+    price_sale = fields.Float(string='Satış Fiyatı', compute='_compute_profit_margin')
+    profit_margin = fields.Float(string='Kar Oranı')
+
+    @api.depends('profit_margin')
+    def _compute_profit_margin(self):
+        for line in self:
+            line.price_sale = line.price_unit + (line.price_unit * line.profit_margin) / 100
+
     @api.depends('product_qty', 'price_unit', 'taxes_id', 'discount')
     def _compute_amount(self):
         for line in self:
