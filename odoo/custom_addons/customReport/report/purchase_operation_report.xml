@@ -1,0 +1,167 @@
+<odoo>
+    <template id="purchase_report_template">
+        <t t-call="web.html_container">
+            <style>
+                /* Stil tanımlamaları buraya yazılır */
+                .header img {
+                display: none;
+                }
+                .header p {
+                display: none;
+                }
+            </style>
+            <t t-call="web.external_layout">
+
+                <div class="page">
+                    <div style="display: flex; justify-content: center;">
+                        <h2>Mal Alım Tutanağı</h2>
+                    </div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Alım Tarihi</th>
+                                <th>Ürün</th>
+                                <th>Cinsi</th>
+                                <th>Miktarı</th>
+                                <th>Ölçü</th>
+                                <th>Tutarı(Lira)</th>
+                                <th>Malı Verenin Kimliği ve Adresi</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <t t-foreach="json.loads(docs.report_data)" t-as="record">
+                                <t t-foreach="record['products']" t-as="product">
+                                    <tr>
+                                        <td style="width: 10%;">
+                                            <t t-esc="record['date_order']"/>
+                                        </td>
+
+                                        <td>
+                                            <t t-esc="product['name']"/>
+                                        </td>
+                                        <td>
+                                            <t t-esc="product['type']"/>
+                                        </td>
+                                        <td>
+                                            <t t-esc="product['uom']"/>
+                                        </td>
+                                        <td>
+                                            <t t-esc="product['unit_price']"/>
+                                        </td>
+                                        <td>
+                                            <t t-esc="product['price_subtotal']"/>
+                                        </td>
+                                        <td>
+                                            <t t-esc="record['partner']"/>
+                                        </td>
+                                    </tr>
+                                </t>
+
+                            </t>
+
+                        </tbody>
+
+                        <tfoot>
+                            <hr/>
+                            <tr>
+                                <td colspan="7">
+                                    <div style="display: flex; justify-content: center;">
+                                        <t t-esc="docs.company_id.name"/>
+                                        Kantininde satılmak üzere alınan yukarıda cins ve miktarı yazılı maddeler için
+                                        fatura temini mümkün olmadığından, Jandarma Kantin Yönetmeliğinin 26 ncı maddesi
+                                        uyarında fatura yerine kaim olmak üzere bu tutanak tarafımızdan ödenmiştir.
+
+                                    </div>
+                                    <div style="display: flex; justify-content: center;">
+                                        <strong>
+                                            <t t-esc="docs.current_date"/>
+                                        </strong>
+                                    </div>
+
+
+                                    <div id="heyet" class="row">
+                                        <div class="col-2">
+                                            <span>MUBAYAA HEYETİ</span>
+                                        </div>
+                                        <div class="col-2">
+                                            <span>İMZA</span>
+                                        </div>
+                                        <div class="col-2">
+                                            <span>İMZA</span>
+                                        </div>
+                                        <div class="col-2">
+                                            <span>İMZA</span>
+                                        </div>
+                                        <div class="col-2">
+                                            <span>SATICININ İMZASI</span>
+                                        </div>
+                                    </div>
+
+                                    <span>
+                                        <t t-set="department_name" t-value="'Satın Alma'"/>
+                                        <t t-set="employees"
+                                           t-value="request.env['hr.employee'].get_department_employees(department_name)"/>
+                                        <t t-if="employees">
+                                            <div id="employee" class="row">
+                                                <div class="col-2">
+                                                    <span>Adı ve Soyadı :</span>
+                                                </div>
+                                                <t t-foreach="employees" t-as="employee">
+
+                                                    <div class="col-2">
+                                                        <span>
+                                                            <t t-esc="employee.name"/>
+                                                        </span>
+                                                    </div>
+
+
+                                                    <!-- Diğer bilgileri buraya ekleyebilirsiniz -->
+                                                </t>
+                                                <br/>
+                                                <div class="row">
+                                                    <div class="col-2">
+                                                        <span>Sınıfı ve Rütbesi :</span>
+                                                    </div>
+                                                    <t t-foreach="employees" t-as="employee">
+
+                                                        <div class="col-2">
+                                                            <t t-if="employee.job_title">
+                                                                <strong>
+                                                                    <t t-esc="employee.job_title"/>
+                                                                </strong>
+                                                            </t>
+                                                        </div>
+
+
+                                                        <!-- Diğer bilgileri buraya ekleyebilirsiniz -->
+                                                    </t>
+                                                </div>
+
+                                            </div>
+
+                                        </t>
+                                    </span>
+                                    <span>Sicil Numarası :</span>
+                                    <div style="display: flex; justify-content: center;">
+                                        <p>ONAY</p>
+                                    </div>
+                                    <div style="display: flex; justify-content: center;">
+                                        <p>KANTİN BAŞKANI</p>
+                                    </div>
+                                    <p>Not: Bu durumda birlik için sarf edilecek ve fatura temini mümkün olmayan alımlar
+                                        için de aynı şekilde tutanak tutulur.
+                                    </p>
+                                </td>
+                            </tr>
+
+
+                        </tfoot>
+                    </table>
+                </div>
+            </t>
+
+        </t>
+    </template>
+
+</odoo>

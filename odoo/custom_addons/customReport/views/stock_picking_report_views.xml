@@ -1,0 +1,49 @@
+<odoo>
+
+    <record id="view_stock_picking_report_tree" model="ir.ui.view">
+        <field name="name">stock.picking.report.tree</field>
+        <field name="model">stock.picking.report</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field string="Şirket" name="company_id" widget="many2one_list" >
+                    <tree editable="bottom" create="false" delete="false">
+                        <field readonly="1" string="Şirket" name="name"/>
+                        <!-- Diğer gerekli alanlar -->
+                    </tree>
+                </field>
+
+            </tree>
+        </field>
+    </record>
+  <record id="view_stock_picking_report_form" model="ir.ui.view">
+    <field name="name">stock.picking.report.form</field>
+    <field name="model">stock.picking.report</field>
+    <field name="arch" type="xml">
+        <form string="Stock Picking Report">
+            <sheet>
+                <group>
+                    <field name="company_id"/>
+                </group>
+                  <button style="float: right;" class="btn-primary" string="Rapor Oluştur" type="object"
+                            name="stock_picking_report"
+                            context="{'company_id': company_id}"/>
+            </sheet>
+        </form>
+    </field>
+</record>
+
+
+
+    <record id="action_stock_picking_report" model="ir.actions.act_window">
+        <field name="name">İç Dağıtım Raporlaması</field>
+        <field name="res_model">stock.picking.report</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="menu_stock_picking_report" name="İç Dağıtım Raporu"
+              parent="custom_report_root_menu"
+              action="action_stock_picking_report"/>
+
+
+
+</odoo>
